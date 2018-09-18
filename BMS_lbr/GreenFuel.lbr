@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -823,7 +823,7 @@
 <pin name="AN19/RPG6/PMA5/RG6" x="68.58" y="22.86" length="short" rot="R180"/>
 <pin name="AN18/RPG7/PMA4/RG7" x="68.58" y="20.32" length="short" rot="R180"/>
 <pin name="AN17/RPG8/PMA3/RG8" x="68.58" y="17.78" length="short" rot="R180"/>
-<pin name="!MCLR!" x="-60.96" y="50.8" length="short" direction="in"/>
+<pin name="!MCLR" x="-60.96" y="50.8" length="short" direction="in"/>
 <pin name="AN16/RPG9/PMA2/RG9" x="68.58" y="15.24" length="short" rot="R180"/>
 <pin name="VSS" x="68.58" y="-27.94" length="short" direction="pwr" rot="R180"/>
 <pin name="VDD" x="68.58" y="-10.16" length="short" direction="pwr" rot="R180"/>
@@ -841,8 +841,8 @@
 <pin name="OA3IN-/AN7/C3IN1-/C4IN1-/RPC1/PMA7/RC1" x="-60.96" y="-22.86" length="short"/>
 <pin name="OA3IN+/AN8/C3IN1+/C3IN3-/RPC2/PMA13/RC2" x="-60.96" y="-25.4" length="short"/>
 <pin name="AN11/C1IN2-/PMA12/RC11" x="-60.96" y="-40.64" length="short"/>
-<pin name="VSS$1" x="68.58" y="-25.4" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD$1" x="68.58" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS@1" x="68.58" y="-25.4" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@1" x="68.58" y="-7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="AN12/C2IN2-/C5IN2-/PMA11/RE12" x="68.58" y="43.18" length="short" rot="R180"/>
 <pin name="AN13/C3IN2-/PMA10/RE13" x="68.58" y="40.64" length="short" rot="R180"/>
 <pin name="AN14/RPE14/PMA1/RE14" x="68.58" y="38.1" length="short" rot="R180"/>
@@ -854,10 +854,10 @@
 <pin name="VUSB3V3" x="68.58" y="-48.26" length="short" direction="pwr" rot="R180"/>
 <pin name="D1-" x="68.58" y="-38.1" length="short" rot="R180"/>
 <pin name="D1+" x="68.58" y="-40.64" length="short" rot="R180"/>
-<pin name="VDD$2" x="68.58" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@2" x="68.58" y="-5.08" length="short" direction="pwr" rot="R180"/>
 <pin name="OSC1/CLKI/AN49/RPC12/RC12" x="-60.96" y="-43.18" length="short"/>
 <pin name="OSC2/CLKO/RPC15/RC15" x="-60.96" y="-48.26" length="short"/>
-<pin name="VSS$2" x="68.58" y="-22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS@2" x="68.58" y="-22.86" length="short" direction="pwr" rot="R180"/>
 <pin name="VBAT" x="68.58" y="2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="PGED2/RPB5/USBID1/RB5" x="-60.96" y="10.16" length="short"/>
 <pin name="PGEC2/RPB6/SCK2/PMA15/RB6" x="-60.96" y="7.62" length="short"/>
@@ -872,8 +872,8 @@
 <pin name="TRD2/RPD5/PMRD/RD5" x="68.58" y="50.8" length="short" rot="R180"/>
 <pin name="TRD3/RPD6/RD6" x="68.58" y="48.26" length="short" rot="R180"/>
 <pin name="RPC9/RC9" x="-60.96" y="-35.56" length="short"/>
-<pin name="VSS$3" x="68.58" y="-20.32" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD$3" x="68.58" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS@3" x="68.58" y="-20.32" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@3" x="68.58" y="-2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="RPF0/RF0" x="68.58" y="30.48" length="short" rot="R180"/>
 <pin name="RPF1/RF1" x="68.58" y="27.94" length="short" rot="R180"/>
 <pin name="RPB10/PMD0/RB10" x="-60.96" y="-2.54" length="short"/>
@@ -1155,7 +1155,7 @@ Supporting Material
 <devices>
 <device name="" package="TQFP-64-I/PT">
 <connects>
-<connect gate="G$1" pin="!MCLR!" pad="7"/>
+<connect gate="G$1" pin="!MCLR" pad="7"/>
 <connect gate="G$1" pin="AN10/RPA12/RA12" pad="11"/>
 <connect gate="G$1" pin="AN11/C1IN2-/PMA12/RC11" pad="24"/>
 <connect gate="G$1" pin="AN12/C2IN2-/C5IN2-/PMA11/RE12" pad="27"/>
@@ -1211,13 +1211,13 @@ Supporting Material
 <connect gate="G$1" pin="VBAT" pad="42"/>
 <connect gate="G$1" pin="VBUS" pad="34"/>
 <connect gate="G$1" pin="VDD" pad="10"/>
-<connect gate="G$1" pin="VDD$1" pad="26"/>
-<connect gate="G$1" pin="VDD$2" pad="38"/>
-<connect gate="G$1" pin="VDD$3" pad="57"/>
+<connect gate="G$1" pin="VDD@1" pad="26"/>
+<connect gate="G$1" pin="VDD@2" pad="38"/>
+<connect gate="G$1" pin="VDD@3" pad="57"/>
 <connect gate="G$1" pin="VSS" pad="9"/>
-<connect gate="G$1" pin="VSS$1" pad="25"/>
-<connect gate="G$1" pin="VSS$2" pad="41"/>
-<connect gate="G$1" pin="VSS$3" pad="56"/>
+<connect gate="G$1" pin="VSS@1" pad="25"/>
+<connect gate="G$1" pin="VSS@2" pad="41"/>
+<connect gate="G$1" pin="VSS@3" pad="56"/>
 <connect gate="G$1" pin="VUSB3V3" pad="35"/>
 </connects>
 <technologies>
