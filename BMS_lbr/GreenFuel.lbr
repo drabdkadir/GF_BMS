@@ -1372,7 +1372,7 @@ Supporting Material
 </device>
 </devices>
 </deviceset>
-<deviceset name="PIC32MK0512GPE064-I/PT">
+<deviceset name="PIC32MK0512GPE064-I/PT" prefix="MCU">
 <gates>
 <gate name="G$1" symbol="PIC32MK0512GPE064" x="0" y="0"/>
 </gates>
