@@ -440,11 +440,11 @@
 <wire x1="-5.7604" y1="-5.0786" x2="-5.7604" y2="-6" width="0.1524" layer="21"/>
 <wire x1="4.6286" y1="-6" x2="5.2604" y2="-6" width="0.1524" layer="21"/>
 <wire x1="6" y1="5.1789" x2="6" y2="6" width="0.1524" layer="21"/>
-<wire x1="-5.3286" y1="6" x2="-6" y2="6" width="0.1524" layer="21"/>
+<wire x1="-5.2286" y1="5.7" x2="-5.7" y2="5.7" width="0.1524" layer="21"/>
 <wire x1="-5.7604" y1="-6" x2="-4.8786" y2="-6" width="0.1524" layer="21"/>
 <wire x1="5.2604" y1="-6" x2="5.2604" y2="-5.1286" width="0.1524" layer="21"/>
 <wire x1="6" y1="6" x2="5.2286" y2="6" width="0.1524" layer="21"/>
-<wire x1="-6" y1="6" x2="-6" y2="5.2786" width="0.1524" layer="21"/>
+<wire x1="-5.7" y1="5.7" x2="-5.7" y2="5.2286" width="0.1524" layer="21"/>
 <text x="-16.5" y="7.5" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-0.53706875" y="0.6469" size="0.254" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 <smd name="1" x="-5.7" y="3.75" dx="0.3" dy="1.5" layer="1" rot="R270"/>
@@ -512,6 +512,13 @@
 <smd name="63" x="-3.25" y="5.7" dx="0.3" dy="1.5" layer="1" rot="R180"/>
 <smd name="64" x="-3.75" y="5.7" dx="0.3" dy="1.5" layer="1" rot="R180"/>
 <circle x="-8.25" y="3.9" radius="0" width="0.8128" layer="21"/>
+<wire x1="5.75" y1="5.7" x2="5.7" y2="-5.7" width="0.15" layer="51"/>
+<wire x1="5.7" y1="-5.7" x2="-5.7" y2="-5.7" width="0.15" layer="51"/>
+<wire x1="-5.7" y1="-5.7" x2="-5.7" y2="4.35" width="0.15" layer="51"/>
+<wire x1="-5.7" y1="4.35" x2="-5.7" y2="4.45" width="0.15" layer="51"/>
+<wire x1="-5.7" y1="4.45" x2="-4.5" y2="5.7" width="0.15" layer="51"/>
+<wire x1="-4.5" y1="5.7" x2="5.75" y2="5.7" width="0.15" layer="51"/>
+<circle x="-8.25" y="3.9" radius="0.180275" width="0.4064" layer="51"/>
 </package>
 </packages>
 <symbols>
