@@ -1069,7 +1069,6 @@ design rules under a new name.</description>
 <contactref element="C66" pad="2"/>
 <contactref element="C67" pad="2"/>
 <contactref element="IC2" pad="2"/>
-<contactref element="R66" pad="2"/>
 <contactref element="R67" pad="2"/>
 <contactref element="X2" pad="11"/>
 <polygon width="0.1524" layer="1" orphans="yes">
@@ -1185,7 +1184,6 @@ design rules under a new name.</description>
 <wire x1="-18.2" y1="25.4" x2="-35.98" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-96.94" y1="19.05" x2="-81.7" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.75" y1="76.2" x2="-48.68" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.67" y1="76.2" x2="-30.75" y2="76.2" width="0" layer="19" extent="1-1"/>
 <wire x1="29.27" y1="36.41" x2="-18.2" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.825" y1="-100.33" x2="-79.58" y2="-95.25" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -1584,12 +1582,18 @@ design rules under a new name.</description>
 <contactref element="R96" pad="2"/>
 <contactref element="R97" pad="2"/>
 <contactref element="R98" pad="2"/>
+<contactref element="C67" pad="1"/>
+<contactref element="IC1" pad="43"/>
+<contactref element="R66" pad="2"/>
 <wire x1="-75.2" y1="-68.58" x2="-80.28" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.12" y1="-68.58" x2="-75.2" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.04" y1="-68.58" x2="-70.12" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.96" y1="-68.58" x2="-65.04" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.88" y1="-68.58" x2="-59.96" y2="-68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.8" y1="-68.58" x2="-54.88" y2="-68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.73" y1="50.8" x2="-54.88" y2="-68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.67" y1="76.2" x2="-56.73" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="38.95" y1="31.73" x2="-25.67" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPIO0">
 <contactref element="IC1" pad="49"/>
@@ -1647,11 +1651,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="60"/>
 <contactref element="C66" pad="1"/>
 <wire x1="-50.38" y1="50.8" x2="31.27" y2="36.41" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$28">
-<contactref element="C67" pad="1"/>
-<contactref element="IC1" pad="43"/>
-<wire x1="-56.73" y1="50.8" x2="38.95" y2="31.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VPWR">
 <contactref element="IC1" pad="2"/>
@@ -1937,6 +1936,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="V-">
 <contactref element="R7" pad="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="IC1" pad="45"/>
+<contactref element="IC1" pad="48"/>
+<wire x1="38.95" y1="32.73" x2="38.95" y2="34.23" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
