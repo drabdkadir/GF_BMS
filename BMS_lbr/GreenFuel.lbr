@@ -586,20 +586,20 @@
 <rectangle x1="5.85" y1="3.525" x2="6.15" y2="3.975" layer="51" rot="R270"/>
 </package>
 <package name="VQFN-32">
-<smd name="32" x="-2" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="31" x="-1.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="30" x="-1" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="29" x="-0.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="28" x="0.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="27" x="1" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="26" x="1.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="25" x="2" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="32" x="-2.275" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="31" x="-1.625" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="30" x="-0.975" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="29" x="-0.325" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="28" x="0.325" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="27" x="0.975" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="26" x="1.625" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="25" x="2.275" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
 <smd name="1" x="-3" y="3" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
 <smd name="2" x="-3" y="2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
 <smd name="3" x="-3" y="2" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="-3" y="1.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="5" x="-3" y="0" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="-3" y="-0.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-3" y="0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-3" y="-0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-3" y="-0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
 <smd name="7" x="-3" y="-1" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
 <smd name="8" x="-3" y="-1.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
 <smd name="9" x="-2" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
