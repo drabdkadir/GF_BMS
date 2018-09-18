@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -586,6 +586,38 @@
 <rectangle x1="5.85" y1="3.525" x2="6.15" y2="3.975" layer="51" rot="R270"/>
 </package>
 <package name="VQFN-32">
+<smd name="P$1" x="-2" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$2" x="-1.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$3" x="-1" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$4" x="-0.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$5" x="0.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$6" x="1" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$7" x="1.5" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$8" x="2" y="4" dx="0.35" dy="0.75" layer="1" roundness="100"/>
+<smd name="P$9" x="-3" y="3" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$10" x="-3" y="2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$11" x="-3" y="2" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$12" x="-3" y="1.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$13" x="-3" y="0" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$14" x="-3" y="-0.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$15" x="-3" y="-1" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$16" x="-3" y="-1.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="P$17" x="-2" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$18" x="-1.5" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$19" x="-1" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$20" x="-0.5" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$21" x="0.5" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$22" x="1" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$23" x="1.5" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$24" x="2" y="-2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="P$25" x="3" y="-1.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="P$26" x="3" y="-1" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="P$27" x="3" y="-0.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="P$28" x="3" y="0" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="P$29" x="3" y="1.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="P$30" x="3" y="2" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="P$31" x="3" y="2.5" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="P$32" x="3" y="3" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
 </package>
 </packages>
 <symbols>
