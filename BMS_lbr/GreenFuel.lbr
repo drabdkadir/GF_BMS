@@ -677,6 +677,8 @@
 <smd name="P$7" x="-4" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
 <smd name="P$8" x="-5.5" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
 </package>
+<package name="GF-BMS-PAD">
+</package>
 </packages>
 <symbols>
 <symbol name="PIC32MX570F512H">
