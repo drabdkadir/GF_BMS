@@ -161,7 +161,9 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Greenfuel Energy Solutions Pvt. Ltd.</description>
+<description>&lt;H3&gt;Greenfuel Energy Solutions Pvt. Ltd.
+&lt;H4&gt;www.greenfuelenergy.in
+&lt;H5&gt;Created by:Pankaj@greenfuelenergy.in</description>
 <packages>
 <package name="TQFP-64">
 <description>&lt;B&gt; 64-Lead plastic Thin quad Flat pack (PT) - 10x10x1mm Body, 2.00mm  [TQFP]</description>
