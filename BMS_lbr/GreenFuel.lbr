@@ -1037,7 +1037,7 @@
 <wire x1="12.7" y1="12.7" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="-22.86" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-22.86" y1="-17.78" x2="-22.86" y2="12.7" width="0.254" layer="94"/>
-<pin name="GATE" x="-25.4" y="10.16" length="short" direction="pwr"/>
+<pin name="GATE" x="-25.4" y="10.16" length="short" direction="in"/>
 <pin name="SOURCE" x="-25.4" y="5.08" length="short" direction="pwr"/>
 <pin name="SOURCE@1" x="-25.4" y="0" length="short" direction="pwr"/>
 <pin name="SOURCE@2" x="-25.4" y="-5.08" length="short" direction="pwr"/>
@@ -1049,6 +1049,8 @@
 <pin name="DRAIN@1" x="15.24" y="0" length="short" direction="pwr" rot="R180"/>
 <pin name="DRAIN@2" x="15.24" y="5.08" length="short" direction="pwr" rot="R180"/>
 <pin name="DRAIN@3" x="15.24" y="10.16" length="short" direction="pwr" rot="R180"/>
+<text x="-22.86" y="15.24" size="1.27" layer="95">&gt;NAME</text>
+<text x="-22.86" y="-20.32" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
