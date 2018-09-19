@@ -1086,6 +1086,8 @@ design rules under a new name.</description>
 <vertex x="0" y="48"/>
 </polygon>
 <contactref element="C21" pad="2"/>
+<contactref element="IC1" pad="45"/>
+<contactref element="IC1" pad="48"/>
 <wire x1="-94.4" y1="-107.95" x2="-100.75" y2="-107.95" width="0" layer="19" extent="1-1"/>
 <wire x1="-88.05" y1="-107.95" x2="-94.4" y2="-107.95" width="0" layer="19" extent="1-1"/>
 <wire x1="-81.7" y1="-107.95" x2="-88.05" y2="-107.95" width="0" layer="19" extent="1-1"/>
@@ -1144,6 +1146,8 @@ design rules under a new name.</description>
 <wire x1="-96.94" y1="19.05" x2="-81.7" y2="38.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.75" y1="76.2" x2="-48.68" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="28.05" y1="32.23" x2="-18.2" y2="25.4" width="0" layer="19" extent="1-16"/>
+<wire x1="28.05" y1="32.73" x2="28.05" y2="32.23" width="0" layer="19" extent="16-16"/>
+<wire x1="28.05" y1="34.23" x2="28.05" y2="32.73" width="0" layer="19" extent="16-16"/>
 <wire x1="33.98" y1="30.48" x2="28.05" y2="32.23" width="0" layer="19" extent="16-16"/>
 <wire x1="34.73" y1="36.41" x2="33.98" y2="30.48" width="0" layer="19" extent="16-16"/>
 <wire x1="35.23" y1="36.41" x2="34.73" y2="36.41" width="0" layer="19" extent="16-16"/>
@@ -1232,8 +1236,8 @@ design rules under a new name.</description>
 <signal name="CB_12/11_C">
 <contactref element="C11" pad="1"/>
 <contactref element="R18" pad="1"/>
-<contactref element="CELL11+" pad="P$1"/>
 <contactref element="IC1" pad="10"/>
+<contactref element="CELL11+" pad="P$1"/>
 <wire x1="39.91" y1="29.73" x2="202.5" y2="6" width="0" layer="19" extent="1-16"/>
 <wire x1="-46.57" y1="25.4" x2="39.91" y2="29.73" width="0" layer="19" extent="1-16"/>
 <wire x1="-53.07" y1="57.15" x2="-46.57" y2="25.4" width="0" layer="19" extent="1-1"/>
@@ -1391,9 +1395,9 @@ design rules under a new name.</description>
 <signal name="CB_10/9_C">
 <contactref element="C12" pad="1"/>
 <contactref element="R19" pad="1"/>
-<contactref element="CELL9+" pad="P$1"/>
 <contactref element="IC1" pad="15"/>
 <contactref element="D11" pad="A"/>
+<contactref element="CELL9+" pad="P$1"/>
 <wire x1="-55.46" y1="25.4" x2="-94.82" y2="-95.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.15" y1="57.15" x2="-55.46" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="39.91" y1="27.23" x2="-55.46" y2="25.4" width="0" layer="19" extent="1-16"/>
@@ -1893,11 +1897,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="V-">
 <contactref element="R7" pad="1"/>
-</signal>
-<signal name="N$14">
-<contactref element="IC1" pad="45"/>
-<contactref element="IC1" pad="48"/>
-<wire x1="28.05" y1="32.73" x2="28.05" y2="34.23" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="R20" pad="2"/>
