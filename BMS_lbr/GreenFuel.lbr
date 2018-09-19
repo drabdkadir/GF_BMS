@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -681,6 +681,45 @@
 <vertex x="3.35" y="-5.2"/>
 <vertex x="3.35" y="-6.1"/>
 </polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-3.35" y="-5.24"/>
+<vertex x="4.55" y="-5.24"/>
+<vertex x="4.55" y="-4.44"/>
+<vertex x="-3.35" y="-4.44"/>
+</polygon>
+<smd name="9@2" x="0" y="5.36" dx="10.1" dy="1.4" layer="1"/>
+<smd name="9@1" x="0" y="3.21" dx="8.7" dy="2.9" layer="1"/>
+<smd name="9" x="0" y="-0.09" dx="10" dy="3.7" layer="1"/>
+<text x="-4.9845" y="6.9935" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.502" y="-9.4945" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4" y1="2" x2="4" y2="5" layer="51"/>
+<rectangle x1="-4.5" y1="-1.5" x2="4.5" y2="1.5" layer="51"/>
+<rectangle x1="-4" y1="1.5" x2="4" y2="2" layer="51"/>
+<rectangle x1="-5" y1="5" x2="5" y2="6" layer="51"/>
+<rectangle x1="-3" y1="-5" x2="4.5" y2="-4.5" layer="51"/>
+<rectangle x1="-4.5" y1="-6.5" x2="-4" y2="-4.5" layer="51"/>
+<rectangle x1="-3.3215" y1="-4.997" x2="-2.9205" y2="-4.496" layer="51"/>
+<rectangle x1="-3.3395" y1="-6.5005" x2="-2.6625" y2="-4.8755" layer="51"/>
+<rectangle x1="-2.151" y1="-6.49" x2="-1.474" y2="-4.865" layer="51"/>
+<rectangle x1="-0.9345" y1="-6.4995" x2="-0.2575" y2="-4.8745" layer="51"/>
+<rectangle x1="0.262" y1="-6.4875" x2="0.939" y2="-4.8625" layer="51"/>
+<rectangle x1="1.451" y1="-6.5015" x2="2.128" y2="-4.8765" layer="51"/>
+<rectangle x1="2.6625" y1="-6.493" x2="3.3395" y2="-4.868" layer="51"/>
+<rectangle x1="3.859" y1="-6.4945" x2="4.536" y2="-4.8695" layer="51"/>
+<rectangle x1="4.2975" y1="-4.935" x2="4.529" y2="-4.5025" layer="51"/>
+<rectangle x1="4.451" y1="-4.918" x2="4.536" y2="-4.503" layer="51"/>
+<rectangle x1="-4.2775" y1="-6.489" x2="-3.897" y2="-4.503" layer="51"/>
+<rectangle x1="-3.338" y1="-4.886" x2="-3.248" y2="-4.496" layer="51"/>
+<circle x="-6" y="-8" radius="0" width="0.8128" layer="51"/>
+<circle x="-6" y="-8" radius="0" width="0.8128" layer="21"/>
+<wire x1="-5.5" y1="6" x2="-5.5" y2="6.5" width="0.3048" layer="21"/>
+<wire x1="-5.5" y1="6.5" x2="-5" y2="6.5" width="0.3048" layer="21"/>
+<wire x1="5" y1="6.5" x2="5.5" y2="6.5" width="0.3048" layer="21"/>
+<wire x1="5.5" y1="6.5" x2="5.5" y2="6" width="0.3048" layer="21"/>
+<wire x1="-5" y1="-7" x2="-5" y2="-7.5" width="0.3048" layer="21"/>
+<wire x1="-5" y1="-7.5" x2="-4.5" y2="-7.5" width="0.3048" layer="21"/>
+<wire x1="5" y1="-7" x2="5" y2="-7.5" width="0.3048" layer="21"/>
+<wire x1="5" y1="-7.5" x2="4.5" y2="-7.5" width="0.3048" layer="21"/>
 </package>
 <package name="GF-BMS-PAD">
 <smd name="1" x="0" y="0" dx="10" dy="10" layer="1"/>
