@@ -668,14 +668,14 @@
 <text x="-4" y="-4.5" size="0.254" layer="27">&gt;VALUE</text>
 </package>
 <package name="PG-HSOF">
-<smd name="5" x="0.6" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
-<smd name="6" x="1.8" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
-<smd name="7" x="3" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
-<smd name="8" x="4.2" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
-<smd name="4" x="-0.6" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
-<smd name="3" x="-1.8" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
-<smd name="2" x="-3" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
-<smd name="1" x="-4.2" y="-3.5" dx="0.8" dy="1.85" layer="1"/>
+<smd name="5" x="0.6" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
+<smd name="6" x="1.8" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
+<smd name="7" x="3" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
+<smd name="8" x="4.2" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
+<smd name="4" x="-0.6" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
+<smd name="3" x="-1.8" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
+<smd name="2" x="-3" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
+<smd name="1" x="-4.2" y="-5.84" dx="0.8" dy="1.85" layer="1"/>
 </package>
 <package name="GF-BMS-PAD">
 <smd name="1" x="0" y="0" dx="10" dy="10" layer="1"/>
