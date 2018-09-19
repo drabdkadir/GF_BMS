@@ -930,42 +930,42 @@
 <pin name="TDO/PMD4/RA10" x="-60.96" y="33.02" length="short"/>
 </symbol>
 <symbol name="MIC28515">
-<wire x1="-15.24" y1="27.94" x2="17.78" y2="27.94" width="0.254" layer="94"/>
-<wire x1="17.78" y1="27.94" x2="17.78" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-33.02" x2="-15.24" y2="27.94" width="0.254" layer="94"/>
-<pin name="P$1" x="-17.78" y="25.4" length="short"/>
-<pin name="P$2" x="-17.78" y="22.86" length="short"/>
-<pin name="P$3" x="-17.78" y="20.32" length="short"/>
-<pin name="P$4" x="-17.78" y="17.78" length="short"/>
-<pin name="P$5" x="-17.78" y="15.24" length="short"/>
-<pin name="P$6" x="-17.78" y="12.7" length="short"/>
-<pin name="P$7" x="-17.78" y="10.16" length="short"/>
-<pin name="P$8" x="-17.78" y="7.62" length="short"/>
-<pin name="P$9" x="-17.78" y="5.08" length="short"/>
-<pin name="P$10" x="-17.78" y="2.54" length="short"/>
-<pin name="P$11" x="-17.78" y="0" length="short"/>
-<pin name="P$12" x="-17.78" y="-2.54" length="short"/>
-<pin name="P$13" x="-17.78" y="-5.08" length="short"/>
-<pin name="P$14" x="-17.78" y="-7.62" length="short"/>
-<pin name="P$15" x="-17.78" y="-10.16" length="short"/>
-<pin name="P$16" x="-17.78" y="-12.7" length="short"/>
-<pin name="P$17" x="-17.78" y="-15.24" length="short"/>
-<pin name="P$18" x="-17.78" y="-20.32" length="short"/>
-<pin name="P$19" x="-17.78" y="-25.4" length="short"/>
-<pin name="P$20" x="-17.78" y="-30.48" length="short"/>
-<pin name="P$21" x="20.32" y="-30.48" length="short" rot="R180"/>
-<pin name="P$22" x="20.32" y="-25.4" length="short" rot="R180"/>
-<pin name="P$23" x="20.32" y="-20.32" length="short" rot="R180"/>
-<pin name="P$24" x="20.32" y="-15.24" length="short" rot="R180"/>
-<pin name="P$25" x="20.32" y="-10.16" length="short" rot="R180"/>
-<pin name="P$26" x="20.32" y="-5.08" length="short" rot="R180"/>
-<pin name="P$27" x="20.32" y="0" length="short" rot="R180"/>
-<pin name="P$28" x="20.32" y="5.08" length="short" rot="R180"/>
-<pin name="P$29" x="20.32" y="10.16" length="short" rot="R180"/>
-<pin name="P$30" x="20.32" y="15.24" length="short" rot="R180"/>
-<pin name="P$31" x="20.32" y="20.32" length="short" rot="R180"/>
-<pin name="P$32" x="20.32" y="25.4" length="short" rot="R180"/>
+<wire x1="-15.24" y1="22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
+<pin name="ILIM" x="-17.78" y="20.32" length="short"/>
+<pin name="PGND" x="-17.78" y="17.78" length="short"/>
+<pin name="SW" x="-17.78" y="15.24" length="short"/>
+<pin name="BST" x="-17.78" y="12.7" length="short"/>
+<pin name="VIN" x="-17.78" y="10.16" length="short"/>
+<pin name="VIN@1" x="-17.78" y="7.62" length="short"/>
+<pin name="VIN@2" x="-17.78" y="5.08" length="short"/>
+<pin name="VIN@3" x="-17.78" y="2.54" length="short"/>
+<pin name="VIN@4" x="-17.78" y="0" length="short"/>
+<pin name="VIN@5" x="-17.78" y="-2.54" length="short"/>
+<pin name="VIN@6" x="-17.78" y="-5.08" length="short"/>
+<pin name="SW@1" x="-17.78" y="-7.62" length="short"/>
+<pin name="SW@2" x="-17.78" y="-10.16" length="short"/>
+<pin name="SW@3" x="-17.78" y="-12.7" length="short"/>
+<pin name="SW@4" x="-17.78" y="-15.24" length="short"/>
+<pin name="PGND@1" x="-17.78" y="-17.78" length="short"/>
+<pin name="PGND@2" x="20.32" y="-17.78" length="short" rot="R180"/>
+<pin name="PGND@3" x="20.32" y="-15.24" length="short" rot="R180"/>
+<pin name="PGND@4" x="20.32" y="-12.7" length="short" rot="R180"/>
+<pin name="SW@5" x="20.32" y="-10.16" length="short" rot="R180"/>
+<pin name="PVDD" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="PGND@5" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="EXTVDD" x="20.32" y="-2.54" length="short" rot="R180"/>
+<pin name="EN" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="FREQ" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="MODE" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="FB" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="AGND" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="PGND@6" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="VDD" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="SVIN" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="PG" x="20.32" y="20.32" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
