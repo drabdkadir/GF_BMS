@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -934,38 +934,38 @@
 <wire x1="17.78" y1="22.86" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-20.32" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
-<pin name="ILIM" x="-17.78" y="20.32" length="short"/>
-<pin name="PGND" x="-17.78" y="17.78" length="short"/>
-<pin name="SW" x="-17.78" y="15.24" length="short"/>
-<pin name="BST" x="-17.78" y="12.7" length="short"/>
-<pin name="VIN" x="-17.78" y="10.16" length="short"/>
-<pin name="VIN@1" x="-17.78" y="7.62" length="short"/>
-<pin name="VIN@2" x="-17.78" y="5.08" length="short"/>
-<pin name="VIN@3" x="-17.78" y="2.54" length="short"/>
-<pin name="VIN@4" x="-17.78" y="0" length="short"/>
-<pin name="VIN@5" x="-17.78" y="-2.54" length="short"/>
-<pin name="VIN@6" x="-17.78" y="-5.08" length="short"/>
-<pin name="SW@1" x="-17.78" y="-7.62" length="short"/>
-<pin name="SW@2" x="-17.78" y="-10.16" length="short"/>
-<pin name="SW@3" x="-17.78" y="-12.7" length="short"/>
-<pin name="SW@4" x="-17.78" y="-15.24" length="short"/>
-<pin name="PGND@1" x="-17.78" y="-17.78" length="short"/>
-<pin name="PGND@2" x="20.32" y="-17.78" length="short" rot="R180"/>
-<pin name="PGND@3" x="20.32" y="-15.24" length="short" rot="R180"/>
-<pin name="PGND@4" x="20.32" y="-12.7" length="short" rot="R180"/>
-<pin name="SW@5" x="20.32" y="-10.16" length="short" rot="R180"/>
-<pin name="PVDD" x="20.32" y="-7.62" length="short" rot="R180"/>
-<pin name="PGND@5" x="20.32" y="-5.08" length="short" rot="R180"/>
-<pin name="EXTVDD" x="20.32" y="-2.54" length="short" rot="R180"/>
-<pin name="EN" x="20.32" y="0" length="short" rot="R180"/>
-<pin name="FREQ" x="20.32" y="2.54" length="short" rot="R180"/>
-<pin name="MODE" x="20.32" y="5.08" length="short" rot="R180"/>
-<pin name="FB" x="20.32" y="7.62" length="short" rot="R180"/>
-<pin name="AGND" x="20.32" y="10.16" length="short" rot="R180"/>
-<pin name="PGND@6" x="20.32" y="12.7" length="short" rot="R180"/>
-<pin name="VDD" x="20.32" y="15.24" length="short" rot="R180"/>
-<pin name="SVIN" x="20.32" y="17.78" length="short" rot="R180"/>
-<pin name="PG" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="ILIM" x="-17.78" y="20.32" length="short" direction="in"/>
+<pin name="PGND" x="-17.78" y="17.78" length="short" direction="pwr"/>
+<pin name="SW" x="-17.78" y="15.24" length="short" direction="out"/>
+<pin name="BST" x="-17.78" y="12.7" length="short" direction="out"/>
+<pin name="VIN" x="-17.78" y="10.16" length="short" direction="in"/>
+<pin name="VIN@1" x="-17.78" y="7.62" length="short" direction="in"/>
+<pin name="VIN@2" x="-17.78" y="5.08" length="short" direction="in"/>
+<pin name="VIN@3" x="-17.78" y="2.54" length="short" direction="in"/>
+<pin name="VIN@4" x="-17.78" y="0" length="short" direction="in"/>
+<pin name="VIN@5" x="-17.78" y="-2.54" length="short" direction="in"/>
+<pin name="VIN@6" x="-17.78" y="-5.08" length="short" direction="in"/>
+<pin name="SW@1" x="-17.78" y="-7.62" length="short" direction="out"/>
+<pin name="SW@2" x="-17.78" y="-10.16" length="short" direction="out"/>
+<pin name="SW@3" x="-17.78" y="-12.7" length="short" direction="out"/>
+<pin name="SW@4" x="-17.78" y="-15.24" length="short" direction="out"/>
+<pin name="PGND@1" x="-17.78" y="-17.78" length="short" direction="pwr"/>
+<pin name="PGND@2" x="20.32" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="PGND@3" x="20.32" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="PGND@4" x="20.32" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="SW@5" x="20.32" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="PVDD" x="20.32" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="PGND@5" x="20.32" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="EXTVDD" x="20.32" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="EN" x="20.32" y="0" length="short" direction="in" rot="R180"/>
+<pin name="FREQ" x="20.32" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="MODE" x="20.32" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="FB" x="20.32" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="AGND" x="20.32" y="10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="PGND@6" x="20.32" y="12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="20.32" y="15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="SVIN" x="20.32" y="17.78" length="short" direction="in" rot="R180"/>
+<pin name="PG" x="20.32" y="20.32" length="short" direction="out" rot="R180"/>
 <text x="-15.24" y="25.4" size="1.27" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-22.86" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
