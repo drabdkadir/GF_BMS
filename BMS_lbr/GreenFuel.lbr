@@ -794,7 +794,7 @@
 <wire x1="5" y1="-7" x2="5" y2="-7.5" width="0.3048" layer="21"/>
 <wire x1="5" y1="-7.5" x2="4.5" y2="-7.5" width="0.3048" layer="21"/>
 </package>
-<package name="CELL-PAD">
+<package name="GF_BMS_CELL_PAD">
 <smd name="P$1" x="0" y="0" dx="10" dy="10" layer="1"/>
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 </package>
@@ -1572,12 +1572,12 @@ Supporting Material
 </device>
 </devices>
 </deviceset>
-<deviceset name="CELL_PAD" prefix="TP">
+<deviceset name="GF_BMS_CELL_PAD" prefix="TP">
 <gates>
 <gate name="G$1" symbol="PAD_S" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="P_PAD" package="CELL-PAD">
+<device name="P_PAD" package="GF_BMS_CELL_PAD">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
 </connects>

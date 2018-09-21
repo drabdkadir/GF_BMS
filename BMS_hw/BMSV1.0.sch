@@ -162,7 +162,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<library name="adafruit">
 <packages>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -5989,7 +5989,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="-4.85" y1="-5.1" x2="-4.5" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="-4.7" y1="5.15" x2="4.75" y2="5.15" width="0.127" layer="51"/>
 </package>
-<package name="GF-BMS-PAD">
+<package name="GF_BMS_CELL_PAD">
 <smd name="P$1" x="0" y="0" dx="10" dy="10" layer="1"/>
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 </package>
@@ -6151,7 +6151,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="-27.94" y1="-121.92" x2="-27.94" y2="106.68" width="0.254" layer="94"/>
 <pin name="GNDFLAG" x="30.48" y="68.58" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="GF_BMS_PAD_S">
+<symbol name="PAD_S">
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pwr"/>
 <circle x="0.254" y="0" radius="0.254" width="0.254" layer="94"/>
 <text x="-5.08" y="2.54" size="1.27" layer="95">&gt;NAME</text>
@@ -6304,10 +6304,10 @@ Supporting Material
 </deviceset>
 <deviceset name="GF_BMS_CELL_PAD" prefix="TP">
 <gates>
-<gate name="G$1" symbol="GF_BMS_PAD_S" x="2.54" y="0"/>
+<gate name="G$1" symbol="PAD_S" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="P_PAD" package="GF-BMS-PAD">
+<device name="P_PAD" package="GF_BMS_CELL_PAD">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
 </connects>
@@ -6730,193 +6730,193 @@ SMD power inductor</description>
 <part name="CELL14+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="R31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="R26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="C27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R31" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="R26" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="C27" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R13" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C10" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C18" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C31" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="CELL13+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R33" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C28" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL12+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C11" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R34" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C19" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
-<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C32" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C33" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C8" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C29" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R35" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C29" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL10+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C12" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R19" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R36" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C20" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C35" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL11+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
 <part name="CELL9+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C34" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R37" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R37" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C21" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL8+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C37" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
-<part name="C36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C37" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C36" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="IC1" library="GreenFuel" deviceset="MC33771B" device="EP"/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C66" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value=".047uF"/>
+<part name="C66" library="adafruit" deviceset="C-US" device="C0805" value=".047uF"/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C67" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C67" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="SFH6156" device="" package3d_urn="urn:adsk.eagle:package:21969/1"/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R64" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R66" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R67" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R64" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R66" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R67" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="87758-1816" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="C71" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C71" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R46" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R70" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C72" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R46" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R70" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C72" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL7+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C73" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C73" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R71" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R72" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C74" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R71" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R72" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C74" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL6+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C75" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C75" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND69" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R73" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R74" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C76" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R73" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R74" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C76" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND70" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C77" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R75" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R76" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C77" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R75" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R76" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL5+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C78" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C79" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C78" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C79" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R77" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R78" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C80" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R77" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R78" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C80" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL4+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C81" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C81" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R79" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R80" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C82" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R79" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R80" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C82" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C83" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R81" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R82" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C83" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R81" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R82" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL3+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C84" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C85" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C84" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C85" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R83" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R84" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C86" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R83" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R84" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C86" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL2+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C87" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C87" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND77" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R85" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R86" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C88" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R85" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R86" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C88" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND78" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C89" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R87" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R88" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C89" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R87" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R88" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL1+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C90" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C90" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="CELL1-" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C91" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C91" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND79" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R89" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
-<part name="R90" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="R91" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="C92" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R89" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="R90" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="R91" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="C92" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND80" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C93" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C94" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C93" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C94" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND81" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R92" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R93" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R94" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R95" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R96" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R97" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R98" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C95" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R92" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R93" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R94" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R95" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R96" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R97" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R98" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C95" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND82" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R99" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C96" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R99" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C96" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND83" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R100" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C97" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R100" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C97" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND84" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R101" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C98" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R101" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C98" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND85" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R102" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C99" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R102" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C99" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND86" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R103" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C100" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R103" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C100" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND87" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R104" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C101" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R104" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C101" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND88" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R105" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R105" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="J2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-08" device="27-2081" value="NTC"/>
 <part name="GND89" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C102" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C103" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C104" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C105" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C106" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C107" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C108" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C102" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C103" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C104" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C105" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C106" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C107" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C108" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
 <part name="GND90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND91" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND92" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6929,26 +6929,26 @@ SMD power inductor</description>
 <part name="D12" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="27v"/>
 <part name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="43v"/>
 <part name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="75v"/>
-<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10"/>
-<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.22uF"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="10"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="0.22uF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D15" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
 <part name="D16" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
-<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="6.8uF"/>
-<part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value="6.8uF"/>
+<part name="C9" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D17" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
 <part name="D18" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="simpa" deviceset="WSR3R0150FEA" device=""/>
 <part name="R8" library="simpa" deviceset="WSR3R0150FEA" device=""/>
@@ -6960,36 +6960,36 @@ SMD power inductor</description>
 <part name="P-3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC3" library="GreenFuel" deviceset="MIC28515" device="V1"/>
-<part name="C14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C14" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C15" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="200k"/>
-<part name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100k"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="200k"/>
+<part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C16" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L1" library="inductor-neosid" library_urn="urn:adsk.eagle:library:241" deviceset="MS85" device="" package3d_urn="urn:adsk.eagle:package:14698/1"/>
-<part name="R21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="R22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="C23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C17" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C22" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C23" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C24" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="VCC" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+15v"/>
-<part name="C25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C25" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C26" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -9587,11 +9587,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <label x="269.24" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="SW@5"/>
-<wire x1="330.2" y1="121.92" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
-<label x="340.36" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="SW"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="152.4" x2="274.32" y2="152.4" width="0.1524" layer="91"/>
@@ -9614,6 +9609,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="274.32" y1="147.32" x2="274.32" y2="121.92" width="0.1524" layer="91"/>
 <junction x="274.32" y="147.32"/>
 <label x="274.32" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SW@5"/>
+<wire x1="330.2" y1="121.92" x2="342.9" y2="121.92" width="0.1524" layer="91"/>
+<label x="342.9" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$24" class="0">
