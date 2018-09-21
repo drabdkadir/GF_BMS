@@ -6992,6 +6992,7 @@ SMD power inductor</description>
 <part name="R25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9727,6 +9728,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <plain>
 </plain>
 <instances>
+<instance part="FRAME3" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
