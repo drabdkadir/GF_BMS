@@ -5989,7 +5989,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="-4.85" y1="-5.1" x2="-4.5" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="-4.7" y1="5.15" x2="4.75" y2="5.15" width="0.127" layer="51"/>
 </package>
-<package name="GF_BMS_CELL_PAD">
+<package name="CELL_PAD">
 <smd name="P$1" x="0" y="0" dx="10" dy="10" layer="1"/>
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 </package>
@@ -6307,7 +6307,7 @@ Supporting Material
 <gate name="G$1" symbol="PAD_S" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="P_PAD" package="GF_BMS_CELL_PAD">
+<device name="P_PAD" package="CELL_PAD">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
 </connects>
@@ -6952,9 +6952,7 @@ SMD power inductor</description>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="simpa" deviceset="WSR3R0150FEA" device=""/>
 <part name="R8" library="simpa" deviceset="WSR3R0150FEA" device=""/>
-<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PACKV-" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
 <part name="P-2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
 <part name="P-3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -7932,13 +7930,6 @@ SMD power inductor</description>
 <wire x1="365.76" y1="109.22" x2="299.72" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CS" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="CSB"/>
-<wire x1="243.84" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="243.84" y="83.82" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="R66" gate="G$1" pin="1"/>
@@ -8306,9 +8297,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="R8" gate="G$1" x="289.56" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="288.036" y="218.44" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="GND16" gate="1" x="256.54" y="226.06"/>
 <instance part="GND17" gate="1" x="271.78" y="226.06"/>
-<instance part="GND22" gate="1" x="264.16" y="226.06"/>
 <instance part="PACKV-" gate="1" x="256.54" y="200.66"/>
 <instance part="P-2" gate="1" x="264.16" y="200.66"/>
 <instance part="P-3" gate="1" x="271.78" y="200.66"/>
@@ -8631,6 +8620,26 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="340.36" y1="99.06" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
 <junction x="340.36" y="114.3"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="226.06" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="271.78" y1="228.6" x2="271.796" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="271.796" y1="231.14" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="236.22" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="226.06" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="231.14" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="238.76" x2="302.26" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="238.76" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="236.22" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="231.14" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
+<junction x="281.94" y="231.14"/>
+<junction x="289.56" y="231.14"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -9423,70 +9432,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="314.96" y="238.76"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="264.16" y1="228.6" x2="264.16" y2="228.498" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="228.498" x2="264.16" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="226.06" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="281.94" y1="231.14" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="233.68" x2="281.94" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="236.22" x2="281.94" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="228.6" x2="256.54" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="236.22" x2="274.32" y2="236.22" width="0.1524" layer="91"/>
-<junction x="281.94" y="236.22"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="274.32" y1="236.22" x2="276.86" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="236.22" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="236.22" x2="281.94" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="228.6" x2="271.796" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="271.796" y1="231.14" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
-<junction x="289.56" y="231.14"/>
-<wire x1="276.86" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="231.14" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="236.22" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
-<junction x="276.86" y="236.22"/>
-<junction x="276.86" y="231.14"/>
-<wire x1="276.86" y1="233.68" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="236.22" x2="279.4" y2="233.68" width="0.1524" layer="91"/>
-<junction x="279.4" y="236.22"/>
-<junction x="279.4" y="231.14"/>
-<wire x1="279.4" y1="233.68" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="236.22" x2="289.56" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="236.22" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="233.68" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
-<junction x="281.94" y="233.68"/>
-<junction x="289.56" y="233.68"/>
-<junction x="289.56" y="236.22"/>
-<wire x1="274.32" y1="236.22" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
-<junction x="274.32" y="236.22"/>
-<junction x="274.32" y="231.14"/>
-<wire x1="274.32" y1="233.68" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="233.68" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
-<junction x="274.32" y="233.68"/>
-<wire x1="274.32" y1="233.68" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
-<junction x="276.86" y="233.68"/>
-<wire x1="276.86" y1="233.68" x2="279.4" y2="233.68" width="0.1524" layer="91"/>
-<junction x="279.4" y="233.68"/>
-<wire x1="279.4" y1="233.68" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
-<junction x="281.94" y="231.14"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="289.56" y1="226.06" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="231.14" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="238.76" x2="302.26" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="238.76" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="236.22" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="238.76" x2="281.94" y2="238.76" width="0.1524" layer="91"/>
-<junction x="289.56" y="238.76"/>
-<wire x1="281.94" y1="238.76" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
-<junction x="281.94" y="238.76"/>
-<label x="279.4" y="238.76" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
@@ -9736,6 +9681,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,241.3,83.82,IC1,CSB,,,,"/>
+<approved hash="202,2,330.2,132.08,IC3,EN,,,,"/>
+<approved hash="202,2,330.2,137.16,IC3,MODE,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
