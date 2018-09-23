@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5035,6 +5035,25 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
 <rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
 </package>
+<package name="SMA-DO214AC" urn="urn:adsk.eagle:footprint:43236/1" library_version="2">
+<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<wire x1="-2.2225" y1="0.635" x2="2.2225" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-2.2225" y1="-0.635" x2="2.2225" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="-0.3175" y2="0.4763" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0.4763" x2="-0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-0.3175" y2="-0.4763" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="-0.4763" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="0.4763" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.4763" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-1.1113" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="1.1113" y2="0" width="0.127" layer="21"/>
+<smd name="A" x="-2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
+<smd name="K" x="2.05" y="0" dx="1.8" dy="1.7" layer="1"/>
+<text x="-3.175" y="1.5875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.8575" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.3813" y1="-0.635" x2="-1.5875" y2="0.635" layer="51"/>
+<rectangle x1="1.5875" y1="-0.635" x2="2.3813" y2="0.635" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DO35Z10" urn="urn:adsk.eagle:package:43342/1" type="box" library_version="2">
@@ -5175,6 +5194,12 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <packageinstance name="SMB"/>
 </packageinstances>
 </package3d>
+<package3d name="SMA-DO214AC" urn="urn:adsk.eagle:package:43452/2" type="model" library_version="2">
+<description>DIODE</description>
+<packageinstances>
+<packageinstance name="SMA-DO214AC"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="ZD" urn="urn:adsk.eagle:symbol:43096/1" library_version="2">
@@ -5186,6 +5211,17 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
 <text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
 <text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="D-1" urn="urn:adsk.eagle:symbol:43235/1" library_version="2">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
@@ -5456,6 +5492,26 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43404/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GF1" urn="urn:adsk.eagle:component:43656/2" prefix="D" library_version="2">
+<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<gates>
+<gate name="D" symbol="D-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA-DO214AC">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43452/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -7144,6 +7200,7 @@ SMD power inductor</description>
 <part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="8.2v"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="GF1" device="" package3d_urn="urn:adsk.eagle:package:43452/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9846,6 +9903,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="R29" gate="G$1" x="142.24" y="121.92"/>
 <instance part="R30" gate="G$1" x="213.36" y="121.92" rot="R180"/>
 <instance part="D1" gate="G$1" x="213.36" y="114.3" rot="R180"/>
+<instance part="D2" gate="D" x="200.66" y="99.06" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -10116,7 +10174,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="200.66" y1="124.46" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
 <label x="182.88" y="119.38" size="1.778" layer="95"/>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="121.92" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <junction x="200.66" y="121.92"/>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -10124,6 +10181,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="210.82" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="114.3" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <junction x="205.74" y="121.92"/>
+<pinref part="D2" gate="D" pin="C"/>
+<wire x1="200.66" y1="101.6" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
