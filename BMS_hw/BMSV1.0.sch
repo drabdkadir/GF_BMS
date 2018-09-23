@@ -6145,12 +6145,6 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <vertex x="3.35" y="-5.2"/>
 <vertex x="3.35" y="-6.1"/>
 </polygon>
-<polygon width="0.01" layer="1">
-<vertex x="-3.4" y="-5.24"/>
-<vertex x="4.58" y="-5.24"/>
-<vertex x="4.58" y="-4.44"/>
-<vertex x="-3.4" y="-4.44"/>
-</polygon>
 <smd name="11" x="0" y="5.36" dx="10.1" dy="1.4" layer="1"/>
 <smd name="10" x="0" y="3.21" dx="8.7" dy="2.9" layer="1"/>
 <smd name="9" x="0" y="-0.09" dx="10" dy="3.7" layer="1"/>
@@ -6166,6 +6160,40 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="-5" y1="-7.5" x2="-4.5" y2="-7.5" width="0.3048" layer="21"/>
 <wire x1="5" y1="-7" x2="5" y2="-7.5" width="0.3048" layer="21"/>
 <wire x1="5" y1="-7.5" x2="4.5" y2="-7.5" width="0.3048" layer="21"/>
+<polygon width="0.127" layer="1">
+<vertex x="-4.6" y="-4.44"/>
+<vertex x="-4.6" y="-7.24"/>
+<vertex x="-3.8" y="-7.24"/>
+<vertex x="-3.8" y="-5.2"/>
+<vertex x="-3.4" y="-5.2"/>
+<vertex x="-3.4" y="-7.24"/>
+<vertex x="-2.6" y="-7.24"/>
+<vertex x="-2.6" y="-5.2"/>
+<vertex x="-2.2" y="-5.2"/>
+<vertex x="-2.2" y="-7.24"/>
+<vertex x="-1.4" y="-7.24"/>
+<vertex x="-1.4" y="-5.2"/>
+<vertex x="-1" y="-5.2"/>
+<vertex x="-1" y="-7.24"/>
+<vertex x="-0.2" y="-7.24"/>
+<vertex x="-0.2" y="-5.2"/>
+<vertex x="0.2" y="-5.2"/>
+<vertex x="0.2" y="-7.24"/>
+<vertex x="1" y="-7.24"/>
+<vertex x="1" y="-5.2"/>
+<vertex x="1.4" y="-5.2"/>
+<vertex x="1.4" y="-7.24"/>
+<vertex x="2.2" y="-7.24"/>
+<vertex x="2.2" y="-5.2"/>
+<vertex x="2.6" y="-5.2"/>
+<vertex x="2.6" y="-7.24"/>
+<vertex x="3.4" y="-7.24"/>
+<vertex x="3.4" y="-5.2"/>
+<vertex x="3.8" y="-5.2"/>
+<vertex x="3.8" y="-7.24"/>
+<vertex x="4.6" y="-7.24"/>
+<vertex x="4.6" y="-4.44"/>
+</polygon>
 </package>
 </packages>
 <symbols>
