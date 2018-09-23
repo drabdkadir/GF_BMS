@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -162,7 +162,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<library name="adafruit">
 <packages>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -5989,7 +5989,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="-4.85" y1="-5.1" x2="-4.5" y2="-5.1" width="0.127" layer="21"/>
 <wire x1="-4.7" y1="5.15" x2="4.75" y2="5.15" width="0.127" layer="51"/>
 </package>
-<package name="GF-BMS-PAD">
+<package name="CELL_PAD">
 <smd name="P$1" x="0" y="0" dx="10" dy="10" layer="1"/>
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 </package>
@@ -6075,6 +6075,42 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <text x="-4" y="4.5" size="0.254" layer="25">&gt;NAME</text>
 <text x="-4" y="-4.5" size="0.254" layer="27">&gt;VALUE</text>
 </package>
+<package name="PG-HSOF-9">
+<smd name="5" x="0.6" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<smd name="6" x="1.8" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<smd name="7" x="3" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<smd name="8" x="4.2" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<smd name="4" x="-0.6" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<smd name="3" x="-1.8" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<smd name="2" x="-3" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<smd name="1" x="-4.2" y="-5.84" dx="0.8" dy="2.8" layer="1"/>
+<polygon width="0.127" layer="1">
+<vertex x="3.35" y="-4.95"/>
+<vertex x="3.35" y="-5.2"/>
+<vertex x="3.35" y="-6.1"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="-3.4" y="-5.24"/>
+<vertex x="4.58" y="-5.24"/>
+<vertex x="4.58" y="-4.44"/>
+<vertex x="-3.4" y="-4.44"/>
+</polygon>
+<smd name="11" x="0" y="5.36" dx="10.1" dy="1.4" layer="1"/>
+<smd name="10" x="0" y="3.21" dx="8.7" dy="2.9" layer="1"/>
+<smd name="9" x="0" y="-0.09" dx="10" dy="3.7" layer="1"/>
+<text x="-4.9845" y="6.9935" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.502" y="-9.4945" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-6" y="-8" radius="0" width="0.8128" layer="51"/>
+<circle x="-6" y="-8" radius="0" width="0.8128" layer="21"/>
+<wire x1="-5.5" y1="6" x2="-5.5" y2="6.5" width="0.3048" layer="21"/>
+<wire x1="-5.5" y1="6.5" x2="-5" y2="6.5" width="0.3048" layer="21"/>
+<wire x1="5" y1="6.5" x2="5.5" y2="6.5" width="0.3048" layer="21"/>
+<wire x1="5.5" y1="6.5" x2="5.5" y2="6" width="0.3048" layer="21"/>
+<wire x1="-5" y1="-7" x2="-5" y2="-7.5" width="0.3048" layer="21"/>
+<wire x1="-5" y1="-7.5" x2="-4.5" y2="-7.5" width="0.3048" layer="21"/>
+<wire x1="5" y1="-7" x2="5" y2="-7.5" width="0.3048" layer="21"/>
+<wire x1="5" y1="-7.5" x2="4.5" y2="-7.5" width="0.3048" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MC33771B">
@@ -6151,7 +6187,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="-27.94" y1="-121.92" x2="-27.94" y2="106.68" width="0.254" layer="94"/>
 <pin name="GNDFLAG" x="30.48" y="68.58" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="GF_BMS_PAD_S">
+<symbol name="PAD_S">
 <pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pwr"/>
 <circle x="0.254" y="0" radius="0.254" width="0.254" layer="94"/>
 <text x="-5.08" y="2.54" size="1.27" layer="95">&gt;NAME</text>
@@ -6195,6 +6231,91 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <pin name="PG" x="20.32" y="20.32" length="short" direction="out" rot="R180"/>
 <text x="-15.24" y="25.4" size="1.27" layer="95">&gt;NAME</text>
 <text x="-15.24" y="-22.86" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="IPT020N10N3">
+<wire x1="-1.1176" y1="5.588" x2="-1.1176" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.1176" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0.5334" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.04" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.04" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.302" x2="5.08" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.302" x2="4.445" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="1.905" x2="5.715" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="1.905" x2="5.08" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="3.302" x2="5.08" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.302" x2="5.715" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="5.715" y1="3.302" x2="5.969" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="3.302" x2="4.191" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="2.54" x2="1.778" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.032" x2="1.778" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="3.048" x2="0.508" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="2.794" x2="0.762" y2="2.54" width="0.3048" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="1.651" y2="2.286" width="0.3048" layer="94"/>
+<wire x1="1.651" y1="2.286" x2="1.651" y2="2.54" width="0.3048" layer="94"/>
+<wire x1="1.651" y1="2.54" x2="1.397" y2="2.54" width="0.3048" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="5.08" radius="0.127" width="0.4064" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="5.08" size="0.8128" layer="93">D</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="93">S</text>
+<text x="-2.54" y="1.27" size="0.8128" layer="93">G</text>
+<rectangle x1="-0.381" y1="-0.6604" x2="0.381" y2="0.6858" layer="94"/>
+<rectangle x1="-0.381" y1="4.445" x2="0.381" y2="5.715" layer="94"/>
+<rectangle x1="-0.381" y1="1.651" x2="0.381" y2="3.429" layer="94"/>
+<pin name="G" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="D" x="2.54" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="3.77" y="-1.27" size="0.8128" layer="93">S</text>
+<text x="6.77" y="-1.27" size="0.8128" layer="93">S</text>
+<text x="9.27" y="-1.27" size="0.8128" layer="93">S</text>
+<text x="11.77" y="-1.27" size="0.8128" layer="93">S</text>
+<text x="14.27" y="-1.27" size="0.8128" layer="93">S</text>
+<text x="16.77" y="-1.27" size="0.8128" layer="93">S</text>
+<pin name="D1" x="5.08" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="D2" x="7.62" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<circle x="5.08" y="5.08" radius="0.127" width="0.4064" layer="94"/>
+<circle x="7.62" y="5.08" radius="0.127" width="0.4064" layer="94"/>
+<wire x1="5.04" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="6.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="6.54" y1="5.08" x2="7.58" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="6.54" y1="5.08" x2="7.58" y2="5.08" width="0.1524" layer="94"/>
+<pin name="S1" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S2" x="7.62" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S3" x="10.16" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S4" x="12.7" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S5" x="15.24" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S6" x="17.78" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<circle x="5.08" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="7.62" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="10.16" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="12.7" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="15.24" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="17.78" y="0" radius="0.127" width="0.4064" layer="94"/>
+<wire x1="7.58" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.58" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.58" y1="5.08" x2="6.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="6.54" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.04" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="5.04" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0.5334" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0.5334" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="4.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="4.508" y1="0" x2="6.008" y2="0" width="0.1524" layer="94"/>
+<wire x1="6.008" y1="0" x2="6.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="6.008" y1="0" x2="8.008" y2="0" width="0.1524" layer="94"/>
+<wire x1="8.008" y1="0" x2="10.008" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.008" y1="0" x2="12.008" y2="0" width="0.1524" layer="94"/>
+<wire x1="12.008" y1="0" x2="14.008" y2="0" width="0.1524" layer="94"/>
+<wire x1="14.008" y1="0" x2="15.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="15.508" y1="0" x2="16.008" y2="0" width="0.1524" layer="94"/>
+<wire x1="15.508" y1="0" x2="16.008" y2="0" width="0.1524" layer="94"/>
+<wire x1="16.008" y1="0" x2="17.78" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6304,10 +6425,10 @@ Supporting Material
 </deviceset>
 <deviceset name="GF_BMS_CELL_PAD" prefix="TP">
 <gates>
-<gate name="G$1" symbol="GF_BMS_PAD_S" x="2.54" y="0"/>
+<gate name="G$1" symbol="PAD_S" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="P_PAD" package="GF-BMS-PAD">
+<device name="P_PAD" package="CELL_PAD">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
 </connects>
@@ -6356,6 +6477,31 @@ Supporting Material
 <connect gate="G$1" pin="VIN@4" pad="9"/>
 <connect gate="G$1" pin="VIN@5" pad="10"/>
 <connect gate="G$1" pin="VIN@6" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPT020N10N3" prefix="T">
+<gates>
+<gate name="G$1" symbol="IPT020N10N3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="V1" package="PG-HSOF-9">
+<connects>
+<connect gate="G$1" pin="D" pad="9"/>
+<connect gate="G$1" pin="D1" pad="10"/>
+<connect gate="G$1" pin="D2" pad="11"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+<connect gate="G$1" pin="S1" pad="3"/>
+<connect gate="G$1" pin="S2" pad="4"/>
+<connect gate="G$1" pin="S3" pad="5"/>
+<connect gate="G$1" pin="S4" pad="6"/>
+<connect gate="G$1" pin="S5" pad="7"/>
+<connect gate="G$1" pin="S6" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6730,193 +6876,193 @@ SMD power inductor</description>
 <part name="CELL14+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="R31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="R26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="C27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R31" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="R26" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="C27" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R13" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C10" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R17" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R32" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C18" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C31" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="CELL13+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R27" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R33" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C28" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL12+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C11" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R18" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R34" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C19" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
-<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C32" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C33" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C8" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C29" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R28" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R35" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C29" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL10+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C12" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R19" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R36" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C20" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C35" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C35" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL11+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
 <part name="CELL9+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C34" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R37" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R37" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C21" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL8+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C37" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
-<part name="C36" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C37" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R2" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C36" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="IC1" library="GreenFuel" deviceset="MC33771B" device="EP"/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C66" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value=".047uF"/>
+<part name="C66" library="adafruit" deviceset="C-US" device="C0805" value=".047uF"/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C67" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C67" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="SFH6156" device="" package3d_urn="urn:adsk.eagle:package:21969/1"/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R64" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R66" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R67" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R64" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R66" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R67" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="87758-1816" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="C71" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C71" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R46" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R70" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C72" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R46" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R70" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C72" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND66" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL7+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C73" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C73" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R71" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R72" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C74" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R71" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R72" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C74" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL6+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C75" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C75" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND69" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R73" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R74" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C76" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R73" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R74" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C76" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND70" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C77" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R75" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R76" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C77" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R75" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R76" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL5+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C78" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C79" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C78" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C79" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R77" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R78" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C80" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R77" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R78" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C80" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL4+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C81" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C81" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R79" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R80" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C82" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R79" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R80" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C82" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C83" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R81" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R82" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C83" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R81" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R82" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL3+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C84" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C85" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C84" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C85" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R83" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R84" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C86" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R83" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R84" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C86" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CELL2+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C87" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C87" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND77" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R85" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="R86" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="C88" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R85" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="R86" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="C88" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND78" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C89" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="R87" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100"/>
-<part name="R88" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="C89" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="R87" library="adafruit" deviceset="R-US_" device="R0805" value="100"/>
+<part name="R88" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
 <part name="CELL1+" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C90" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C90" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="CELL1-" library="GreenFuel" deviceset="GF_BMS_CELL_PAD" device="P_PAD"/>
-<part name="C91" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C91" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND79" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R89" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="180E"/>
-<part name="R90" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="2k"/>
-<part name="R91" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="3k"/>
-<part name="C92" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.47uF"/>
+<part name="R89" library="adafruit" deviceset="R-US_" device="R0805" value="180E"/>
+<part name="R90" library="adafruit" deviceset="R-US_" device="R0805" value="2k"/>
+<part name="R91" library="adafruit" deviceset="R-US_" device="R0805" value="3k"/>
+<part name="C92" library="adafruit" deviceset="C-US" device="C0805" value="0.47uF"/>
 <part name="GND80" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C93" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
-<part name="C94" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C93" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
+<part name="C94" library="adafruit" deviceset="C-US" device="C0805" value="0.047uF"/>
 <part name="GND81" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R92" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R93" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R94" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R95" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R96" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R97" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="R98" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C95" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R92" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R93" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R94" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R95" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R96" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R97" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R98" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C95" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND82" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R99" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C96" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R99" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C96" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND83" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R100" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C97" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R100" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C97" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND84" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R101" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C98" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R101" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C98" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND85" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R102" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C99" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R102" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C99" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND86" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R103" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C100" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R103" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C100" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND87" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R104" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C101" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R104" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="C101" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND88" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R105" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R105" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="J2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-08" device="27-2081" value="NTC"/>
 <part name="GND89" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C102" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C103" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C104" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C105" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C106" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C107" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
-<part name="C108" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C102" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C103" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C104" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C105" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C106" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C107" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
+<part name="C108" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
 <part name="GND90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND91" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND92" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6929,70 +7075,75 @@ SMD power inductor</description>
 <part name="D12" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="27v"/>
 <part name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="43v"/>
 <part name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="75v"/>
-<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="10"/>
-<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="0.22uF"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="10"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0805" value="0.22uF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D15" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
 <part name="D16" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
-<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C5" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R3" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="6.8uF"/>
-<part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="C0805" value="6.8uF"/>
+<part name="C9" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D17" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
 <part name="D18" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="2v"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="simpa" deviceset="WSR3R0150FEA" device=""/>
 <part name="R8" library="simpa" deviceset="WSR3R0150FEA" device=""/>
-<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PACKV-" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
 <part name="P-2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
 <part name="P-3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC3" library="GreenFuel" deviceset="MIC28515" device="V1"/>
-<part name="C14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C14" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C15" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="200k"/>
-<part name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="100k"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R0805" value="200k"/>
+<part name="R15" library="adafruit" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C16" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L1" library="inductor-neosid" library_urn="urn:adsk.eagle:library:241" deviceset="MS85" device="" package3d_urn="urn:adsk.eagle:package:14698/1"/>
-<part name="R21" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="R22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
-<part name="C23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R21" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C17" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R22" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="R23" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C22" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C23" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
-<part name="C24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="R24" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="C24" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="VCC" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+15v"/>
-<part name="C25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C25" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="47nF"/>
+<part name="C26" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="127E"/>
+<part name="R25" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
+<part name="T1" library="GreenFuel" deviceset="IPT020N10N3" device="V1"/>
+<part name="T2" library="GreenFuel" deviceset="IPT020N10N3" device="V1"/>
+<part name="T3" library="GreenFuel" deviceset="IPT020N10N3" device="V1"/>
+<part name="T4" library="GreenFuel" deviceset="IPT020N10N3" device="V1"/>
+<part name="R29" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R30" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SOD80C" package3d_urn="urn:adsk.eagle:package:43405/2" value="8.2v"/>
 </parts>
 <sheets>
 <sheet>
@@ -7932,13 +8083,6 @@ SMD power inductor</description>
 <wire x1="365.76" y1="109.22" x2="299.72" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CS" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="CSB"/>
-<wire x1="243.84" y1="83.82" x2="241.3" y2="83.82" width="0.1524" layer="91"/>
-<label x="243.84" y="83.82" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="R66" gate="G$1" pin="1"/>
@@ -8306,9 +8450,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="R8" gate="G$1" x="289.56" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="288.036" y="218.44" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="GND16" gate="1" x="256.54" y="226.06"/>
 <instance part="GND17" gate="1" x="271.78" y="226.06"/>
-<instance part="GND22" gate="1" x="264.16" y="226.06"/>
 <instance part="PACKV-" gate="1" x="256.54" y="200.66"/>
 <instance part="P-2" gate="1" x="264.16" y="200.66"/>
 <instance part="P-3" gate="1" x="271.78" y="200.66"/>
@@ -8631,6 +8773,26 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="340.36" y1="99.06" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
 <junction x="340.36" y="114.3"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="226.06" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="271.78" y1="228.6" x2="271.796" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="271.796" y1="231.14" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="236.22" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="226.06" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="231.14" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="238.76" x2="302.26" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="238.76" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="236.22" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="231.14" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
+<junction x="281.94" y="231.14"/>
+<junction x="289.56" y="231.14"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -9423,70 +9585,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="314.96" y="238.76"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="264.16" y1="228.6" x2="264.16" y2="228.498" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="228.498" x2="264.16" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="226.06" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="281.94" y1="231.14" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="233.68" x2="281.94" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="236.22" x2="281.94" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="228.6" x2="256.54" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="236.22" x2="274.32" y2="236.22" width="0.1524" layer="91"/>
-<junction x="281.94" y="236.22"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="274.32" y1="236.22" x2="276.86" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="236.22" x2="279.4" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="236.22" x2="281.94" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="228.6" x2="271.796" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="271.796" y1="231.14" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
-<junction x="289.56" y="231.14"/>
-<wire x1="276.86" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="231.14" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="236.22" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
-<junction x="276.86" y="236.22"/>
-<junction x="276.86" y="231.14"/>
-<wire x1="276.86" y1="233.68" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="236.22" x2="279.4" y2="233.68" width="0.1524" layer="91"/>
-<junction x="279.4" y="236.22"/>
-<junction x="279.4" y="231.14"/>
-<wire x1="279.4" y1="233.68" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="236.22" x2="289.56" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="236.22" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="233.68" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
-<junction x="281.94" y="233.68"/>
-<junction x="289.56" y="233.68"/>
-<junction x="289.56" y="236.22"/>
-<wire x1="274.32" y1="236.22" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
-<junction x="274.32" y="236.22"/>
-<junction x="274.32" y="231.14"/>
-<wire x1="274.32" y1="233.68" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="233.68" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
-<junction x="274.32" y="233.68"/>
-<wire x1="274.32" y1="233.68" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
-<junction x="276.86" y="233.68"/>
-<wire x1="276.86" y1="233.68" x2="279.4" y2="233.68" width="0.1524" layer="91"/>
-<junction x="279.4" y="233.68"/>
-<wire x1="279.4" y1="233.68" x2="281.94" y2="233.68" width="0.1524" layer="91"/>
-<junction x="281.94" y="231.14"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="289.56" y1="226.06" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="231.14" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="238.76" x2="302.26" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="238.76" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="236.22" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="238.76" x2="281.94" y2="238.76" width="0.1524" layer="91"/>
-<junction x="289.56" y="238.76"/>
-<wire x1="281.94" y1="238.76" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
-<junction x="281.94" y="238.76"/>
-<label x="279.4" y="238.76" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
@@ -9587,11 +9685,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <label x="269.24" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="SW@5"/>
-<wire x1="330.2" y1="121.92" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
-<label x="340.36" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="SW"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="152.4" x2="274.32" y2="152.4" width="0.1524" layer="91"/>
@@ -9614,6 +9707,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="274.32" y1="147.32" x2="274.32" y2="121.92" width="0.1524" layer="91"/>
 <junction x="274.32" y="147.32"/>
 <label x="274.32" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SW@5"/>
+<wire x1="330.2" y1="121.92" x2="342.9" y2="121.92" width="0.1524" layer="91"/>
+<label x="342.9" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -9729,13 +9827,313 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
+<instance part="T1" gate="G$1" x="200.66" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="198.12" y="175.26" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="198.12" y="185.42" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="T2" gate="G$1" x="152.4" y="177.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="154.94" y="175.26" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="154.94" y="185.42" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="T3" gate="G$1" x="200.66" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="198.12" y="124.46" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="198.12" y="134.62" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="T4" gate="G$1" x="152.4" y="127" smashed="yes" rot="MR90">
+<attribute name="NAME" x="154.94" y="124.46" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="154.94" y="134.62" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="R29" gate="G$1" x="142.24" y="121.92"/>
+<instance part="R30" gate="G$1" x="213.36" y="121.92" rot="R180"/>
+<instance part="D1" gate="G$1" x="213.36" y="114.3" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="N$29" class="0">
+<segment>
+<pinref part="T2" gate="G$1" pin="D"/>
+<wire x1="160.02" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="180.34" x2="162.56" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="D1"/>
+<wire x1="162.56" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="D2"/>
+<wire x1="160.02" y1="185.42" x2="162.56" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="185.42" x2="162.56" y2="182.88" width="0.1524" layer="91"/>
+<junction x="162.56" y="182.88"/>
+<pinref part="T1" gate="G$1" pin="D2"/>
+<wire x1="193.04" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="185.42" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="D1"/>
+<wire x1="190.5" y1="182.88" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="D"/>
+<wire x1="193.04" y1="180.34" x2="190.5" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="180.34" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
+<junction x="190.5" y="182.88"/>
+<wire x1="162.56" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="182.88" x2="177.8" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="182.88" x2="190.5" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="185.42" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
+<junction x="162.56" y="185.42"/>
+<junction x="190.5" y="185.42"/>
+<wire x1="175.26" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="180.34" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<junction x="162.56" y="180.34"/>
+<junction x="190.5" y="180.34"/>
+<wire x1="175.26" y1="180.34" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="180.34" x2="190.5" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="185.42" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
+<junction x="175.26" y="185.42"/>
+<junction x="175.26" y="182.88"/>
+<wire x1="175.26" y1="182.88" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<junction x="175.26" y="180.34"/>
+<pinref part="T4" gate="G$1" pin="D2"/>
+<wire x1="160.02" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="134.62" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="T4" gate="G$1" pin="D1"/>
+<wire x1="162.56" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="T4" gate="G$1" pin="D"/>
+<wire x1="160.02" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="129.54" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
+<junction x="162.56" y="132.08"/>
+<pinref part="T3" gate="G$1" pin="D2"/>
+<wire x1="193.04" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="134.62" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="T3" gate="G$1" pin="D1"/>
+<wire x1="190.5" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="T3" gate="G$1" pin="D"/>
+<wire x1="193.04" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="129.54" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+<junction x="190.5" y="132.08"/>
+<wire x1="162.56" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="132.08" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
+<junction x="190.5" y="134.62"/>
+<junction x="162.56" y="134.62"/>
+<wire x1="177.8" y1="134.62" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="129.54" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
+<junction x="162.56" y="129.54"/>
+<junction x="190.5" y="129.54"/>
+<wire x1="175.26" y1="129.54" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="180.34" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
+<junction x="175.26" y="134.62"/>
+<wire x1="175.26" y1="134.62" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
+<junction x="175.26" y="132.08"/>
+<wire x1="175.26" y1="132.08" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
+<junction x="175.26" y="129.54"/>
+<wire x1="177.8" y1="185.42" x2="177.8" y2="182.88" width="0.1524" layer="91"/>
+<junction x="177.8" y="185.42"/>
+<junction x="177.8" y="182.88"/>
+<wire x1="177.8" y1="182.88" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
+<junction x="177.8" y="180.34"/>
+<wire x1="177.8" y1="180.34" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
+<junction x="177.8" y="134.62"/>
+<wire x1="177.8" y1="134.62" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<junction x="177.8" y="132.08"/>
+<wire x1="177.8" y1="132.08" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
+<junction x="177.8" y="129.54"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="T4" gate="G$1" pin="S6"/>
+<wire x1="149.86" y1="144.78" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="144.78" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="T4" gate="G$1" pin="S5"/>
+<wire x1="147.32" y1="142.24" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="T4" gate="G$1" pin="S4"/>
+<wire x1="149.86" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="139.7" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
+<junction x="147.32" y="142.24"/>
+<pinref part="T4" gate="G$1" pin="S3"/>
+<wire x1="149.86" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="137.16" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
+<junction x="147.32" y="139.7"/>
+<pinref part="T4" gate="G$1" pin="S2"/>
+<wire x1="149.86" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="134.62" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<junction x="147.32" y="137.16"/>
+<pinref part="T4" gate="G$1" pin="S1"/>
+<wire x1="149.86" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="132.08" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<junction x="147.32" y="134.62"/>
+<pinref part="T4" gate="G$1" pin="S"/>
+<wire x1="149.86" y1="129.54" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="129.54" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
+<junction x="147.32" y="132.08"/>
+<wire x1="147.32" y1="142.24" x2="144.78" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="142.24" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="S6"/>
+<wire x1="149.86" y1="195.58" x2="147.32" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="195.58" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="S5"/>
+<wire x1="147.32" y1="193.04" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="S4"/>
+<wire x1="149.86" y1="190.5" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="190.5" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
+<junction x="147.32" y="193.04"/>
+<pinref part="T2" gate="G$1" pin="S3"/>
+<wire x1="149.86" y1="187.96" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="187.96" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
+<junction x="147.32" y="190.5"/>
+<pinref part="T2" gate="G$1" pin="S2"/>
+<wire x1="149.86" y1="185.42" x2="147.32" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="185.42" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
+<junction x="147.32" y="187.96"/>
+<pinref part="T2" gate="G$1" pin="S1"/>
+<wire x1="149.86" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="182.88" x2="147.32" y2="185.42" width="0.1524" layer="91"/>
+<junction x="147.32" y="185.42"/>
+<pinref part="T2" gate="G$1" pin="S"/>
+<wire x1="149.86" y1="180.34" x2="147.32" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="180.34" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
+<junction x="147.32" y="182.88"/>
+<wire x1="144.78" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="139.7" x2="142.24" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="185.42" x2="147.32" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="187.96" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="187.96" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="134.62" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="190.5" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="193.04" x2="134.62" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="193.04" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="121.92" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<junction x="134.62" y="132.08"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="T3" gate="G$1" pin="S"/>
+<wire x1="203.2" y1="129.54" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="129.54" x2="205.74" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="T3" gate="G$1" pin="S1"/>
+<wire x1="205.74" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="T3" gate="G$1" pin="S2"/>
+<wire x1="203.2" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="134.62" x2="205.74" y2="132.08" width="0.1524" layer="91"/>
+<junction x="205.74" y="132.08"/>
+<pinref part="T3" gate="G$1" pin="S3"/>
+<wire x1="203.2" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="137.16" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
+<junction x="205.74" y="134.62"/>
+<pinref part="T3" gate="G$1" pin="S4"/>
+<wire x1="203.2" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="139.7" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
+<junction x="205.74" y="137.16"/>
+<pinref part="T3" gate="G$1" pin="S5"/>
+<wire x1="203.2" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="142.24" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
+<junction x="205.74" y="139.7"/>
+<pinref part="T3" gate="G$1" pin="S6"/>
+<wire x1="203.2" y1="144.78" x2="205.74" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="144.78" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
+<junction x="205.74" y="142.24"/>
+<wire x1="205.74" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="142.24" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="S6"/>
+<wire x1="203.2" y1="195.58" x2="205.74" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="195.58" x2="205.74" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="S5"/>
+<wire x1="205.74" y1="193.04" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="S4"/>
+<wire x1="203.2" y1="190.5" x2="205.74" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="190.5" x2="205.74" y2="193.04" width="0.1524" layer="91"/>
+<junction x="205.74" y="193.04"/>
+<pinref part="T1" gate="G$1" pin="S3"/>
+<wire x1="203.2" y1="187.96" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="187.96" x2="205.74" y2="190.5" width="0.1524" layer="91"/>
+<junction x="205.74" y="190.5"/>
+<pinref part="T1" gate="G$1" pin="S2"/>
+<wire x1="203.2" y1="185.42" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="185.42" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
+<junction x="205.74" y="187.96"/>
+<pinref part="T1" gate="G$1" pin="S1"/>
+<wire x1="203.2" y1="182.88" x2="205.74" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="182.88" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
+<junction x="205.74" y="185.42"/>
+<pinref part="T1" gate="G$1" pin="S"/>
+<wire x1="203.2" y1="180.34" x2="205.74" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="180.34" x2="205.74" y2="182.88" width="0.1524" layer="91"/>
+<junction x="205.74" y="182.88"/>
+<wire x1="210.82" y1="182.88" x2="205.74" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="185.42" x2="213.36" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="185.42" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="137.16" x2="215.9" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="187.96" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="190.5" x2="218.44" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="190.5" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="132.08" x2="220.98" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="193.04" x2="205.74" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="121.92" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
+<junction x="220.98" y="132.08"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="215.9" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="114.3" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<junction x="220.98" y="121.92"/>
+</segment>
+</net>
+<net name="DSG_MOSFET" class="0">
+<segment>
+<pinref part="T4" gate="G$1" pin="G"/>
+<wire x1="152.4" y1="124.46" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
+<label x="152.4" y="119.38" size="1.778" layer="95"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="121.92" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
+<junction x="152.4" y="121.92"/>
+</segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="G"/>
+<wire x1="152.4" y1="175.26" x2="152.4" y2="170.18" width="0.1524" layer="91"/>
+<label x="152.4" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CHG_MOSFET" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="G"/>
+<wire x1="200.66" y1="175.26" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
+<label x="182.88" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="T3" gate="G$1" pin="G"/>
+<wire x1="200.66" y1="124.46" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<label x="182.88" y="119.38" size="1.778" layer="95"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="121.92" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<junction x="200.66" y="121.92"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="205.74" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="114.3" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<junction x="205.74" y="121.92"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,241.3,83.82,IC1,CSB,,,,"/>
+<approved hash="202,2,330.2,132.08,IC3,EN,,,,"/>
+<approved hash="202,2,330.2,137.16,IC3,MODE,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
