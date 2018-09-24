@@ -9632,10 +9632,10 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="243.84" y1="243.84" x2="370.84" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="246.38" x2="370.84" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="246.38" x2="370.84" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="177.8" x2="243.84" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="177.8" x2="243.84" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="177.8" x2="243.84" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
