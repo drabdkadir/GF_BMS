@@ -6274,6 +6274,31 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <vertex x="5.05" y="6.65"/>
 </polygon>
 </package>
+<package name="SMD4">
+<smd name="1" x="-4.15" y="2.07" dx="2.7" dy="2.06" layer="1"/>
+<smd name="6" x="4.15" y="2.07" dx="2.7" dy="2.06" layer="1"/>
+<smd name="3" x="-4.15" y="-2.07" dx="2.7" dy="2.06" layer="1"/>
+<smd name="4" x="4.15" y="-2.07" dx="2.7" dy="2.06" layer="1"/>
+<smd name="2" x="-4.15" y="0" dx="2.7" dy="1.035" layer="1"/>
+<smd name="5" x="4.15" y="0" dx="2.7" dy="1.035" layer="1"/>
+<wire x1="-6.5" y1="3.5" x2="-6.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="3" x2="-6.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="3.5" x2="-6" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-3" x2="-6.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-3.5" x2="-6" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-3" x2="6.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-3.5" x2="6" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="6" y1="3.5" x2="6.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="3.5" x2="6.5" y2="3" width="0.127" layer="21"/>
+<rectangle x1="-5.505" y1="1.04" x2="-3.5" y2="3.1" layer="51"/>
+<rectangle x1="-5.5" y1="-0.52" x2="-3.5" y2="0.52" layer="51"/>
+<rectangle x1="-5.505" y1="-3.1" x2="-3.5" y2="-1.04" layer="51"/>
+<rectangle x1="3.5" y1="1.035" x2="5.5" y2="3.1" layer="51"/>
+<rectangle x1="3.5" y1="-0.515" x2="5.5" y2="0.52" layer="51"/>
+<rectangle x1="3.5" y1="-3.1" x2="5.5" y2="-1.035" layer="51"/>
+<text x="-6" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MC33771B">
@@ -6473,6 +6498,22 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <wire x1="0.254" y1="5.08" x2="2.921" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0.254" x2="2.54" y2="2.286" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="LRMAP3920">
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.508" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="-0.508" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="P$3" x="0" y="3.302" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="P$4" x="0" y="-3.302" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MC33771B" prefix="IC">
@@ -6663,6 +6704,24 @@ Supporting Material
 </device>
 </devices>
 </deviceset>
+<deviceset name="LRMAP3920" prefix="R">
+<gates>
+<gate name="G$1" symbol="LRMAP3920" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD4">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1 3"/>
+<connect gate="G$1" pin="P$2" pad="4 6"/>
+<connect gate="G$1" pin="P$3" pad="2"/>
+<connect gate="G$1" pin="P$4" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="optocoupler" urn="urn:adsk.eagle:library:320">
@@ -6763,67 +6822,6 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <attribute name="OC_FARNELL" value="1612479" constant="no"/>
 <attribute name="OC_NEWARK" value="21H7733" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="simpa">
-<description>&lt;b&gt;Simpa Energy India Pvt Ltd&lt;/b&gt;&lt;br&gt;
-&lt;br&gt;All measurements are in Mills. &lt;br&gt;
-PCB Font: Vector 12% 40mil&lt;br&gt;
-Schematics Font: Vector 15% 70mil&lt;br&gt;
-Silkscreen Witdth: 10mil&lt;br&gt;
-Packages need to have Tdocu layer details for Assembly documentation.</description>
-<packages>
-<package name="WSR3-SMD">
-<wire x1="-7.4" y1="-3.79" x2="-7.34" y2="3.99" width="0" layer="39"/>
-<wire x1="-7.34" y1="3.99" x2="7.44" y2="3.83" width="0" layer="39"/>
-<wire x1="7.44" y1="3.83" x2="7.36" y2="-3.93" width="0" layer="39"/>
-<wire x1="7.36" y1="-3.93" x2="-7.4" y2="-3.79" width="0" layer="39"/>
-<smd name="1" x="-4.575" y="0" dx="3.94" dy="5.84" layer="1" roundness="40" rot="R180"/>
-<smd name="2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1" roundness="40"/>
-<text x="-0.5" y="0.7475" size="0.381" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="0.1778" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-7.4" y1="3.925" x2="7.44" y2="3.935" width="0.254" layer="21"/>
-<wire x1="7.44" y1="3.935" x2="7.42" y2="-3.875" width="0.254" layer="21"/>
-<wire x1="7.42" y1="-3.875" x2="-7.37" y2="-3.875" width="0.254" layer="21"/>
-<wire x1="-7.37" y1="-3.875" x2="-7.4" y2="3.925" width="0.254" layer="21"/>
-<wire x1="-5.78" y1="3.49" x2="5.78" y2="3.49" width="0.127" layer="51"/>
-<wire x1="5.78" y1="3.49" x2="5.78" y2="-3.49" width="0.127" layer="51"/>
-<wire x1="5.78" y1="-3.49" x2="-5.78" y2="-3.49" width="0.127" layer="51"/>
-<wire x1="-5.78" y1="-3.49" x2="-5.78" y2="3.49" width="0.127" layer="51"/>
-<rectangle x1="-6.33" y1="-1.95" x2="-3.33" y2="1.93" layer="51"/>
-<rectangle x1="3.4" y1="-1.94" x2="6.4" y2="1.94" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="WSR3R0150FEA">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="-2.54" y="1.524" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WSR3R0150FEA" prefix="R">
-<description>&lt;H3&gt;VISHAY DALE &lt;/H3&gt;&lt;H4&gt;WSR3R0150FEA  SMD Current Sense Resistor&lt;/H4&gt;&lt;H5&gt;AEC-Q200 WSR Series, 0.015 ohm, 3 W, ± 1%, 4527 [11470 Metric]</description>
-<gates>
-<gate name="G$1" symbol="WSR3R0150FEA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WSR3-SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7353,8 +7351,6 @@ www.irf.com / irlml5203.pdf</description>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="127E"/>
 <part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="47nF"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R7" library="simpa" deviceset="WSR3R0150FEA" device=""/>
-<part name="R8" library="simpa" deviceset="WSR3R0150FEA" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PACKV-" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
 <part name="P-2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V-" device=""/>
@@ -7405,6 +7401,8 @@ www.irf.com / irlml5203.pdf</description>
 <part name="T2" library="GreenFuel" deviceset="IPT020N10N3" device="V1"/>
 <part name="T3" library="GreenFuel" deviceset="IPT020N10N3" device="V1"/>
 <part name="T4" library="GreenFuel" deviceset="IPT020N10N3" device="V1"/>
+<part name="R7" library="GreenFuel" deviceset="LRMAP3920" device=""/>
+<part name="R39" library="GreenFuel" deviceset="LRMAP3920" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8705,12 +8703,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="R5" gate="G$1" x="322.58" y="238.76"/>
 <instance part="C13" gate="G$1" x="330.2" y="231.14"/>
 <instance part="GND15" gate="1" x="330.216" y="220.878"/>
-<instance part="R7" gate="G$1" x="281.94" y="220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="280.416" y="218.44" size="1.778" layer="95" rot="R90"/>
-</instance>
-<instance part="R8" gate="G$1" x="289.56" y="220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="288.036" y="218.44" size="1.778" layer="95" rot="R90"/>
-</instance>
 <instance part="GND17" gate="1" x="271.78" y="226.06"/>
 <instance part="PACKV-" gate="1" x="256.54" y="200.66"/>
 <instance part="P-2" gate="1" x="264.16" y="200.66"/>
@@ -8751,6 +8743,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="R25" gate="G$1" x="266.7" y="139.7" rot="R180"/>
 <instance part="SUPPLY6" gate="GND" x="335.28" y="132.08"/>
 <instance part="GND32" gate="1" x="340.36" y="96.52"/>
+<instance part="R7" gate="G$1" x="281.94" y="223.52" rot="R90"/>
+<instance part="R39" gate="G$1" x="289.56" y="220.98" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9047,15 +9041,13 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="340.36" y="144.78"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="226.06" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="228.6" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="271.78" y1="228.6" x2="271.796" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="271.796" y1="231.14" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="231.14" x2="279.4" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="236.22" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="226.06" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="231.14" x2="289.56" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
@@ -9065,6 +9057,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="281.94" y1="231.14" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
 <junction x="281.94" y="231.14"/>
 <junction x="289.56" y="231.14"/>
+<pinref part="R7" gate="G$1" pin="P$2"/>
+<pinref part="R39" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -9771,12 +9765,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="PACKV-" gate="1" pin="V-"/>
 <wire x1="256.54" y1="203.2" x2="256.54" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="213.36" x2="274.32" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="213.36" x2="276.86" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="213.36" x2="279.4" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="213.36" x2="281.94" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="213.36" x2="289.56" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="215.9" x2="281.94" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="218.44" x2="281.94" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="213.36" x2="281.94" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="210.82" x2="281.94" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="208.28" x2="281.94" y2="205.74" width="0.1524" layer="91"/>
@@ -9813,7 +9806,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="276.86" y="210.82"/>
 <junction x="279.4" y="210.82"/>
 <wire x1="279.4" y1="210.82" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="215.9" x2="289.56" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="210.82" x2="289.56" y2="213.36" width="0.1524" layer="91"/>
 <junction x="289.56" y="213.36"/>
@@ -9834,6 +9826,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="289.56" y1="208.28" x2="289.56" y2="205.74" width="0.1524" layer="91"/>
 <junction x="289.56" y="208.28"/>
 <junction x="289.56" y="205.74"/>
+<pinref part="R7" gate="G$1" pin="P$1"/>
+<pinref part="R39" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -10081,6 +10075,27 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="314.96" y1="93.98" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
 <junction x="314.96" y="93.98"/>
 <junction x="325.12" y="93.98"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="P$3"/>
+<wire x1="278.638" y1="223.52" x2="278.638" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="278.638" y1="228.6" x2="284.48" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="P$4"/>
+<wire x1="284.48" y1="228.6" x2="285.242" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="285.242" y1="228.6" x2="285.242" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R39" gate="G$1" pin="P$3"/>
+<wire x1="286.258" y1="220.98" x2="287.02" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="220.98" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="215.9" x2="292.1" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="P$4"/>
+<wire x1="292.1" y1="215.9" x2="292.862" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="292.862" y1="215.9" x2="292.862" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
