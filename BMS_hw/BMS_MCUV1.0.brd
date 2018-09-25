@@ -490,6 +490,32 @@ http://www.weartronics.com/</description>
 <smd name="15" x="4.655" y="3.175" dx="2.05" dy="0.6" layer="1" roundness="15"/>
 <smd name="16" x="4.655" y="4.445" dx="2.05" dy="0.6" layer="1" roundness="15"/>
 </package>
+<package name="SOT-223" urn="urn:adsk.eagle:footprint:15291/1" locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor; 4 leads&lt;/b&gt; Wave soldering&lt;p&gt;
+Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
+<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
+<text x="-3.81" y="5.1308" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.81" y="-5.0292" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<wire x1="-3.302" y1="0.889" x2="-3.302" y2="1.778" width="0.5" layer="21"/>
+<wire x1="-3.302" y1="1.778" x2="-2.413" y2="1.778" width="0.5" layer="21"/>
+<wire x1="-3.302" y1="-1.27" x2="-3.302" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="-3.302" y1="-1.778" x2="-2.794" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="3.302" y1="-1.27" x2="3.302" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="3.302" y1="-1.778" x2="2.794" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="2.54" y1="1.778" x2="3.302" y2="1.778" width="0.5" layer="21"/>
+<wire x1="3.302" y1="1.778" x2="3.302" y2="1.27" width="0.5" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">
@@ -969,6 +995,9 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="7472374" x="-22.86" y="41.91" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="25M5677" x="-22.86" y="41.91" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U1" library="GreenFuel" package="SOT-223" value="NCP1117LP-PG" x="-70.485" y="6.985"/>
+<element name="C3" library="ipc-7351-capacitor" package="CAPC1608X92N" value=".01uF" x="-77.47" y="-3.175"/>
+<element name="C4" library="ipc-7351-capacitor" package="CAPC1608X92N" value=".01uF" x="-77.47" y="-8.89"/>
 </elements>
 <signals>
 <signal name="VUSB3V3">
@@ -1014,8 +1043,16 @@ design rules under a new name.</description>
 <vertex x="59.944" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<wire x1="-47.835" y1="4.445" x2="-47.835" y2="3.175" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.835" y1="10.795" x2="-47.835" y2="4.445" width="0" layer="19" extent="1-1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="C4" pad="1"/>
+<contactref element="U1" pad="1"/>
+<contactref element="U1" pad="4"/>
+<wire x1="-78.27" y1="-3.175" x2="-78.27" y2="-8.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.785" y1="3.835" x2="-78.27" y2="-3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.485" y1="10.135" x2="-72.785" y2="3.835" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.835" y1="10.795" x2="-70.485" y2="10.135" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.835" y1="4.445" x2="-47.835" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.835" y1="3.175" x2="-47.835" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.525" y1="4.445" x2="-47.835" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.525" y1="3.175" x2="-38.525" y2="4.445" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.525" y1="10.795" x2="-38.525" y2="4.445" width="0" layer="19" extent="1-1"/>
@@ -1075,6 +1112,10 @@ design rules under a new name.</description>
 <vertex x="59.944" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
+<contactref element="U1" pad="2"/>
+<contactref element="C3" pad="2"/>
+<wire x1="-70.485" y1="3.835" x2="-76.67" y2="-3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.3" y1="58.42" x2="-70.485" y2="3.835" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ICSP_!MCLR!_VPP_TARGET">
 <contactref element="R15" pad="2"/>
@@ -1355,6 +1396,11 @@ design rules under a new name.</description>
 <wire x1="-62.7" y1="58.42" x2="-62.7" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.89" y1="58.42" x2="-62.7" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$5">
+<contactref element="U1" pad="3"/>
+<contactref element="C4" pad="2"/>
+<wire x1="-68.185" y1="3.835" x2="-76.67" y2="-8.89" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -1370,6 +1416,11 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
