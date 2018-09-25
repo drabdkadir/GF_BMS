@@ -6058,14 +6058,14 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <smd name="27" x="0.975" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
 <smd name="26" x="1.625" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
 <smd name="25" x="2.275" y="3.05" dx="0.35" dy="0.75" layer="1" roundness="100"/>
-<smd name="1" x="-3" y="2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="2" x="-3" y="1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="3" x="-3" y="0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="4" x="-3" y="0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="5" x="-3" y="-0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="6" x="-3" y="-0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="7" x="-3" y="-1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
-<smd name="8" x="-3" y="-2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-3.05" y="2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-3.05" y="1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-3.05" y="0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-3.05" y="0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-3.05" y="-0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-3.05" y="-0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-3.05" y="-1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-3.05" y="-2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R90"/>
 <smd name="9" x="-2.275" y="-3.05" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
 <smd name="10" x="-1.625" y="-3.05" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
 <smd name="11" x="-0.975" y="-3.05" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
@@ -6074,28 +6074,28 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <smd name="14" x="0.975" y="-3.05" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
 <smd name="15" x="1.625" y="-3.05" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
 <smd name="16" x="2.275" y="-3.05" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R180"/>
-<smd name="17" x="3" y="-2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
-<smd name="18" x="3" y="-1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
-<smd name="19" x="3" y="-0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
-<smd name="20" x="3" y="-0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
-<smd name="21" x="3" y="0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
-<smd name="22" x="3" y="0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
-<smd name="23" x="3" y="1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
-<smd name="24" x="3" y="2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="17" x="3.05" y="-2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="18" x="3.05" y="-1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="19" x="3.05" y="-0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="20" x="3.05" y="-0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="21" x="3.05" y="0.325" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="22" x="3.05" y="0.975" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="23" x="3.05" y="1.625" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="24" x="3.05" y="2.275" dx="0.35" dy="0.75" layer="1" roundness="100" rot="R270"/>
 <circle x="-5.005" y="2.49" radius="0" width="0.508" layer="51"/>
 <wire x1="-4" y1="4" x2="-4" y2="-4" width="0.127" layer="51"/>
 <wire x1="-4" y1="-4" x2="4" y2="-4" width="0.127" layer="51"/>
 <wire x1="4" y1="-4" x2="4" y2="4" width="0.127" layer="51"/>
 <wire x1="4" y1="4" x2="-4" y2="4" width="0.127" layer="51"/>
-<circle x="-5.01" y="2.49" radius="0" width="0.55" layer="21"/>
-<wire x1="-3.5" y1="4" x2="-4" y2="4" width="0.127" layer="21"/>
-<wire x1="-4" y1="4" x2="-4" y2="3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="4" x2="4" y2="4" width="0.127" layer="21"/>
-<wire x1="4" y1="4" x2="4" y2="3.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-3.5" x2="-4" y2="-4" width="0.127" layer="21"/>
-<wire x1="-4" y1="-4" x2="-3.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="4" y1="-3.5" x2="4" y2="-4" width="0.127" layer="21"/>
-<wire x1="4" y1="-4" x2="3.5" y2="-4" width="0.127" layer="21"/>
+<circle x="-4.01" y="2.49" radius="0" width="0.55" layer="21"/>
+<wire x1="-3" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3" y2="-3.5" width="0.127" layer="21"/>
 <rectangle x1="-3.235" y1="2.1" x2="-2.625" y2="2.445" layer="51"/>
 <rectangle x1="-3.24" y1="1.455" x2="-2.63" y2="1.8" layer="51"/>
 <rectangle x1="-3.235" y1="0.805" x2="-2.625" y2="1.15" layer="51"/>
@@ -6130,6 +6130,84 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <rectangle x1="-2.5825" y1="2.8075" x2="-1.9725" y2="3.1525" layer="51" rot="R270"/>
 <text x="-4" y="4.5" size="0.254" layer="25">&gt;NAME</text>
 <text x="-4" y="-4.5" size="0.254" layer="27">&gt;VALUE</text>
+<polygon width="0.0005" layer="1">
+<vertex x="-3.25" y="-0.15"/>
+<vertex x="-0.7" y="-0.15"/>
+<vertex x="-0.7" y="-2.85"/>
+<vertex x="-0.8" y="-2.85"/>
+<vertex x="-0.8" y="-3.258" curve="-180"/>
+<vertex x="-1.15" y="-3.258"/>
+<vertex x="-1.15" y="-2.85"/>
+<vertex x="-1.45" y="-2.85"/>
+<vertex x="-1.45" y="-3.258" curve="-180"/>
+<vertex x="-1.8" y="-3.258"/>
+<vertex x="-1.8" y="-2.85"/>
+<vertex x="-2.1" y="-2.85"/>
+<vertex x="-2.1" y="-3.258" curve="-180"/>
+<vertex x="-2.45" y="-3.258"/>
+<vertex x="-2.45" y="-2.85"/>
+<vertex x="-2.75" y="-2.85"/>
+<vertex x="-2.85" y="-2.85"/>
+<vertex x="-2.85" y="-2.45"/>
+<vertex x="-3.258" y="-2.45" curve="-180"/>
+<vertex x="-3.258" y="-2.1"/>
+<vertex x="-2.85" y="-2.1"/>
+<vertex x="-2.85" y="-1.8"/>
+<vertex x="-3.258" y="-1.8" curve="-180"/>
+<vertex x="-3.258" y="-1.45"/>
+<vertex x="-2.85" y="-1.45"/>
+<vertex x="-2.85" y="-1.15"/>
+<vertex x="-3.258" y="-1.15" curve="-180"/>
+<vertex x="-3.258" y="-0.8"/>
+<vertex x="-2.85" y="-0.8"/>
+<vertex x="-2.85" y="-0.5"/>
+<vertex x="-3.258" y="-0.5" curve="-180"/>
+<vertex x="-3.258" y="-0.15"/>
+<vertex x="-2.95" y="-0.15"/>
+</polygon>
+<polygon width="0.0005" layer="1">
+<vertex x="-0.5" y="-3"/>
+<vertex x="-0.5" y="-0.15"/>
+<vertex x="0.1" y="-0.15"/>
+<vertex x="1.85" y="-0.15"/>
+<vertex x="1.85" y="-2.85"/>
+<vertex x="1.8" y="-2.85"/>
+<vertex x="1.8" y="-3.258" curve="-180"/>
+<vertex x="1.45" y="-3.258"/>
+<vertex x="1.45" y="-2.85"/>
+<vertex x="1.15" y="-2.85"/>
+<vertex x="1.15" y="-3.258" curve="-180"/>
+<vertex x="0.8" y="-3.258"/>
+<vertex x="0.8" y="-2.85"/>
+<vertex x="0.5" y="-2.85"/>
+<vertex x="0.5" y="-3.258" curve="-180"/>
+<vertex x="0.15" y="-3.258"/>
+<vertex x="0.15" y="-2.85"/>
+<vertex x="-0.15" y="-2.85"/>
+<vertex x="-0.15" y="-3.258" curve="-180"/>
+<vertex x="-0.5" y="-3.258"/>
+<vertex x="-0.5" y="-2.8"/>
+</polygon>
+<smd name="33" x="0" y="1.27" dx="4.85" dy="2.36" layer="1"/>
+<polygon width="0.0005" layer="1">
+<vertex x="2.1" y="-2.85"/>
+<vertex x="2.1" y="-0.8"/>
+<vertex x="3.258" y="-0.8" curve="-180"/>
+<vertex x="3.258" y="-1.15"/>
+<vertex x="2.85" y="-1.15"/>
+<vertex x="2.85" y="-1.45"/>
+<vertex x="3.258" y="-1.45" curve="-180"/>
+<vertex x="3.258" y="-1.8"/>
+<vertex x="2.85" y="-1.8"/>
+<vertex x="2.85" y="-2.1"/>
+<vertex x="3.258" y="-2.1" curve="-180"/>
+<vertex x="3.258" y="-2.45"/>
+<vertex x="2.85" y="-2.45"/>
+<vertex x="2.85" y="-2.85"/>
+<vertex x="2.45" y="-2.85"/>
+<vertex x="2.45" y="-3.258" curve="-180"/>
+<vertex x="2.1" y="-3.258"/>
+</polygon>
 </package>
 <package name="PG-HSOF-9">
 <smd name="5" x="0.6" y="-5.25" dx="0.8" dy="2.8" layer="1"/>
@@ -6315,7 +6393,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <pin name="SVIN" x="20.32" y="17.78" length="short" direction="in" rot="R180"/>
 <pin name="PG" x="20.32" y="20.32" length="short" direction="out" rot="R180"/>
 <text x="-15.24" y="25.4" size="1.27" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-22.86" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-15.24" y="-25.4" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="IPT020N10N3">
 <wire x1="-3.048" y1="-1.1176" x2="2.54" y2="-1.1176" width="0.254" layer="94"/>
@@ -6537,7 +6615,7 @@ Supporting Material
 <connect gate="G$1" pin="PGND@2" pad="17"/>
 <connect gate="G$1" pin="PGND@3" pad="18"/>
 <connect gate="G$1" pin="PGND@4" pad="19"/>
-<connect gate="G$1" pin="PGND@5" pad="22"/>
+<connect gate="G$1" pin="PGND@5" pad="22 33"/>
 <connect gate="G$1" pin="PGND@6" pad="29"/>
 <connect gate="G$1" pin="PVDD" pad="21"/>
 <connect gate="G$1" pin="SVIN" pad="31"/>
@@ -8956,6 +9034,17 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="340.36" y1="99.06" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
 <junction x="340.36" y="114.3"/>
+<pinref part="IC3" gate="G$1" pin="PGND"/>
+<wire x1="292.1" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="PGND@1"/>
+<wire x1="281.94" y1="149.86" x2="281.94" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="114.3" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="149.86" x2="266.7" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="149.86" x2="266.7" y2="165.1" width="0.1524" layer="91"/>
+<junction x="281.94" y="149.86"/>
+<wire x1="266.7" y1="165.1" x2="340.36" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="165.1" x2="340.36" y2="144.78" width="0.1524" layer="91"/>
+<junction x="340.36" y="144.78"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -9949,15 +10038,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="289.56" y1="152.4" x2="289.56" y2="154.94" width="0.1524" layer="91"/>
 <junction x="289.56" y="152.4"/>
 <label x="289.56" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="PGND"/>
-<wire x1="292.1" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="PGND@1"/>
-<wire x1="281.94" y1="149.86" x2="281.94" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="114.3" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
