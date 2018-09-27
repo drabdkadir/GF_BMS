@@ -750,6 +750,22 @@ http://www.weartronics.com/</description>
 </package>
 </packages>
 </library>
+<library name="simpa">
+<description>&lt;b&gt;Simpa Energy India Pvt Ltd&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;All measurements are in Mills. &lt;br&gt;
+PCB Font: Vector 12% 40mil&lt;br&gt;
+Schematics Font: Vector 15% 70mil&lt;br&gt;
+Silkscreen Witdth: 10mil&lt;br&gt;
+Packages need to have Tdocu layer details for Assembly documentation.</description>
+<packages>
+<package name="TP-SMD60">
+<smd name="P$1" x="0" y="0" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<circle x="0" y="0" radius="1.02390625" width="0.254" layer="21"/>
+<text x="1.27" y="-0.635" size="1.016" layer="25" ratio="12">&gt;NAME</text>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -949,8 +965,6 @@ design rules under a new name.</description>
 <element name="C12" library="adafruit" package="C0805" value="10uF" x="57.15" y="9.525" rot="R270"/>
 <element name="C13" library="ipc-7351-capacitor" package="CAPC2012X145AN" value="" x="20.701" y="26.289" rot="R90"/>
 <element name="C14" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF" x="34.798" y="6.35" rot="R270"/>
-<element name="C15" library="ipc-7351-capacitor" package="CAPC1608X92N" value="11pF" x="42.545" y="23.495" rot="R90"/>
-<element name="C16" library="ipc-7351-capacitor" package="CAPC1608X92N" value="11pF" x="38.1" y="23.495" rot="R90"/>
 <element name="C17" library="ipc-7351-capacitor" package="CAPC1608X92N" value=".1uF" x="34.925" y="9.525" rot="R270"/>
 <element name="C18" library="ipc-7351-capacitor" package="CAPC1608X92N" value=".1uF" x="27.94" y="6.985" rot="R270"/>
 <element name="C19" library="ipc-7351-capacitor" package="CAPC1608X92N" value=".1uF" x="17.78" y="11.43" rot="R180"/>
@@ -996,12 +1010,6 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="40.64" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="40.64" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="Q2" library="adafruit" package="CTS406" value="32.768kHz" x="40.64" y="19.685">
-<attribute name="MF" value="" x="40.64" y="19.685" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="40.64" y="19.685" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="40.64" y="19.685" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="40.64" y="19.685" size="1.778" layer="27" display="off"/>
-</element>
 <element name="R10" library="ipc-7351-resistor" package="RESC2012X70N" value="10" x="10.16" y="8.255" rot="R180"/>
 <element name="R11" library="ipc-7351-resistor" package="RESC2012X70N" value="100" x="10.16" y="5.08" rot="R180"/>
 <element name="R12" library="ipc-7351-resistor" package="RESC2012X70N" value="100" x="13.97" y="3.175" rot="R180"/>
@@ -1026,6 +1034,8 @@ design rules under a new name.</description>
 <element name="U1" library="GreenFuel" package="SOT-223" value="NCP1117LP-PG" x="6.985" y="19.05" rot="R90"/>
 <element name="C3" library="ipc-7351-capacitor" package="CAPC1608X92N" value=".01uF" x="17.272" y="20.193" rot="R180"/>
 <element name="C4" library="ipc-7351-capacitor" package="CAPC1608X92N" value=".01uF" x="13.208" y="21.59" rot="R270"/>
+<element name="TP1" library="simpa" package="TP-SMD60" value="TP-SMD60" x="35.56" y="20.32"/>
+<element name="TP2" library="simpa" package="TP-SMD60" value="TP-SMD60" x="40.64" y="20.32"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1044,8 +1054,6 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="9"/>
 <contactref element="C14" pad="2"/>
 <contactref element="IC2" pad="4"/>
-<contactref element="C15" pad="2"/>
-<contactref element="C16" pad="2"/>
 <contactref element="X1" pad="2"/>
 <contactref element="X1" pad="7"/>
 <contactref element="J4" pad="5"/>
@@ -1442,20 +1450,6 @@ design rules under a new name.</description>
 <wire x1="43.0784" y1="7.7216" x2="43.0784" y2="8.128" width="0.1524" layer="1"/>
 <wire x1="33.1216" y1="17.6784" x2="33.005" y2="17.625" width="0.1524" layer="1"/>
 <wire x1="43.18" y1="7.535" x2="43.0784" y2="7.7216" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$16">
-<contactref element="C15" pad="1"/>
-<contactref element="Q2" pad="3"/>
-<contactref element="MCU2" pad="48"/>
-<wire x1="42.672" y1="20.9296" x2="42.672" y2="22.5552" width="0.1524" layer="1"/>
-<wire x1="42.672" y1="22.5552" x2="42.545" y2="22.695" width="0.1524" layer="1"/>
-<wire x1="42.672" y1="20.9296" x2="42.84" y2="20.885" width="0.1524" layer="1"/>
-<wire x1="33.1216" y1="20.7264" x2="33.1216" y2="19.7104" width="0.1524" layer="1"/>
-<wire x1="37.592" y1="25.1968" x2="33.1216" y2="20.7264" width="0.1524" layer="1"/>
-<wire x1="40.0304" y1="25.1968" x2="37.592" y2="25.1968" width="0.1524" layer="1"/>
-<wire x1="42.4688" y1="22.7584" x2="40.0304" y2="25.1968" width="0.1524" layer="1"/>
-<wire x1="33.1216" y1="19.7104" x2="33.005" y2="19.625" width="0.1524" layer="1"/>
-<wire x1="42.4688" y1="22.7584" x2="42.545" y2="22.695" width="0.1524" layer="1"/>
 </signal>
 <signal name="VDD">
 <contactref element="R10" pad="1"/>
@@ -2034,18 +2028,21 @@ design rules under a new name.</description>
 <wire x1="33.1216" y1="12.5984" x2="33.005" y2="12.625" width="0.1524" layer="1"/>
 <wire x1="33.1216" y1="13.0048" x2="33.005" y2="13.125" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$17">
-<contactref element="Q2" pad="1"/>
+<signal name="N$5">
+<contactref element="TP1" pad="P$1"/>
+<contactref element="MCU2" pad="48"/>
+<wire x1="33.005" y1="19.625" x2="34.865" y2="19.625" width="0.1524" layer="1"/>
+<wire x1="34.865" y1="19.625" x2="35.56" y2="20.32" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="TP2" pad="P$1"/>
 <contactref element="MCU2" pad="47"/>
-<contactref element="C16" pad="1"/>
-<wire x1="37.1856" y1="21.7424" x2="37.9984" y2="22.5552" width="0.1524" layer="1"/>
-<wire x1="37.1856" y1="19.7104" x2="37.1856" y2="21.7424" width="0.1524" layer="1"/>
-<wire x1="38.4048" y1="18.4912" x2="37.1856" y2="19.7104" width="0.1524" layer="1"/>
-<wire x1="37.9984" y1="22.5552" x2="38.1" y2="22.695" width="0.1524" layer="1"/>
-<wire x1="38.4048" y1="18.4912" x2="38.44" y2="18.485" width="0.1524" layer="1"/>
-<wire x1="36.576" y1="19.1008" x2="33.1216" y2="19.1008" width="0.1524" layer="1"/>
-<wire x1="37.1856" y1="19.7104" x2="36.576" y2="19.1008" width="0.1524" layer="1"/>
-<wire x1="33.1216" y1="19.1008" x2="33.005" y2="19.125" width="0.1524" layer="1"/>
+<wire x1="40.64" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="1"/>
+<wire x1="38.1" y1="20.32" x2="36.83" y2="19.05" width="0.1524" layer="1"/>
+<wire x1="36.83" y1="19.05" x2="33.87513125" y2="19.05" width="0.1524" layer="1"/>
+<wire x1="33.015978125" y1="19.114021875" x2="33.005" y2="19.125" width="0.1524" layer="1"/>
+<wire x1="33.87513125" y1="19.05" x2="33.811109375" y2="19.114021875" width="0.1524" layer="1"/>
+<wire x1="33.811109375" y1="19.114021875" x2="33.015978125" y2="19.114021875" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

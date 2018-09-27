@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5527,6 +5527,74 @@ http://www.weartronics.com/</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="simpa">
+<description>&lt;b&gt;Simpa Energy India Pvt Ltd&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;All measurements are in Mills. &lt;br&gt;
+PCB Font: Vector 12% 40mil&lt;br&gt;
+Schematics Font: Vector 15% 70mil&lt;br&gt;
+Silkscreen Witdth: 10mil&lt;br&gt;
+Packages need to have Tdocu layer details for Assembly documentation.</description>
+<packages>
+<package name="TP7035">
+<pad name="P$1" x="0" y="0" drill="0.9" diameter="1.778" shape="octagon"/>
+<text x="1.27" y="-0.635" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<wire x1="-1.016" y1="0.381" x2="-0.381" y2="1.016" width="0.127" layer="51"/>
+<wire x1="-0.381" y1="1.016" x2="0.381" y2="1.016" width="0.127" layer="51"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="0.381" width="0.127" layer="51"/>
+<wire x1="1.016" y1="0.381" x2="1.016" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="1.016" y1="-0.381" x2="0.381" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="0.381" y1="-1.016" x2="-0.381" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="-0.381" y1="-1.016" x2="-1.016" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="-1.016" y1="-0.381" x2="-1.016" y2="0.381" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.254" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.254" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.254" layer="21"/>
+</package>
+<package name="TP-SMD60">
+<smd name="P$1" x="0" y="0" dx="1.524" dy="1.524" layer="1" roundness="100"/>
+<circle x="0" y="0" radius="1.02390625" width="0.254" layer="21"/>
+<text x="1.27" y="-0.635" size="1.016" layer="25" ratio="12">&gt;NAME</text>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TP">
+<pin name="P$1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="1.27" y="-0.635" size="1.016" layer="95" font="vector" ratio="12">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TP" prefix="TP">
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TH7035" package="TP7035">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD60" package="TP-SMD60">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5571,11 +5639,6 @@ http://www.weartronics.com/</description>
 <part name="C14" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="0.1uF"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q2" library="adafruit" deviceset="CRYSTAL" device="CTS406" value="32.768kHz"/>
-<part name="C15" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="11pF"/>
-<part name="C16" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="11pF"/>
-<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-05" device="27-2051"/>
 <part name="R8" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="2.2k"/>
 <part name="R9" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="220"/>
@@ -5609,6 +5672,8 @@ http://www.weartronics.com/</description>
 <part name="C4" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value=".01uF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="TP1" library="simpa" deviceset="TP" device="-SMD60"/>
+<part name="TP2" library="simpa" deviceset="TP" device="-SMD60"/>
 </parts>
 <sheets>
 <sheet>
@@ -5674,14 +5739,6 @@ DCR = 0.15ȍ ohm(max)
 <instance part="C14" gate="G$1" x="279.4" y="162.56" rot="MR270"/>
 <instance part="GND17" gate="1" x="279.4" y="149.86"/>
 <instance part="GND18" gate="1" x="220.98" y="147.32"/>
-<instance part="Q2" gate="G$1" x="28.956" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.734" y="55.88" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="35.814" y="62.484" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="C15" gate="G$1" x="20.32" y="53.34" rot="MR270"/>
-<instance part="C16" gate="G$1" x="35.56" y="48.26" rot="R270"/>
-<instance part="GND19" gate="1" x="20.32" y="40.64"/>
-<instance part="GND20" gate="1" x="35.56" y="40.64"/>
 <instance part="J1" gate="-1" x="332.74" y="190.5"/>
 <instance part="J1" gate="-2" x="332.74" y="180.34"/>
 <instance part="J1" gate="-3" x="332.74" y="170.18"/>
@@ -5800,6 +5857,8 @@ DCR = 0.15ȍ ohm(max)
 </instance>
 <instance part="GND4" gate="1" x="266.7" y="182.88"/>
 <instance part="GND5" gate="1" x="231.14" y="182.88"/>
+<instance part="TP1" gate="G$1" x="35.56" y="60.96" rot="R180"/>
+<instance part="TP2" gate="G$1" x="35.56" y="58.42" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5888,15 +5947,6 @@ DCR = 0.15ȍ ohm(max)
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="223.52" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="152.4" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="20.32" y1="48.26" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="S"/>
@@ -6247,17 +6297,6 @@ DCR = 0.15ȍ ohm(max)
 <pinref part="MCU2" gate="G$1" pin="PGEC2/RPB6/SCK2/PMA15/RB6"/>
 <wire x1="45.72" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <label x="30.48" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="Q2" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="58.42" x2="26.416" y2="58.42" width="0.1524" layer="91"/>
-<junction x="20.32" y="58.42"/>
-<pinref part="MCU2" gate="G$1" pin="SOSCO/RPB8/RB8"/>
-<wire x1="20.32" y1="60.96" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -6884,15 +6923,18 @@ DCR = 0.15ȍ ohm(max)
 <wire x1="154.94" y1="55.88" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="N$5" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="1"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
+<pinref part="MCU2" gate="G$1" pin="SOSCO/RPB8/RB8"/>
+<wire x1="38.1" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
 <pinref part="MCU2" gate="G$1" pin="SOSCI/RPC13/RC13"/>
-<wire x1="31.496" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="53.34" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<junction x="35.56" y="58.42"/>
+<wire x1="38.1" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
