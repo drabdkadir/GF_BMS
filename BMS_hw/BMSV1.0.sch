@@ -8166,7 +8166,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="238.76" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="CT_7" class="0">
 <segment>
 <pinref part="R70" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="231.14" x2="93.98" y2="231.14" width="0.1524" layer="91"/>
