@@ -2101,9 +2101,16 @@ design rules under a new name.</description>
 <wire x1="89.6112" y1="30.0736" x2="90.424" y2="30.0736" width="0.1524" layer="1"/>
 <wire x1="90.424" y1="30.0736" x2="90.424" y2="30.226" width="0.1524" layer="1"/>
 <wire x1="89.6112" y1="30.0736" x2="89.535" y2="30.041" width="0.1524" layer="1"/>
+<via x="106.045" y="35.56" extent="1-16" drill="0.35"/>
+<via x="109.22" y="35.56" extent="1-16" drill="0.35"/>
+<via x="50.8" y="33.655" extent="1-16" drill="0.35"/>
+<via x="50.8" y="29.845" extent="1-16" drill="0.35"/>
+<via x="54.61" y="29.845" extent="1-16" drill="0.35"/>
+<via x="53.34" y="33.655" extent="1-16" drill="0.35"/>
+<via x="52.705" y="29.845" extent="1-16" drill="0.35"/>
+<via x="52.07" y="33.02" extent="1-16" drill="0.35"/>
 <wire x1="94.557" y1="39.936" x2="95.065" y2="39.37" width="0" layer="19" extent="1-16"/>
 <wire x1="62.415" y1="44.45" x2="62.865" y2="44.45" width="0" layer="19" extent="1-16"/>
-<wire x1="108.83666875" y1="33.80973125" x2="107.4928" y2="35.1536" width="0" layer="19" extent="1-16"/>
 <wire x1="85.725" y1="27.305" x2="85.344" y2="28.0416" width="0" layer="19" extent="1-16"/>
 <wire x1="96.705" y1="33.02" x2="96.774" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="93.091" y1="30.861" x2="94.0054" y2="29.845" width="0" layer="19" extent="1-16"/>
