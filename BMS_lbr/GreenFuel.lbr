@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -757,11 +757,10 @@
 <rectangle x1="-2.5825" y1="2.8075" x2="-1.9725" y2="3.1525" layer="51" rot="R270"/>
 <text x="-4" y="4.5" size="0.254" layer="25">&gt;NAME</text>
 <text x="-4" y="-4.5" size="0.254" layer="27">&gt;VALUE</text>
+<smd name="33" x="0" y="1.27" dx="4.85" dy="2.36" layer="1"/>
 <polygon width="0.0005" layer="1">
 <vertex x="-3.25" y="-0.15"/>
-<vertex x="-0.7" y="-0.15"/>
-<vertex x="-0.7" y="-2.85"/>
-<vertex x="-0.8" y="-2.85"/>
+<vertex x="-0.8" y="-0.15"/>
 <vertex x="-0.8" y="-3.258" curve="-180"/>
 <vertex x="-1.15" y="-3.258"/>
 <vertex x="-1.15" y="-2.85"/>
@@ -773,7 +772,6 @@
 <vertex x="-2.1" y="-3.258" curve="-180"/>
 <vertex x="-2.45" y="-3.258"/>
 <vertex x="-2.45" y="-2.85"/>
-<vertex x="-2.75" y="-2.85"/>
 <vertex x="-2.85" y="-2.85"/>
 <vertex x="-2.85" y="-2.45"/>
 <vertex x="-3.258" y="-2.45" curve="-180"/>
@@ -790,33 +788,7 @@
 <vertex x="-2.85" y="-0.5"/>
 <vertex x="-3.258" y="-0.5" curve="-180"/>
 <vertex x="-3.258" y="-0.15"/>
-<vertex x="-2.95" y="-0.15"/>
 </polygon>
-<polygon width="0.0005" layer="1">
-<vertex x="-0.5" y="-3"/>
-<vertex x="-0.5" y="-0.75"/>
-<vertex x="-0.5" y="-0.15"/>
-<vertex x="0.1" y="-0.15"/>
-<vertex x="1.85" y="-0.15"/>
-<vertex x="1.85" y="-2.85"/>
-<vertex x="1.8" y="-2.85"/>
-<vertex x="1.8" y="-3.258" curve="-180"/>
-<vertex x="1.45" y="-3.258"/>
-<vertex x="1.45" y="-2.85"/>
-<vertex x="1.15" y="-2.85"/>
-<vertex x="1.15" y="-3.258" curve="-180"/>
-<vertex x="0.8" y="-3.258"/>
-<vertex x="0.8" y="-2.85"/>
-<vertex x="0.5" y="-2.85"/>
-<vertex x="0.5" y="-3.258" curve="-180"/>
-<vertex x="0.15" y="-3.258"/>
-<vertex x="0.15" y="-2.85"/>
-<vertex x="-0.15" y="-2.85"/>
-<vertex x="-0.15" y="-3.258" curve="-180"/>
-<vertex x="-0.5" y="-3.258"/>
-<vertex x="-0.5" y="-2.8"/>
-</polygon>
-<smd name="33" x="0" y="1.27" dx="4.85" dy="2.36" layer="1"/>
 <polygon width="0.0005" layer="1">
 <vertex x="2.1" y="-2.85"/>
 <vertex x="2.1" y="-0.8"/>
@@ -831,10 +803,30 @@
 <vertex x="3.258" y="-2.1" curve="-180"/>
 <vertex x="3.258" y="-2.45"/>
 <vertex x="2.85" y="-2.45"/>
+<vertex x="2.85" y="-2.6"/>
 <vertex x="2.85" y="-2.85"/>
 <vertex x="2.45" y="-2.85"/>
 <vertex x="2.45" y="-3.258" curve="-180"/>
 <vertex x="2.1" y="-3.258"/>
+</polygon>
+<polygon width="0.0005" layer="1">
+<vertex x="-0.5" y="-2.85"/>
+<vertex x="-0.5" y="-0.15"/>
+<vertex x="1.8" y="-0.15"/>
+<vertex x="1.8" y="-3.258" curve="-180"/>
+<vertex x="1.45" y="-3.258"/>
+<vertex x="1.45" y="-2.85"/>
+<vertex x="1.15" y="-2.85"/>
+<vertex x="1.15" y="-3.258" curve="-180"/>
+<vertex x="0.8" y="-3.258"/>
+<vertex x="0.8" y="-2.85"/>
+<vertex x="0.5" y="-2.85"/>
+<vertex x="0.5" y="-3.258" curve="-180"/>
+<vertex x="0.15" y="-3.258"/>
+<vertex x="0.15" y="-2.85"/>
+<vertex x="-0.15" y="-2.85"/>
+<vertex x="-0.15" y="-3.258" curve="-180"/>
+<vertex x="-0.5" y="-3.258"/>
 </polygon>
 </package>
 <package name="PG-HSOF-9">

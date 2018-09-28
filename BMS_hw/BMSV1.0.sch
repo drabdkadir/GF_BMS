@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3998,11 +3998,10 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <rectangle x1="-2.5825" y1="2.8075" x2="-1.9725" y2="3.1525" layer="51" rot="R270"/>
 <text x="-4" y="4.5" size="0.254" layer="25">&gt;NAME</text>
 <text x="-4" y="-4.5" size="0.254" layer="27">&gt;VALUE</text>
+<smd name="33" x="0" y="1.27" dx="4.85" dy="2.36" layer="1"/>
 <polygon width="0.0005" layer="1">
 <vertex x="-3.25" y="-0.15"/>
-<vertex x="-0.7" y="-0.15"/>
-<vertex x="-0.7" y="-2.85"/>
-<vertex x="-0.8" y="-2.85"/>
+<vertex x="-0.8" y="-0.15"/>
 <vertex x="-0.8" y="-3.258" curve="-180"/>
 <vertex x="-1.15" y="-3.258"/>
 <vertex x="-1.15" y="-2.85"/>
@@ -4014,7 +4013,6 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <vertex x="-2.1" y="-3.258" curve="-180"/>
 <vertex x="-2.45" y="-3.258"/>
 <vertex x="-2.45" y="-2.85"/>
-<vertex x="-2.75" y="-2.85"/>
 <vertex x="-2.85" y="-2.85"/>
 <vertex x="-2.85" y="-2.45"/>
 <vertex x="-3.258" y="-2.45" curve="-180"/>
@@ -4031,32 +4029,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <vertex x="-2.85" y="-0.5"/>
 <vertex x="-3.258" y="-0.5" curve="-180"/>
 <vertex x="-3.258" y="-0.15"/>
-<vertex x="-2.95" y="-0.15"/>
 </polygon>
-<polygon width="0.0005" layer="1">
-<vertex x="-0.5" y="-3"/>
-<vertex x="-0.5" y="-0.15"/>
-<vertex x="0.1" y="-0.15"/>
-<vertex x="1.85" y="-0.15"/>
-<vertex x="1.85" y="-2.85"/>
-<vertex x="1.8" y="-2.85"/>
-<vertex x="1.8" y="-3.258" curve="-180"/>
-<vertex x="1.45" y="-3.258"/>
-<vertex x="1.45" y="-2.85"/>
-<vertex x="1.15" y="-2.85"/>
-<vertex x="1.15" y="-3.258" curve="-180"/>
-<vertex x="0.8" y="-3.258"/>
-<vertex x="0.8" y="-2.85"/>
-<vertex x="0.5" y="-2.85"/>
-<vertex x="0.5" y="-3.258" curve="-180"/>
-<vertex x="0.15" y="-3.258"/>
-<vertex x="0.15" y="-2.85"/>
-<vertex x="-0.15" y="-2.85"/>
-<vertex x="-0.15" y="-3.258" curve="-180"/>
-<vertex x="-0.5" y="-3.258"/>
-<vertex x="-0.5" y="-2.8"/>
-</polygon>
-<smd name="33" x="0" y="1.27" dx="4.85" dy="2.36" layer="1"/>
 <polygon width="0.0005" layer="1">
 <vertex x="2.1" y="-2.85"/>
 <vertex x="2.1" y="-0.8"/>
@@ -4071,10 +4044,30 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <vertex x="3.258" y="-2.1" curve="-180"/>
 <vertex x="3.258" y="-2.45"/>
 <vertex x="2.85" y="-2.45"/>
+<vertex x="2.85" y="-2.6"/>
 <vertex x="2.85" y="-2.85"/>
 <vertex x="2.45" y="-2.85"/>
 <vertex x="2.45" y="-3.258" curve="-180"/>
 <vertex x="2.1" y="-3.258"/>
+</polygon>
+<polygon width="0.0005" layer="1">
+<vertex x="-0.5" y="-2.85"/>
+<vertex x="-0.5" y="-0.15"/>
+<vertex x="1.8" y="-0.15"/>
+<vertex x="1.8" y="-3.258" curve="-180"/>
+<vertex x="1.45" y="-3.258"/>
+<vertex x="1.45" y="-2.85"/>
+<vertex x="1.15" y="-2.85"/>
+<vertex x="1.15" y="-3.258" curve="-180"/>
+<vertex x="0.8" y="-3.258"/>
+<vertex x="0.8" y="-2.85"/>
+<vertex x="0.5" y="-2.85"/>
+<vertex x="0.5" y="-3.258" curve="-180"/>
+<vertex x="0.15" y="-3.258"/>
+<vertex x="0.15" y="-2.85"/>
+<vertex x="-0.15" y="-2.85"/>
+<vertex x="-0.15" y="-3.258" curve="-180"/>
+<vertex x="-0.5" y="-3.258"/>
 </polygon>
 </package>
 <package name="PG-HSOF-9">
