@@ -2530,6 +2530,474 @@ http://www.weartronics.com/</description>
 <rectangle x1="-4.57" y1="-4.91" x2="-4.065" y2="4.91" layer="51"/>
 <rectangle x1="4.065" y1="-4.91" x2="4.57" y2="4.91" layer="51"/>
 </package>
+<package name="CAPAE330X540N">
+<wire x1="-3.05" y1="-2.15" x2="-3.05" y2="2.15" width="0" layer="39"/>
+<wire x1="-3.05" y1="2.15" x2="3.05" y2="2.15" width="0" layer="39"/>
+<wire x1="3.05" y1="2.15" x2="3.05" y2="-2.15" width="0" layer="39"/>
+<wire x1="3.05" y1="-2.15" x2="-3.05" y2="-2.15" width="0" layer="39"/>
+<wire x1="-1.4075" y1="1.0675" x2="-0.825" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-0.825" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="21"/>
+<wire x1="1.65" y1="1.65" x2="1.65" y2="1.0675" width="0.127" layer="21"/>
+<wire x1="-1.4075" y1="-1.0675" x2="-0.825" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-0.825" y1="-1.65" x2="1.65" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="1.65" y1="-1.65" x2="1.65" y2="-1.0675" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-0.825" x2="-1.65" y2="0.825" width="0.127" layer="51"/>
+<wire x1="-1.65" y1="0.825" x2="-0.825" y2="1.65" width="0.127" layer="51"/>
+<wire x1="-0.825" y1="1.65" x2="1.65" y2="1.65" width="0.127" layer="51"/>
+<wire x1="1.65" y1="1.65" x2="1.65" y2="-1.65" width="0.127" layer="51"/>
+<wire x1="1.65" y1="-1.65" x2="-0.825" y2="-1.65" width="0.127" layer="51"/>
+<wire x1="-0.825" y1="-1.65" x2="-1.65" y2="-0.825" width="0.127" layer="51"/>
+<circle x="-1.975" y="1.254" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="1.269" width="0.127" layer="51"/>
+<smd name="+" x="-1.4" y="0" dx="1.5" dy="2.25" layer="1" rot="R90"/>
+<smd name="-" x="1.4" y="0" dx="1.5" dy="2.25" layer="1" rot="R90"/>
+<text x="-1.7135" y="1.9675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.7135" y="-3.2375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="-0.275" x2="-0.3" y2="0.275" layer="51"/>
+<rectangle x1="0.3" y1="-0.275" x2="1.8" y2="0.275" layer="51"/>
+</package>
+<package name="CAPAE430X540N">
+<wire x1="-3.55" y1="-2.65" x2="-3.55" y2="2.65" width="0" layer="39"/>
+<wire x1="-3.55" y1="2.65" x2="3.55" y2="2.65" width="0" layer="39"/>
+<wire x1="3.55" y1="2.65" x2="3.55" y2="-2.65" width="0" layer="39"/>
+<wire x1="3.55" y1="-2.65" x2="-3.55" y2="-2.65" width="0" layer="39"/>
+<wire x1="-2.1075" y1="1.1175" x2="-1.075" y2="2.15" width="0.127" layer="21"/>
+<wire x1="-1.075" y1="2.15" x2="2.15" y2="2.15" width="0.127" layer="21"/>
+<wire x1="2.15" y1="2.15" x2="2.15" y2="1.1175" width="0.127" layer="21"/>
+<wire x1="-2.1075" y1="-1.1175" x2="-1.075" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="-1.075" y1="-2.15" x2="2.15" y2="-2.15" width="0.127" layer="21"/>
+<wire x1="2.15" y1="-2.15" x2="2.15" y2="-1.1175" width="0.127" layer="21"/>
+<wire x1="-2.15" y1="-1.075" x2="-2.15" y2="1.075" width="0.127" layer="51"/>
+<wire x1="-2.15" y1="1.075" x2="-1.075" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="2.15" x2="2.15" y2="2.15" width="0.127" layer="51"/>
+<wire x1="2.15" y1="2.15" x2="2.15" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="2.15" y1="-2.15" x2="-1.075" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="-2.15" x2="-2.15" y2="-1.075" width="0.127" layer="51"/>
+<circle x="-2.675" y="1.304" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="1.769" width="0.127" layer="51"/>
+<smd name="+" x="-1.75" y="0" dx="1.6" dy="2.55" layer="1" rot="R90"/>
+<smd name="-" x="1.75" y="0" dx="1.6" dy="2.55" layer="1" rot="R90"/>
+<text x="-2.2135" y="2.4675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.2135" y="-3.7375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.3" y1="-0.325" x2="-0.5" y2="0.325" layer="51"/>
+<rectangle x1="0.5" y1="-0.325" x2="2.3" y2="0.325" layer="51"/>
+</package>
+<package name="CAPAE530X540N">
+<wire x1="-4.25" y1="-3.15" x2="-4.25" y2="3.15" width="0" layer="39"/>
+<wire x1="-4.25" y1="3.15" x2="4.25" y2="3.15" width="0" layer="39"/>
+<wire x1="4.25" y1="3.15" x2="4.25" y2="-3.15" width="0" layer="39"/>
+<wire x1="4.25" y1="-3.15" x2="-4.25" y2="-3.15" width="0" layer="39"/>
+<wire x1="-2.65" y1="1.1175" x2="-2.65" y2="1.325" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="1.325" x2="-1.325" y2="2.65" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="2.65" x2="2.65" y2="2.65" width="0.127" layer="21"/>
+<wire x1="2.65" y1="2.65" x2="2.65" y2="1.1175" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-1.1175" x2="-2.65" y2="-1.325" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-1.325" x2="-1.325" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="-1.325" y1="-2.65" x2="2.65" y2="-2.65" width="0.127" layer="21"/>
+<wire x1="2.65" y1="-2.65" x2="2.65" y2="-1.1175" width="0.127" layer="21"/>
+<wire x1="-2.65" y1="-1.325" x2="-2.65" y2="1.325" width="0.127" layer="51"/>
+<wire x1="-2.65" y1="1.325" x2="-1.325" y2="2.65" width="0.127" layer="51"/>
+<wire x1="-1.325" y1="2.65" x2="2.65" y2="2.65" width="0.127" layer="51"/>
+<wire x1="2.65" y1="2.65" x2="2.65" y2="-2.65" width="0.127" layer="51"/>
+<wire x1="2.65" y1="-2.65" x2="-1.325" y2="-2.65" width="0.127" layer="51"/>
+<wire x1="-1.325" y1="-2.65" x2="-2.65" y2="-1.325" width="0.127" layer="51"/>
+<circle x="-3.2175" y="1.304" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="2.269" width="0.127" layer="51"/>
+<smd name="+" x="-2.25" y="0" dx="1.6" dy="3" layer="1" rot="R90"/>
+<smd name="-" x="2.25" y="0" dx="1.6" dy="3" layer="1" rot="R90"/>
+<text x="-2.7135" y="2.9675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.7135" y="-4.2375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.975" y1="-0.325" x2="-0.775" y2="0.325" layer="51"/>
+<rectangle x1="0.775" y1="-0.325" x2="2.975" y2="0.325" layer="51"/>
+</package>
+<package name="CAPAE660X540N">
+<wire x1="-4.55" y1="-3.8" x2="-4.55" y2="3.8" width="0" layer="39"/>
+<wire x1="-4.55" y1="3.8" x2="4.55" y2="3.8" width="0" layer="39"/>
+<wire x1="4.55" y1="3.8" x2="4.55" y2="-3.8" width="0" layer="39"/>
+<wire x1="4.55" y1="-3.8" x2="-4.55" y2="-3.8" width="0" layer="39"/>
+<wire x1="-3.3" y1="1.1175" x2="-3.3" y2="1.65" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="1.65" x2="-1.65" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="3.3" x2="3.3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="3.3" x2="3.3" y2="1.1175" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-1.1175" x2="-3.3" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-1.65" x2="-1.65" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="3.3" y1="-3.3" x2="3.3" y2="-1.1175" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-1.65" x2="-3.3" y2="1.65" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="1.65" x2="-1.65" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-1.65" y1="3.3" x2="3.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="3.3" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="-1.65" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-1.65" y1="-3.3" x2="-3.3" y2="-1.65" width="0.127" layer="51"/>
+<circle x="-3.8675" y="1.304" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="2.919" width="0.127" layer="51"/>
+<smd name="+" x="-2.45" y="0" dx="1.6" dy="3.15" layer="1" rot="R90"/>
+<smd name="-" x="2.45" y="0" dx="1.6" dy="3.15" layer="1" rot="R90"/>
+<text x="-3.3635" y="3.6175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.3635" y="-4.8875" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.4" y1="-0.325" x2="-0.9" y2="0.325" layer="51"/>
+<rectangle x1="0.9" y1="-0.325" x2="3.4" y2="0.325" layer="51"/>
+</package>
+<package name="CAPAE830X620N">
+<wire x1="-5.75" y1="-4.65" x2="-5.75" y2="4.65" width="0" layer="39"/>
+<wire x1="-5.75" y1="4.65" x2="5.75" y2="4.65" width="0" layer="39"/>
+<wire x1="5.75" y1="4.65" x2="5.75" y2="-4.65" width="0" layer="39"/>
+<wire x1="5.75" y1="-4.65" x2="-5.75" y2="-4.65" width="0" layer="39"/>
+<wire x1="-4.15" y1="1.1175" x2="-4.15" y2="2.075" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="2.075" x2="-2.075" y2="4.15" width="0.127" layer="21"/>
+<wire x1="-2.075" y1="4.15" x2="4.15" y2="4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="1.1175" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-1.1175" x2="-4.15" y2="-2.075" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-2.075" x2="-2.075" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="-2.075" y1="-4.15" x2="4.15" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-4.15" x2="4.15" y2="-1.1175" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-2.075" x2="-4.15" y2="2.075" width="0.127" layer="51"/>
+<wire x1="-4.15" y1="2.075" x2="-2.075" y2="4.15" width="0.127" layer="51"/>
+<wire x1="-2.075" y1="4.15" x2="4.15" y2="4.15" width="0.127" layer="51"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="-4.15" width="0.127" layer="51"/>
+<wire x1="4.15" y1="-4.15" x2="-2.075" y2="-4.15" width="0.127" layer="51"/>
+<wire x1="-2.075" y1="-4.15" x2="-4.15" y2="-2.075" width="0.127" layer="51"/>
+<circle x="-4.7175" y="1.304" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="3.769" width="0.127" layer="51"/>
+<smd name="+" x="-3.15" y="0" dx="1.6" dy="4.15" layer="1" rot="R90"/>
+<smd name="-" x="3.15" y="0" dx="1.6" dy="4.15" layer="1" rot="R90"/>
+<text x="-4.2135" y="4.4675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-4.2135" y="-5.7375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.5" y1="-0.325" x2="-1.1" y2="0.325" layer="51"/>
+<rectangle x1="1.1" y1="-0.325" x2="4.5" y2="0.325" layer="51"/>
+</package>
+<package name="CAPAE830X1020N">
+<wire x1="-6.4" y1="-4.65" x2="-6.4" y2="4.65" width="0" layer="39"/>
+<wire x1="-6.4" y1="4.65" x2="6.4" y2="4.65" width="0" layer="39"/>
+<wire x1="6.4" y1="4.65" x2="6.4" y2="-4.65" width="0" layer="39"/>
+<wire x1="6.4" y1="-4.65" x2="-6.4" y2="-4.65" width="0" layer="39"/>
+<wire x1="-4.15" y1="1.2175" x2="-4.15" y2="2.075" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="2.075" x2="-2.075" y2="4.15" width="0.127" layer="21"/>
+<wire x1="-2.075" y1="4.15" x2="4.15" y2="4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="1.2175" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-1.2175" x2="-4.15" y2="-2.075" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-2.075" x2="-2.075" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="-2.075" y1="-4.15" x2="4.15" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-4.15" x2="4.15" y2="-1.2175" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-2.075" x2="-4.15" y2="2.075" width="0.127" layer="51"/>
+<wire x1="-4.15" y1="2.075" x2="-2.075" y2="4.15" width="0.127" layer="51"/>
+<wire x1="-2.075" y1="4.15" x2="4.15" y2="4.15" width="0.127" layer="51"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="-4.15" width="0.127" layer="51"/>
+<wire x1="4.15" y1="-4.15" x2="-2.075" y2="-4.15" width="0.127" layer="51"/>
+<wire x1="-2.075" y1="-4.15" x2="-4.15" y2="-2.075" width="0.127" layer="51"/>
+<circle x="-4.7175" y="1.404" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="3.769" width="0.127" layer="51"/>
+<smd name="+" x="-3.7" y="0" dx="1.8" dy="4.4" layer="1" rot="R90"/>
+<smd name="-" x="3.7" y="0" dx="1.8" dy="4.4" layer="1" rot="R90"/>
+<text x="-4.2135" y="4.4675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-4.2135" y="-5.7375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.95" y1="-0.325" x2="-1.55" y2="0.325" layer="51"/>
+<rectangle x1="1.55" y1="-0.325" x2="4.95" y2="0.325" layer="51"/>
+</package>
+<package name="CAPAE1030X1020N">
+<wire x1="-7.25" y1="-5.65" x2="-7.25" y2="5.65" width="0" layer="39"/>
+<wire x1="-7.25" y1="5.65" x2="7.25" y2="5.65" width="0" layer="39"/>
+<wire x1="7.25" y1="5.65" x2="7.25" y2="-5.65" width="0" layer="39"/>
+<wire x1="7.25" y1="-5.65" x2="-7.25" y2="-5.65" width="0" layer="39"/>
+<wire x1="-5.15" y1="1.3675" x2="-5.15" y2="2.575" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="2.575" x2="-2.575" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-2.575" y1="5.15" x2="5.15" y2="5.15" width="0.127" layer="21"/>
+<wire x1="5.15" y1="5.15" x2="5.15" y2="1.3675" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="-1.3675" x2="-5.15" y2="-2.575" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="-2.575" x2="-2.575" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="-2.575" y1="-5.15" x2="5.15" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="5.15" y1="-5.15" x2="5.15" y2="-1.3675" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="-2.575" x2="-5.15" y2="2.575" width="0.127" layer="51"/>
+<wire x1="-5.15" y1="2.575" x2="-2.575" y2="5.15" width="0.127" layer="51"/>
+<wire x1="-2.575" y1="5.15" x2="5.15" y2="5.15" width="0.127" layer="51"/>
+<wire x1="5.15" y1="5.15" x2="5.15" y2="-5.15" width="0.127" layer="51"/>
+<wire x1="5.15" y1="-5.15" x2="-2.575" y2="-5.15" width="0.127" layer="51"/>
+<wire x1="-2.575" y1="-5.15" x2="-5.15" y2="-2.575" width="0.127" layer="51"/>
+<circle x="-5.7175" y="1.554" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="4.769" width="0.127" layer="51"/>
+<smd name="+" x="-4.5" y="0" dx="2.1" dy="4.5" layer="1" rot="R90"/>
+<smd name="-" x="4.5" y="0" dx="2.1" dy="4.5" layer="1" rot="R90"/>
+<text x="-5.2135" y="5.4675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-5.2135" y="-6.7375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.8" y1="-0.45" x2="-2.3" y2="0.45" layer="51"/>
+<rectangle x1="2.3" y1="-0.45" x2="5.8" y2="0.45" layer="51"/>
+</package>
+<package name="CAPAE1350X1350N">
+<wire x1="-8.35" y1="-7.25" x2="-8.35" y2="7.25" width="0" layer="39"/>
+<wire x1="-8.35" y1="7.25" x2="8.35" y2="7.25" width="0" layer="39"/>
+<wire x1="8.35" y1="7.25" x2="8.35" y2="-7.25" width="0" layer="39"/>
+<wire x1="8.35" y1="-7.25" x2="-8.35" y2="-7.25" width="0" layer="39"/>
+<wire x1="-6.75" y1="1.4175" x2="-6.75" y2="3.375" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="3.375" x2="-3.375" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-3.375" y1="6.75" x2="6.75" y2="6.75" width="0.127" layer="21"/>
+<wire x1="6.75" y1="6.75" x2="6.75" y2="1.4175" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-1.4175" x2="-6.75" y2="-3.375" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-3.375" x2="-3.375" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="-3.375" y1="-6.75" x2="6.75" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="6.75" y1="-6.75" x2="6.75" y2="-1.4175" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="-3.375" x2="-6.75" y2="3.375" width="0.127" layer="51"/>
+<wire x1="-6.75" y1="3.375" x2="-3.375" y2="6.75" width="0.127" layer="51"/>
+<wire x1="-3.375" y1="6.75" x2="6.75" y2="6.75" width="0.127" layer="51"/>
+<wire x1="6.75" y1="6.75" x2="6.75" y2="-6.75" width="0.127" layer="51"/>
+<wire x1="6.75" y1="-6.75" x2="-3.375" y2="-6.75" width="0.127" layer="51"/>
+<wire x1="-3.375" y1="-6.75" x2="-6.75" y2="-3.375" width="0.127" layer="51"/>
+<circle x="-7.3175" y="1.604" radius="0.25" width="0" layer="21"/>
+<circle x="0" y="0" radius="6.369" width="0.127" layer="51"/>
+<smd name="+" x="-5" y="0" dx="2.2" dy="5.7" layer="1" rot="R90"/>
+<smd name="-" x="5" y="0" dx="2.2" dy="5.7" layer="1" rot="R90"/>
+<text x="-6.8135" y="7.0675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-6.8135" y="-8.3375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-6.9" y1="-0.45" x2="-2.2" y2="0.45" layer="51"/>
+<rectangle x1="2.2" y1="-0.45" x2="6.9" y2="0.45" layer="51"/>
+</package>
+<package name="CAPMP2013X120N">
+<wire x1="-1.85" y1="-1" x2="-1.85" y2="1" width="0" layer="39"/>
+<wire x1="-1.85" y1="1" x2="1.85" y2="1" width="0" layer="39"/>
+<wire x1="1.85" y1="1" x2="1.85" y2="-1" width="0" layer="39"/>
+<wire x1="1.85" y1="-1" x2="-1.85" y2="-1" width="0" layer="39"/>
+<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-0.75" x2="1.1" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.65" x2="-1" y2="0.65" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.65" x2="-0.6" y2="0.65" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.65" x2="1" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1" y1="0.65" x2="1" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.65" x2="-0.6" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="-0.65" x2="-1" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.65" x2="-0.6" y2="-0.65" width="0.127" layer="51"/>
+<circle x="-1.6675" y="0.979" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-0.85" y="0" dx="0.95" dy="1.5" layer="1" rot="R90"/>
+<smd name="-" x="0.85" y="0" dx="0.95" dy="1.5" layer="1" rot="R90"/>
+<text x="-1.1635" y="1.0675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.1635" y="-2.3375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.1905" y1="-0.45" x2="-1.0635" y2="0.45" layer="51"/>
+<rectangle x1="1.0635" y1="-0.45" x2="1.1905" y2="0.45" layer="51"/>
+</package>
+<package name="CAPMP3216X120N">
+<wire x1="-2.45" y1="-1.15" x2="-2.45" y2="1.15" width="0" layer="39"/>
+<wire x1="-2.45" y1="1.15" x2="2.45" y2="1.15" width="0" layer="39"/>
+<wire x1="2.45" y1="1.15" x2="2.45" y2="-1.15" width="0" layer="39"/>
+<wire x1="2.45" y1="-1.15" x2="-2.45" y2="-1.15" width="0" layer="39"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-0.9" x2="1.7" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="-0.96" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-0.96" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-0.96" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.96" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.96" y1="0.8" x2="-0.96" y2="-0.8" width="0.127" layer="51"/>
+<circle x="-2.2675" y="1.129" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-1.3" y="0" dx="1.25" dy="1.8" layer="1" rot="R90"/>
+<smd name="-" x="1.3" y="0" dx="1.25" dy="1.8" layer="1" rot="R90"/>
+<text x="-1.7635" y="1.2175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.7635" y="-2.4875" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.7905" y1="-0.6" x2="-1.6635" y2="0.6" layer="51"/>
+<rectangle x1="1.6635" y1="-0.6" x2="1.7905" y2="0.6" layer="51"/>
+</package>
+<package name="CAPMP3216X180N">
+<wire x1="-2.45" y1="-1.15" x2="-2.45" y2="1.15" width="0" layer="39"/>
+<wire x1="-2.45" y1="1.15" x2="2.45" y2="1.15" width="0" layer="39"/>
+<wire x1="2.45" y1="1.15" x2="2.45" y2="-1.15" width="0" layer="39"/>
+<wire x1="2.45" y1="-1.15" x2="-2.45" y2="-1.15" width="0" layer="39"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-0.9" x2="1.7" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="-0.96" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-0.96" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-0.96" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.96" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.96" y1="0.8" x2="-0.96" y2="-0.8" width="0.127" layer="51"/>
+<circle x="-2.2675" y="1.129" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-1.3" y="0" dx="1.25" dy="1.8" layer="1" rot="R90"/>
+<smd name="-" x="1.3" y="0" dx="1.25" dy="1.8" layer="1" rot="R90"/>
+<text x="-1.7635" y="1.2175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.7635" y="-2.4875" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.7905" y1="-0.6" x2="-1.6635" y2="0.6" layer="51"/>
+<rectangle x1="1.6635" y1="-0.6" x2="1.7905" y2="0.6" layer="51"/>
+</package>
+<package name="CAPMP3528X120N">
+<wire x1="-2.6" y1="-1.75" x2="-2.6" y2="1.75" width="0" layer="39"/>
+<wire x1="-2.6" y1="1.75" x2="2.6" y2="1.75" width="0" layer="39"/>
+<wire x1="2.6" y1="1.75" x2="2.6" y2="-1.75" width="0" layer="39"/>
+<wire x1="2.6" y1="-1.75" x2="-2.6" y2="-1.75" width="0" layer="39"/>
+<wire x1="-1.85" y1="1.4425" x2="-1.85" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.85" y1="1.5" x2="1.85" y2="1.4425" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="-1.4425" x2="-1.85" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="-1.5" x2="1.85" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.85" y1="-1.5" x2="1.85" y2="-1.4425" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="1.4" x2="-1.05" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="1.4" x2="1.75" y2="1.4" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="-1.05" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-1.4" x2="-1.75" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="1.4" x2="-1.05" y2="-1.4" width="0.127" layer="51"/>
+<circle x="-2.4175" y="1.629" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-1.45" y="0" dx="2.25" dy="1.8" layer="1" rot="R90"/>
+<smd name="-" x="1.45" y="0" dx="2.25" dy="1.8" layer="1" rot="R90"/>
+<text x="-1.9135" y="1.8175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.9135" y="-3.0875" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.9405" y1="-1.1" x2="-1.8135" y2="1.1" layer="51"/>
+<rectangle x1="1.8135" y1="-1.1" x2="1.9405" y2="1.1" layer="51"/>
+</package>
+<package name="CAPMP3528X210N">
+<wire x1="-2.6" y1="-1.75" x2="-2.6" y2="1.75" width="0" layer="39"/>
+<wire x1="-2.6" y1="1.75" x2="2.6" y2="1.75" width="0" layer="39"/>
+<wire x1="2.6" y1="1.75" x2="2.6" y2="-1.75" width="0" layer="39"/>
+<wire x1="2.6" y1="-1.75" x2="-2.6" y2="-1.75" width="0" layer="39"/>
+<wire x1="-1.85" y1="1.4425" x2="-1.85" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="1.5" x2="1.85" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.85" y1="1.5" x2="1.85" y2="1.4425" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="-1.4425" x2="-1.85" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.85" y1="-1.5" x2="1.85" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.85" y1="-1.5" x2="1.85" y2="-1.4425" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="1.4" x2="-1.05" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="1.4" x2="1.75" y2="1.4" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.4" x2="-1.05" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="-1.4" x2="-1.75" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="1.4" x2="-1.05" y2="-1.4" width="0.127" layer="51"/>
+<circle x="-2.4175" y="1.629" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-1.45" y="0" dx="2.25" dy="1.8" layer="1" rot="R90"/>
+<smd name="-" x="1.45" y="0" dx="2.25" dy="1.8" layer="1" rot="R90"/>
+<text x="-1.9135" y="1.8175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.9135" y="-3.0875" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.9405" y1="-1.1" x2="-1.8135" y2="1.1" layer="51"/>
+<rectangle x1="1.8135" y1="-1.1" x2="1.9405" y2="1.1" layer="51"/>
+</package>
+<package name="CAPMP6032X150N">
+<wire x1="-3.9" y1="-2" x2="-3.9" y2="2" width="0" layer="39"/>
+<wire x1="-3.9" y1="2" x2="3.9" y2="2" width="0" layer="39"/>
+<wire x1="3.9" y1="2" x2="3.9" y2="-2" width="0" layer="39"/>
+<wire x1="3.9" y1="-2" x2="-3.9" y2="-2" width="0" layer="39"/>
+<wire x1="-3.15" y1="1.4425" x2="-3.15" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="1.75" x2="3.15" y2="1.75" width="0.127" layer="21"/>
+<wire x1="3.15" y1="1.75" x2="3.15" y2="1.4425" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-1.4425" x2="-3.15" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-1.75" x2="3.15" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-1.75" x2="3.15" y2="-1.4425" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.6" x2="-3" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-3" y1="1.6" x2="-1.8" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="1.6" x2="3" y2="1.6" width="0.127" layer="51"/>
+<wire x1="3" y1="1.6" x2="3" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.6" x2="-1.8" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="-1.6" x2="-3" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="1.6" x2="-1.8" y2="-1.6" width="0.127" layer="51"/>
+<circle x="-3.7175" y="1.629" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-2.45" y="0" dx="2.25" dy="2.35" layer="1" rot="R90"/>
+<smd name="-" x="2.45" y="0" dx="2.25" dy="2.35" layer="1" rot="R90"/>
+<text x="-3.2135" y="2.0675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.2135" y="-3.3375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.1905" y1="-1.1" x2="-3.0635" y2="1.1" layer="51"/>
+<rectangle x1="3.0635" y1="-1.1" x2="3.1905" y2="1.1" layer="51"/>
+</package>
+<package name="CAPMP6032X280N">
+<wire x1="-3.9" y1="-2" x2="-3.9" y2="2" width="0" layer="39"/>
+<wire x1="-3.9" y1="2" x2="3.9" y2="2" width="0" layer="39"/>
+<wire x1="3.9" y1="2" x2="3.9" y2="-2" width="0" layer="39"/>
+<wire x1="3.9" y1="-2" x2="-3.9" y2="-2" width="0" layer="39"/>
+<wire x1="-3.15" y1="1.4425" x2="-3.15" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="1.75" x2="3.15" y2="1.75" width="0.127" layer="21"/>
+<wire x1="3.15" y1="1.75" x2="3.15" y2="1.4425" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-1.4425" x2="-3.15" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-1.75" x2="3.15" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-1.75" x2="3.15" y2="-1.4425" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.6" x2="-3" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-3" y1="1.6" x2="-1.8" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="1.6" x2="3" y2="1.6" width="0.127" layer="51"/>
+<wire x1="3" y1="1.6" x2="3" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="3" y1="-1.6" x2="-1.8" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="-1.6" x2="-3" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="1.6" x2="-1.8" y2="-1.6" width="0.127" layer="51"/>
+<circle x="-3.7175" y="1.629" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-2.45" y="0" dx="2.25" dy="2.35" layer="1" rot="R90"/>
+<smd name="-" x="2.45" y="0" dx="2.25" dy="2.35" layer="1" rot="R90"/>
+<text x="-3.2135" y="2.0675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.2135" y="-3.3375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.1905" y1="-1.1" x2="-3.0635" y2="1.1" layer="51"/>
+<rectangle x1="3.0635" y1="-1.1" x2="3.1905" y2="1.1" layer="51"/>
+</package>
+<package name="CAPMP7343X310N">
+<wire x1="-4.55" y1="-2.55" x2="-4.55" y2="2.55" width="0" layer="39"/>
+<wire x1="-4.55" y1="2.55" x2="4.55" y2="2.55" width="0" layer="39"/>
+<wire x1="4.55" y1="2.55" x2="4.55" y2="-2.55" width="0" layer="39"/>
+<wire x1="4.55" y1="-2.55" x2="-4.55" y2="-2.55" width="0" layer="39"/>
+<wire x1="-3.8" y1="1.5425" x2="-3.8" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="2.3" x2="3.8" y2="2.3" width="0.127" layer="21"/>
+<wire x1="3.8" y1="2.3" x2="3.8" y2="1.5425" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-1.5425" x2="-3.8" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-2.3" x2="3.8" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-2.3" x2="3.8" y2="-1.5425" width="0.127" layer="21"/>
+<wire x1="-3.65" y1="-2.15" x2="-3.65" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-3.65" y1="2.15" x2="-2.19" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="2.15" x2="3.65" y2="2.15" width="0.127" layer="51"/>
+<wire x1="3.65" y1="2.15" x2="3.65" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="3.65" y1="-2.15" x2="-2.19" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="-2.15" x2="-3.65" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="2.15" x2="-2.19" y2="-2.15" width="0.127" layer="51"/>
+<circle x="-4.3675" y="1.729" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-3.1" y="0" dx="2.45" dy="2.35" layer="1" rot="R90"/>
+<smd name="-" x="3.1" y="0" dx="2.45" dy="2.35" layer="1" rot="R90"/>
+<text x="-3.8635" y="2.6175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.8635" y="-3.8875" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.8405" y1="-1.2" x2="-3.7135" y2="1.2" layer="51"/>
+<rectangle x1="3.7135" y1="-1.2" x2="3.8405" y2="1.2" layer="51"/>
+</package>
+<package name="CAPMP7343X430N">
+<wire x1="-4.55" y1="-2.55" x2="-4.55" y2="2.55" width="0" layer="39"/>
+<wire x1="-4.55" y1="2.55" x2="4.55" y2="2.55" width="0" layer="39"/>
+<wire x1="4.55" y1="2.55" x2="4.55" y2="-2.55" width="0" layer="39"/>
+<wire x1="4.55" y1="-2.55" x2="-4.55" y2="-2.55" width="0" layer="39"/>
+<wire x1="-3.8" y1="1.5425" x2="-3.8" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="2.3" x2="3.8" y2="2.3" width="0.127" layer="21"/>
+<wire x1="3.8" y1="2.3" x2="3.8" y2="1.5425" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-1.5425" x2="-3.8" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-2.3" x2="3.8" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-2.3" x2="3.8" y2="-1.5425" width="0.127" layer="21"/>
+<wire x1="-3.65" y1="-2.15" x2="-3.65" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-3.65" y1="2.15" x2="-2.19" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="2.15" x2="3.65" y2="2.15" width="0.127" layer="51"/>
+<wire x1="3.65" y1="2.15" x2="3.65" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="3.65" y1="-2.15" x2="-2.19" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="-2.15" x2="-3.65" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="2.15" x2="-2.19" y2="-2.15" width="0.127" layer="51"/>
+<circle x="-4.3675" y="1.729" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-3.1" y="0" dx="2.45" dy="2.35" layer="1" rot="R90"/>
+<smd name="-" x="3.1" y="0" dx="2.45" dy="2.35" layer="1" rot="R90"/>
+<text x="-3.8635" y="2.6175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.8635" y="-3.8875" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.8405" y1="-1.2" x2="-3.7135" y2="1.2" layer="51"/>
+<rectangle x1="3.7135" y1="-1.2" x2="3.8405" y2="1.2" layer="51"/>
+</package>
+<package name="CAPMP7360X380N">
+<wire x1="-4.55" y1="-3.4" x2="-4.55" y2="3.4" width="0" layer="39"/>
+<wire x1="-4.55" y1="3.4" x2="4.55" y2="3.4" width="0" layer="39"/>
+<wire x1="4.55" y1="3.4" x2="4.55" y2="-3.4" width="0" layer="39"/>
+<wire x1="4.55" y1="-3.4" x2="-4.55" y2="-3.4" width="0" layer="39"/>
+<wire x1="-3.8" y1="2.3925" x2="-3.8" y2="3.15" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="3.15" x2="3.8" y2="3.15" width="0.127" layer="21"/>
+<wire x1="3.8" y1="3.15" x2="3.8" y2="2.3925" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-2.3925" x2="-3.8" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-3.15" x2="3.8" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="3.8" y1="-3.15" x2="3.8" y2="-2.3925" width="0.127" layer="21"/>
+<wire x1="-3.65" y1="-3" x2="-3.65" y2="3" width="0.127" layer="51"/>
+<wire x1="-3.65" y1="3" x2="-2.19" y2="3" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="3" x2="3.65" y2="3" width="0.127" layer="51"/>
+<wire x1="3.65" y1="3" x2="3.65" y2="-3" width="0.127" layer="51"/>
+<wire x1="3.65" y1="-3" x2="-2.19" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="-3" x2="-3.65" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2.19" y1="3" x2="-2.19" y2="-3" width="0.127" layer="51"/>
+<circle x="-4.3675" y="2.579" radius="0.25" width="0" layer="21"/>
+<smd name="+" x="-3.1" y="0" dx="4.15" dy="2.35" layer="1" rot="R90"/>
+<smd name="-" x="3.1" y="0" dx="4.15" dy="2.35" layer="1" rot="R90"/>
+<text x="-3.8635" y="3.4675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.8635" y="-4.7375" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.8405" y1="-2.05" x2="-3.7135" y2="2.05" layer="51"/>
+<rectangle x1="3.7135" y1="-2.05" x2="3.8405" y2="2.05" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -2541,6 +3009,21 @@ http://www.weartronics.com/</description>
 <rectangle x1="-2.54" y1="-0.254" x2="1.524" y2="0.254" layer="94" rot="R90"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="POLARISED">
+<wire x1="0.381" y1="1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.524" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="1.6764" y="0.5842" size="1.27" layer="94">+</text>
+<text x="-2.54" y="2.032" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.4765" y1="-0.4445" x2="0.8255" y2="0.4445" layer="94" rot="R270"/>
+<pin name="-" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="+" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2661,6 +3144,175 @@ http://www.weartronics.com/</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POLARISED_" prefix="C" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="POLARISED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CASE_A" package="CAPAE330X540N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASE_B" package="CAPAE430X540N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASE_C" package="CAPAE530X540N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASE_D" package="CAPAE660X540N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASE_E" package="CAPAE830X620N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASE_F" package="CAPAE830X1020N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASE_G" package="CAPAE1030X1020N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CASE_H" package="CAPAE1350X1350N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R_CASE" package="CAPMP2013X120N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S_CASE" package="CAPMP3216X120N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="A_CASE" package="CAPMP3216X180N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T_CASE" package="CAPMP3528X120N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B_CASE" package="CAPMP3528X210N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U_CASE" package="CAPMP6032X150N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C_CASE" package="CAPMP6032X280N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D_CASE" package="CAPMP7343X310N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X_CASE" package="CAPMP7343X430N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E_CASE" package="CAPMP7360X380N">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3731,6 +4383,8 @@ With round pins</description>
 <part name="JP3" library="adafruit" deviceset="PINHD-1X1" device="CB"/>
 <part name="X3" library="GreenFuel" deviceset="22-23-2041" device=""/>
 <part name="X5" library="GreenFuel" deviceset="22-23-2051" device=""/>
+<part name="C38" library="ipc-7351-capacitor" deviceset="POLARISED_" device="CASE_E"/>
+<part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5899,6 +6553,13 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="NAME" x="287.02" y="223.52" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="292.1" y="223.52" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="C38" gate="G$1" x="254" y="127" rot="R90">
+<attribute name="NAME" x="251.968" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="257.81" y="124.46" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND40" gate="1" x="254" y="116.84">
+<attribute name="VALUE" x="251.46" y="114.3" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6199,6 +6860,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="279.4" y1="238.76" x2="269.24" y2="238.76" width="0.1524" layer="91"/>
 <junction x="279.4" y="238.76"/>
 <wire x1="269.24" y1="238.76" x2="269.24" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="C38" gate="G$1" pin="-"/>
+<wire x1="254" y1="119.38" x2="254" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -7110,12 +7776,10 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </net>
 <net name="N$22" class="0">
 <segment>
-<wire x1="254" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="167.64" x2="370.84" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="129.54" x2="370.84" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="35.56" x2="314.96" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="254" y1="35.56" x2="254" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="167.64" x2="370.84" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="167.64" x2="370.84" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="35.56" x2="246.38" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7272,6 +7936,10 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="139.7" x2="289.56" y2="139.7" width="0.1524" layer="91"/>
 <label x="259.08" y="134.62" size="1.778" layer="95"/>
+<pinref part="C38" gate="G$1" pin="+"/>
+<wire x1="254" y1="132.08" x2="254" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="254" y1="134.62" x2="264.16" y2="134.62" width="0.1524" layer="91"/>
+<junction x="264.16" y="134.62"/>
 </segment>
 </net>
 </nets>
