@@ -6171,7 +6171,7 @@ DCR = 0.15ȍ ohm(max)
 <attribute name="NAME" x="106.68" y="229.362" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="X3" gate="-10" x="109.22" y="231.14" rot="R180">
-<attribute name="NAME" x="106.68" y="231.902" size="1.524" layer="95" rot="R180"/>
+<attribute name="NAME" x="99.06" y="236.982" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
