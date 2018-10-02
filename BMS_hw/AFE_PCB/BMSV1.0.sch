@@ -8403,7 +8403,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <label x="200.66" y="233.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="N$61" class="0">
+<net name="V-" class="0">
 <segment>
 <wire x1="30.48" y1="198.12" x2="27.94" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="198.12" x2="27.94" y2="195.58" width="0.1524" layer="91"/>
@@ -8476,7 +8476,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="T3" gate="G$1" pin="S6"/>
 </segment>
 </net>
-<net name="N$67" class="0">
+<net name="V+" class="0">
 <segment>
 <wire x1="83.82" y1="182.88" x2="86.36" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="182.88" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
@@ -8763,6 +8763,25 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="162.56" y1="228.6" x2="165.1" y2="228.6" width="0.1524" layer="91"/>
 <label x="165.1" y="228.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="152.4" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="76.2" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="175.768" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="81.28" y1="175.26" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="175.26" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
+<junction x="81.28" y="175.26"/>
+<wire x1="81.28" y1="162.56" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
+<junction x="81.28" y="162.56"/>
+<junction x="81.28" y="167.64"/>
+<pinref part="T1" gate="G$1" pin="G"/>
+<label x="81.28" y="175.26" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="DSG_GATE" class="0">
 <segment>
@@ -8791,26 +8810,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="106.68" y1="248.92" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="142.24" x2="10.16" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="142.24" x2="10.16" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="152.4" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="K"/>
-<wire x1="76.2" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="175.768" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="81.28" y1="175.26" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="175.26" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
-<junction x="81.28" y="175.26"/>
-<wire x1="81.28" y1="162.56" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-<junction x="81.28" y="162.56"/>
-<junction x="81.28" y="167.64"/>
-<pinref part="T1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="CHG_FET" class="0">
