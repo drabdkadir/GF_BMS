@@ -9145,7 +9145,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R63" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="170.18" x2="279.4" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="172.72" x2="287.02" y2="172.72" width="0.1524" layer="91"/>
-<label x="287.02" y="172.72" size="1.778" layer="95"/>
+<label x="294.64" y="172.72" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="D8" gate="G$1" pin="K"/>
