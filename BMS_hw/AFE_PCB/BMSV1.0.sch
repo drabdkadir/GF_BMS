@@ -4284,31 +4284,31 @@ With round pins</description>
 <part name="C15" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="2.2uF"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="2E2"/>
-<part name="R12" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="200k"/>
-<part name="R15" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="100k"/>
+<part name="R12" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="200k"/>
+<part name="R15" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="100k"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R16" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
+<part name="R16" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="1.6k"/>
 <part name="C16" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="1uF"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L1" library="GreenFuel" deviceset="XAL1010" device="-822MEB"/>
-<part name="R21" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
-<part name="C17" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="47nF"/>
-<part name="R22" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
-<part name="R23" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
+<part name="R21" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="16.2k"/>
+<part name="C17" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value=".1uF 100v"/>
+<part name="R22" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="127E"/>
+<part name="R23" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="127E"/>
 <part name="C22" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="47nF"/>
 <part name="C23" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="1210" value="47nF"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R24" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
-<part name="C24" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="47nF"/>
+<part name="R24" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="1.6k"/>
+<part name="C24" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value=".1u 100v"/>
 <part name="VCC" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+15v"/>
 <part name="C25" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="1210" value="47nF"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C26" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="47nF"/>
+<part name="C26" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="1uF 100v"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R25" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
+<part name="R25" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="2R"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -4385,6 +4385,7 @@ With round pins</description>
 <part name="X5" library="GreenFuel" deviceset="22-23-2051" device=""/>
 <part name="C38" library="ipc-7351-capacitor" deviceset="POLARISED_" device="CASE_E"/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R68" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="0R"/>
 </parts>
 <sheets>
 <sheet>
@@ -6482,9 +6483,9 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="NAME" x="266.7" y="90.424" size="1.778" layer="95"/>
 <attribute name="VALUE" x="266.7" y="85.598" size="1.778" layer="96"/>
 </instance>
-<instance part="C24" gate="G$1" x="274.32" y="104.14" rot="R270">
-<attribute name="NAME" x="276.86" y="106.68" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="270.002" y="106.68" size="1.778" layer="96" rot="R270"/>
+<instance part="C24" gate="G$1" x="264.16" y="109.22">
+<attribute name="NAME" x="261.62" y="111.76" size="1.778" layer="95"/>
+<attribute name="VALUE" x="261.62" y="104.902" size="1.778" layer="96"/>
 </instance>
 <instance part="VCC" gate="VCC" x="325.12" y="99.06">
 <attribute name="VALUE" x="322.58" y="96.52" size="1.778" layer="96" rot="R90"/>
@@ -6559,6 +6560,10 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </instance>
 <instance part="GND40" gate="1" x="254" y="116.84">
 <attribute name="VALUE" x="251.46" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="R68" gate="G$1" x="274.32" y="101.6" rot="R90">
+<attribute name="NAME" x="272.796" y="99.06" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="277.622" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -7672,11 +7677,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="274.32" y1="88.9" x2="274.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="93.98" x2="281.94" y2="93.98" width="0.1524" layer="91"/>
 <junction x="281.94" y="93.98"/>
-<pinref part="C24" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="99.06" x2="274.32" y2="93.98" width="0.1524" layer="91"/>
 <junction x="274.32" y="93.98"/>
 <wire x1="274.32" y1="93.98" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="269.24" y="93.98" size="1.778" layer="95"/>
+<pinref part="R68" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="96.52" x2="274.32" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SW"/>
@@ -7735,8 +7740,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <net name="BST" class="0">
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="274.32" y1="109.22" x2="266.7" y2="109.22" width="0.1524" layer="91"/>
-<label x="266.7" y="109.22" size="1.778" layer="95"/>
+<wire x1="259.08" y1="109.22" x2="251.46" y2="109.22" width="0.1524" layer="91"/>
+<label x="251.46" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="BST"/>
@@ -7940,6 +7945,14 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="254" y1="132.08" x2="254" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="254" y1="134.62" x2="264.16" y2="134.62" width="0.1524" layer="91"/>
 <junction x="264.16" y="134.62"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="R68" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="109.22" x2="274.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="109.22" x2="274.32" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
