@@ -4950,11 +4950,6 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <wire x1="261.62" y1="71.12" x2="261.62" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-11" pin="S"/>
-<wire x1="314.96" y1="132.08" x2="312.42" y2="132.08" width="0.1524" layer="91"/>
-<label x="307.34" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="50.8" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
@@ -5480,6 +5475,16 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="236.22" x2="71.12" y2="236.22" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="CELL14+" gate="G$1" pin="S"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-14" pin="S"/>
+<wire x1="345.44" y1="127" x2="347.98" y2="127" width="0.1524" layer="91"/>
+<label x="347.98" y="127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ISENSE-" class="0">
 <segment>
@@ -5659,123 +5664,42 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <junction x="261.62" y="88.9"/>
 </segment>
 </net>
-<net name="T_SUPPLY" class="0">
-<segment>
-<pinref part="X1" gate="-2" pin="S"/>
-<wire x1="345.44" y1="157.48" x2="347.98" y2="157.48" width="0.1524" layer="91"/>
-<label x="347.98" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AGND" class="0">
-<segment>
-<pinref part="X1" gate="-1" pin="S"/>
-<wire x1="314.96" y1="157.48" x2="312.42" y2="157.48" width="0.1524" layer="91"/>
-<label x="307.34" y="157.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC5" class="0">
-<segment>
-<pinref part="X1" gate="-5" pin="S"/>
-<wire x1="314.96" y1="147.32" x2="312.42" y2="147.32" width="0.1524" layer="91"/>
-<label x="312.42" y="147.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC9" class="0">
-<segment>
-<pinref part="X1" gate="-7" pin="S"/>
-<wire x1="314.96" y1="142.24" x2="312.42" y2="142.24" width="0.1524" layer="91"/>
-<label x="309.88" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC13" class="0">
-<segment>
-<pinref part="X1" gate="-9" pin="S"/>
-<wire x1="314.96" y1="137.16" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
-<label x="307.34" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC4" class="0">
+<net name="CELL5+" class="0">
 <segment>
 <pinref part="X1" gate="-13" pin="S"/>
 <wire x1="314.96" y1="127" x2="312.42" y2="127" width="0.1524" layer="91"/>
 <label x="309.88" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VC8" class="0">
-<segment>
-<pinref part="X1" gate="-15" pin="S"/>
-<wire x1="314.96" y1="121.92" x2="312.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="309.88" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC12" class="0">
-<segment>
-<pinref part="X1" gate="-17" pin="S"/>
-<wire x1="314.96" y1="116.84" x2="312.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="309.88" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC3" class="0">
+<net name="CELL4+" class="0">
 <segment>
 <pinref part="X1" gate="-4" pin="S"/>
 <wire x1="345.44" y1="152.4" x2="347.98" y2="152.4" width="0.1524" layer="91"/>
 <label x="347.98" y="152.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="314.96" y1="152.4" x2="312.42" y2="152.4" width="0.1524" layer="91"/>
+<label x="309.88" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="VC7" class="0">
+<net name="CELL6+" class="0">
 <segment>
 <pinref part="X1" gate="-6" pin="S"/>
 <wire x1="345.44" y1="147.32" x2="347.98" y2="147.32" width="0.1524" layer="91"/>
 <label x="347.98" y="147.32" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="VC11" class="0">
 <segment>
-<pinref part="X1" gate="-8" pin="S"/>
-<wire x1="345.44" y1="142.24" x2="347.98" y2="142.24" width="0.1524" layer="91"/>
-<label x="347.98" y="142.24" size="1.778" layer="95"/>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="314.96" y1="157.48" x2="312.42" y2="157.48" width="0.1524" layer="91"/>
+<label x="307.34" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="T" class="0">
+<net name="CELL3+" class="0">
 <segment>
-<pinref part="X1" gate="-10" pin="S"/>
-<wire x1="345.44" y1="137.16" x2="347.98" y2="137.16" width="0.1524" layer="91"/>
-<label x="345.44" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC2" class="0">
-<segment>
-<pinref part="X1" gate="-12" pin="S"/>
-<wire x1="345.44" y1="132.08" x2="347.98" y2="132.08" width="0.1524" layer="91"/>
-<label x="347.98" y="132.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC6" class="0">
-<segment>
-<pinref part="X1" gate="-14" pin="S"/>
-<wire x1="345.44" y1="127" x2="347.98" y2="127" width="0.1524" layer="91"/>
-<label x="345.44" y="127" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC10" class="0">
-<segment>
-<pinref part="X1" gate="-16" pin="S"/>
-<wire x1="345.44" y1="121.92" x2="347.98" y2="121.92" width="0.1524" layer="91"/>
-<label x="347.98" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="C_HIGH(VC14)" class="0">
-<segment>
-<pinref part="X1" gate="-18" pin="S"/>
-<wire x1="345.44" y1="116.84" x2="347.98" y2="116.84" width="0.1524" layer="91"/>
-<label x="347.98" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VC1" class="0">
-<segment>
-<pinref part="X1" gate="-3" pin="S"/>
-<wire x1="314.96" y1="152.4" x2="312.42" y2="152.4" width="0.1524" layer="91"/>
-<label x="309.88" y="152.4" size="1.778" layer="95"/>
+<pinref part="X1" gate="-11" pin="S"/>
+<wire x1="314.96" y1="132.08" x2="312.42" y2="132.08" width="0.1524" layer="91"/>
+<label x="307.34" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -5828,53 +5752,65 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <junction x="99.06" y="236.22"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="CELL14+" gate="G$1" pin="S"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="236.22" x2="58.42" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
+<net name="CELL12+" class="0">
 <segment>
 <pinref part="CELL12+" gate="G$1" pin="S"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="177.8" x2="55.88" y2="177.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-12" pin="S"/>
+<wire x1="345.44" y1="132.08" x2="347.98" y2="132.08" width="0.1524" layer="91"/>
+<label x="347.98" y="132.08" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$39" class="0">
+<net name="CELL10+" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="CELL10+" gate="G$1" pin="S"/>
 <wire x1="58.42" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-10" pin="S"/>
+<wire x1="345.44" y1="137.16" x2="347.98" y2="137.16" width="0.1524" layer="91"/>
+<label x="345.44" y="137.16" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$40" class="0">
+<net name="CELL8+" class="0">
 <segment>
 <pinref part="CELL8+" gate="G$1" pin="S"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-8" pin="S"/>
+<wire x1="345.44" y1="142.24" x2="347.98" y2="142.24" width="0.1524" layer="91"/>
+<label x="347.98" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$64" class="0">
+<net name="CELL11+" class="0">
 <segment>
 <pinref part="CELL11+" gate="G$1" pin="S"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="152.4" x2="66.04" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$65" class="0">
+<net name="CELL13" class="0">
 <segment>
 <pinref part="CELL13+" gate="G$1" pin="S"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="208.28" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$66" class="0">
+<net name="CELL9+" class="0">
 <segment>
 <pinref part="CELL9+" gate="G$1" pin="S"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-17" pin="S"/>
+<wire x1="314.96" y1="116.84" x2="312.42" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RDTX_OUT+" class="0">
@@ -5889,6 +5825,51 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <pinref part="IC1" gate="G$1" pin="RDTX_OUT-"/>
 <wire x1="241.3" y1="228.6" x2="243.84" y2="228.6" width="0.1524" layer="91"/>
 <label x="243.84" y="228.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BGND" class="0">
+<segment>
+<pinref part="X1" gate="-7" pin="S"/>
+<wire x1="314.96" y1="142.24" x2="312.42" y2="142.24" width="0.1524" layer="91"/>
+<label x="309.88" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CELL1+" class="0">
+<segment>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="345.44" y1="157.48" x2="347.98" y2="157.48" width="0.1524" layer="91"/>
+<label x="347.98" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-9" pin="S"/>
+<wire x1="314.96" y1="137.16" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
+<label x="307.34" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CELL2+" class="0">
+<segment>
+<pinref part="X1" gate="-5" pin="S"/>
+<wire x1="314.96" y1="147.32" x2="312.42" y2="147.32" width="0.1524" layer="91"/>
+<label x="309.88" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="X1" gate="-16" pin="S"/>
+<wire x1="345.44" y1="121.92" x2="347.98" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="X1" gate="-18" pin="S"/>
+<wire x1="345.44" y1="116.84" x2="347.98" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CELL7+" class="0">
+<segment>
+<pinref part="X1" gate="-15" pin="S"/>
+<wire x1="314.96" y1="121.92" x2="312.42" y2="121.92" width="0.1524" layer="91"/>
+<label x="309.88" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -7840,49 +7821,49 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <label x="307.34" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="CELL7+" class="0">
 <segment>
 <pinref part="CELL7+" gate="G$1" pin="S"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="241.3" x2="45.72" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="CELL6+" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
 <pinref part="CELL6+" gate="G$1" pin="S"/>
 <wire x1="27.94" y1="208.28" x2="25.4" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="CELL5+" class="0">
 <segment>
 <pinref part="CELL5+" gate="G$1" pin="S"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="180.34" x2="27.94" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$58" class="0">
+<net name="CELL4+" class="0">
 <segment>
 <pinref part="CELL4+" gate="G$1" pin="S"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="CELL3+" class="0">
 <segment>
 <pinref part="CELL3+" gate="G$1" pin="S"/>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$60" class="0">
+<net name="CELL2+" class="0">
 <segment>
 <pinref part="CELL2+" gate="G$1" pin="S"/>
 <pinref part="R37" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$62" class="0">
+<net name="CELL1+" class="0">
 <segment>
 <pinref part="R41" gate="G$1" pin="1"/>
 <pinref part="CELL1+" gate="G$1" pin="S"/>
@@ -7890,11 +7871,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </segment>
 </net>
 <net name="BGND" class="0">
-<segment>
-<pinref part="R38" gate="G$1" pin="1"/>
-<pinref part="CELL1-" gate="G$1" pin="S"/>
-<wire x1="35.56" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
@@ -7909,6 +7885,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="279.4" y1="238.76" x2="269.24" y2="238.76" width="0.1524" layer="91"/>
 <junction x="279.4" y="238.76"/>
 <label x="269.24" y="238.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="CELL1-" gate="G$1" pin="S"/>
+<wire x1="35.56" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$68" class="0">
