@@ -2468,9 +2468,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-23.475" y="29.3425" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="-23.475" y="26.5375" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R96" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="-41.275" y="-22.225">
-<attribute name="NAME" x="-42.525" y="-21.4075" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="-42.525" y="-24.3125" size="1.27" layer="27" font="vector" ratio="10"/>
+<element name="R96" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="-41.91" y="-17.145">
+<attribute name="NAME" x="-43.16" y="-16.3275" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="VALUE" x="-43.16" y="-19.2325" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R105" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="-41.275" y="-27.94">
 <attribute name="NAME" x="-42.525" y="-27.1225" size="1.27" layer="25" font="vector" ratio="10"/>
@@ -5053,7 +5053,7 @@ design rules under a new name.</description>
 <signal name="CHG_GATE">
 <contactref element="X2" pad="9"/>
 <contactref element="R96" pad="1"/>
-<wire x1="-42.075" y1="-22.225" x2="211.725" y2="40.91" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.71" y1="-17.145" x2="211.725" y2="40.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+15V">
 <contactref element="X2" pad="17"/>
@@ -5192,7 +5192,7 @@ design rules under a new name.</description>
 <signal name="N$33">
 <contactref element="R96" pad="2"/>
 <contactref element="IC5" pad="1"/>
-<wire x1="-40.475" y1="-22.225" x2="166.095" y2="38.1" width="0" layer="19" extent="1-16"/>
+<wire x1="-41.11" y1="-17.145" x2="166.095" y2="38.1" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$35">
 <contactref element="R106" pad="2"/>
