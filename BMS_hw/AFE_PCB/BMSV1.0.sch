@@ -3859,12 +3859,35 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <text x="1.27" y="-0.635" size="1.016" layer="25" ratio="12">&gt;NAME</text>
 <circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
 </package>
+<package name="WPAD">
+<pad name="1" x="0" y="0" drill="2.5" diameter="4.5" shape="octagon"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="21"/>
+<text x="2.54" y="3.81" size="1.016" layer="25" ratio="12" rot="R180">&gt;NAME</text>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="51"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TP">
 <pin name="P$1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
 <text x="1.27" y="-0.635" size="1.016" layer="95" font="vector" ratio="12">&gt;NAME</text>
+</symbol>
+<symbol name="WPAD">
+<pin name="P$1" x="-5.08" y="0" visible="off" length="middle" direction="pas"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95" font="vector" ratio="18">&gt;NAME</text>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3884,6 +3907,21 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <device name="-SMD60" package="TP-SMD60">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WPAD" prefix="WPAD" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="WPAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WPAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3977,7 +4015,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="SFH6156" device="" package3d_urn="urn:adsk.eagle:package:21969/1"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R31" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="10k"/>
+<part name="R31" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
 <part name="R29" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="10k"/>
 <part name="R30" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="10k"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -4231,7 +4269,6 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="C63" library="ipc-7351-capacitor" deviceset="POLARISED_" device="CASE_E"/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R34" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0R"/>
-<part name="TP1" library="simpa" deviceset="TP" device="TH7035"/>
 <part name="D20" library="ipc-7351-diode" deviceset="ZENER_" device="SOD-123" value="8.2V"/>
 <part name="C79" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="0.1uF"/>
 <part name="R96" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="127E"/>
@@ -4247,6 +4284,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="TP7" library="simpa" deviceset="TP" device="TH7035"/>
 <part name="TP8" library="simpa" deviceset="TP" device="TH7035"/>
 <part name="TP9" library="simpa" deviceset="TP" device="TH7035"/>
+<part name="BGND" library="simpa" deviceset="WPAD" device=""/>
+<part name="PACK-" library="simpa" deviceset="WPAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4573,9 +4612,6 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </instance>
 <instance part="GND18" gate="1" x="261.62" y="200.572">
 <attribute name="VALUE" x="259.08" y="198.032" size="1.778" layer="96"/>
-</instance>
-<instance part="TP1" gate="G$1" x="309.88" y="50.8">
-<attribute name="NAME" x="311.15" y="50.165" size="1.016" layer="95" font="vector" ratio="12"/>
 </instance>
 <instance part="C79" gate="G$1" x="271.78" y="215.9" rot="R270">
 <attribute name="NAME" x="274.32" y="218.44" size="1.778" layer="95" rot="R270"/>
@@ -6347,6 +6383,9 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="TP9" gate="G$1" x="195.58" y="119.38" rot="R180">
 <attribute name="NAME" x="194.31" y="120.015" size="1.016" layer="95" font="vector" ratio="12" rot="R180"/>
 </instance>
+<instance part="BGND" gate="G$1" x="261.62" y="238.76" rot="R180">
+<attribute name="NAME" x="259.08" y="238.76" size="1.778" layer="95" font="vector" ratio="18" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7617,9 +7656,10 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R81" gate="G$1" pin="4"/>
 <wire x1="279.4" y1="236.22" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="238.76" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="238.76" x2="269.24" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="238.76" x2="266.7" y2="238.76" width="0.1524" layer="91"/>
 <junction x="279.4" y="238.76"/>
 <label x="269.24" y="238.76" size="1.778" layer="95"/>
+<pinref part="BGND" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
@@ -8144,6 +8184,9 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="GND71" gate="1" x="132.08" y="172.72">
 <attribute name="VALUE" x="129.54" y="170.18" size="1.778" layer="96"/>
 </instance>
+<instance part="PACK-" gate="G$1" x="83.82" y="208.28" rot="R180">
+<attribute name="NAME" x="81.28" y="208.28" size="1.778" layer="95" font="vector" ratio="18" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8340,9 +8383,9 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="83.82" y1="198.12" x2="86.36" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="198.12" x2="86.36" y2="195.58" width="0.1524" layer="91"/>
 <junction x="86.36" y="195.58"/>
-<wire x1="86.36" y1="195.58" x2="88.9" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="195.58" x2="91.44" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="195.58" x2="91.44" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="195.58" x2="91.44" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="195.58" x2="91.44" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="208.28" x2="91.44" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="238.76" x2="86.36" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="238.76" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
@@ -8363,16 +8406,20 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="86.36" y="226.06"/>
 <wire x1="91.44" y1="226.06" x2="86.36" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="228.6" x2="93.98" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="228.6" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="228.6" x2="93.98" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="208.28" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="190.5" x2="96.52" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="190.5" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="190.5" x2="96.52" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="208.28" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="231.14" x2="86.36" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="233.68" x2="99.06" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="233.68" x2="99.06" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="233.68" x2="99.06" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="208.28" x2="99.06" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="187.96" x2="86.36" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="185.42" x2="101.6" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="185.42" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="185.42" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="208.28" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="R94" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="175.26" x2="101.6" y2="175.26" width="0.1524" layer="91"/>
@@ -8396,6 +8443,17 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="T3" gate="G$1" pin="S4"/>
 <pinref part="T3" gate="G$1" pin="S5"/>
 <pinref part="T3" gate="G$1" pin="S6"/>
+<pinref part="PACK-" gate="G$1" pin="P$1"/>
+<wire x1="88.9" y1="208.28" x2="91.44" y2="208.28" width="0.1524" layer="91"/>
+<junction x="91.44" y="208.28"/>
+<wire x1="91.44" y1="208.28" x2="93.98" y2="208.28" width="0.1524" layer="91"/>
+<junction x="93.98" y="208.28"/>
+<wire x1="93.98" y1="208.28" x2="96.52" y2="208.28" width="0.1524" layer="91"/>
+<junction x="96.52" y="208.28"/>
+<wire x1="96.52" y1="208.28" x2="99.06" y2="208.28" width="0.1524" layer="91"/>
+<junction x="99.06" y="208.28"/>
+<wire x1="99.06" y1="208.28" x2="101.6" y2="208.28" width="0.1524" layer="91"/>
+<junction x="101.6" y="208.28"/>
 </segment>
 </net>
 <net name="N$19" class="0">
