@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3861,9 +3861,10 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <sheet>
 <plain>
 <text x="314.96" y="104.14" size="1.778" layer="91">Galvanic Isolation on Fault Line</text>
-<text x="52.68" y="29.1" size="1.778" layer="91">Second order cell terminal filters and cell balancing resistors.</text>
-<text x="292.1" y="15.24" size="2.1844" layer="94">Greenfuel Energy Solutions Pvt. Ltd.</text>
-<text x="344.424" y="20.574" size="2.1844" layer="94">GFBMS-PCB</text>
+<text x="52.68" y="29.1" size="1.778" layer="94" font="vector" ratio="12">Second order cell terminal filters and cell balancing resistors.</text>
+<text x="292.1" y="15.24" size="2.1844" layer="94" font="vector" ratio="12">Greenfuel Energy Solutions Pvt. Ltd.</text>
+<text x="344.424" y="20.574" size="2.1844" layer="94" font="vector" ratio="12">GFBMS-PCB</text>
+<text x="327.66" y="180.34" size="1.778" layer="94" font="vector" ratio="12">&gt;Battery Parlleling connector</text>
 </plain>
 <instances>
 <instance part="CELL14+" gate="G$1" x="53.34" y="236.22" rot="R180">
@@ -4038,9 +4039,9 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <attribute name="NAME" x="116.84" y="106.68" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="109.982" y="106.68" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R6" gate="G$1" x="66.04" y="121.92" rot="R180">
-<attribute name="NAME" x="68.58" y="120.396" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="68.58" y="125.222" size="1.778" layer="96" rot="R180"/>
+<instance part="R6" gate="G$1" x="60.96" y="124.46" rot="R180">
+<attribute name="NAME" x="63.5" y="122.936" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="63.5" y="127.762" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R14" gate="G$1" x="83.82" y="109.22" rot="R270">
 <attribute name="NAME" x="85.344" y="111.76" size="1.778" layer="95" rot="R270"/>
@@ -4079,7 +4080,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <attribute name="VALUE" x="93.98" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="CELL8+" gate="G$1" x="50.8" y="63.5" rot="R180">
-<attribute name="NAME" x="55.88" y="60.96" size="1.27" layer="95" rot="R180"/>
+<attribute name="NAME" x="43.18" y="63.5" size="1.27" layer="95" font="vector" ratio="12"/>
 </instance>
 <instance part="C21" gate="G$1" x="114.3" y="55.88" rot="R270">
 <attribute name="NAME" x="116.84" y="58.42" size="1.778" layer="95" rot="R270"/>
@@ -4099,7 +4100,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </instance>
 <instance part="IC1" gate="G$1" x="210.82" y="137.16">
 <attribute name="NAME" x="205.74" y="246.38" size="1.27" layer="95"/>
-<attribute name="VALUE" x="203.2" y="12.7" size="1.27" layer="95"/>
+<attribute name="VALUE" x="203.2" y="12.7" size="1.27" layer="95" font="vector" ratio="12"/>
 </instance>
 <instance part="GND17" gate="1" x="256.54" y="119.38">
 <attribute name="VALUE" x="254" y="116.84" size="1.778" layer="96"/>
@@ -4148,9 +4149,9 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <attribute name="VALUE" x="259.08" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
-<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94" font="vector" ratio="12"/>
+<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94" font="vector" ratio="12"/>
+<attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94" font="vector" ratio="12"/>
 </instance>
 <instance part="R3" gate="G$1" x="63.5" y="236.22">
 <attribute name="NAME" x="60.96" y="237.744" size="1.778" layer="95"/>
@@ -4375,7 +4376,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_14"/>
 <wire x1="177.8" y1="213.36" x2="175.26" y2="213.36" width="0.1524" layer="91"/>
-<label x="167.64" y="213.36" size="1.778" layer="95"/>
+<label x="167.64" y="213.36" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CT_14" class="0">
@@ -4391,7 +4392,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_14"/>
 <wire x1="177.8" y1="218.44" x2="175.26" y2="218.44" width="0.1524" layer="91"/>
-<label x="167.64" y="218.44" size="1.778" layer="95"/>
+<label x="167.64" y="218.44" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CB_14/13_C" class="0">
@@ -4410,12 +4411,12 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_14:13C"/>
 <wire x1="177.8" y1="208.28" x2="175.26" y2="208.28" width="0.1524" layer="91"/>
-<label x="175.26" y="209.296" size="1.778" layer="95" rot="R180"/>
+<label x="175.26" y="209.296" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="6"/>
-<wire x1="350.52" y1="210.82" x2="332.74" y2="210.82" width="0.1524" layer="91"/>
-<label x="320.04" y="210.82" size="1.778" layer="95"/>
+<wire x1="350.52" y1="210.82" x2="342.9" y2="210.82" width="0.1524" layer="91"/>
+<label x="327.66" y="210.82" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -4443,7 +4444,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_13"/>
 <wire x1="177.8" y1="203.2" x2="175.26" y2="203.2" width="0.1524" layer="91"/>
-<label x="175.006" y="203.962" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="203.962" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4475,8 +4476,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="10"/>
-<wire x1="350.52" y1="200.66" x2="332.74" y2="200.66" width="0.1524" layer="91"/>
-<label x="317.5" y="200.66" size="1.778" layer="95"/>
+<wire x1="350.52" y1="200.66" x2="342.9" y2="200.66" width="0.1524" layer="91"/>
+<label x="327.66" y="200.66" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CT_12" class="0">
@@ -4494,7 +4495,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_12"/>
 <wire x1="177.8" y1="193.04" x2="175.26" y2="193.04" width="0.1524" layer="91"/>
-<label x="175.006" y="193.802" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="193.802" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4516,7 +4517,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_12"/>
 <wire x1="177.8" y1="187.96" x2="175.26" y2="187.96" width="0.1524" layer="91"/>
-<label x="174.752" y="188.976" size="1.778" layer="95" rot="R180"/>
+<label x="174.752" y="188.976" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_12/11_C" class="0">
@@ -4535,12 +4536,12 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_12:11_C"/>
 <wire x1="177.8" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
-<label x="175.006" y="183.642" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="183.642" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="5"/>
-<wire x1="350.52" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
-<label x="317.5" y="213.36" size="1.778" layer="95"/>
+<wire x1="350.52" y1="213.36" x2="342.9" y2="213.36" width="0.1524" layer="91"/>
+<label x="327.66" y="213.36" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CT_11" class="0">
@@ -4558,7 +4559,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_11"/>
 <wire x1="177.8" y1="177.8" x2="175.26" y2="177.8" width="0.1524" layer="91"/>
-<label x="175.006" y="178.562" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="178.562" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_13" class="0">
@@ -4570,7 +4571,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_13"/>
 <wire x1="177.8" y1="198.12" x2="175.26" y2="198.12" width="0.1524" layer="91"/>
-<label x="175.26" y="198.882" size="1.778" layer="95" rot="R180"/>
+<label x="175.26" y="198.882" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4597,13 +4598,13 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <net name="CB_11" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="58.42" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="55.88" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
+<label x="53.34" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_11"/>
 <wire x1="177.8" y1="172.72" x2="175.26" y2="172.72" width="0.1524" layer="91"/>
-<label x="174.752" y="173.482" size="1.778" layer="95" rot="R180"/>
+<label x="174.752" y="173.482" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CT_10" class="0">
@@ -4621,19 +4622,19 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_10"/>
 <wire x1="177.8" y1="167.64" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
-<label x="175.26" y="168.656" size="1.778" layer="95" rot="R180"/>
+<label x="175.26" y="168.656" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_9" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
-<label x="55.88" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="68.58" size="1.778" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_9"/>
 <wire x1="177.8" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="175.006" y="148.082" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="148.082" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CT_8" class="0">
@@ -4650,7 +4651,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_8"/>
 <wire x1="177.8" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
-<label x="175.006" y="143.002" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="143.002" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_8" class="0">
@@ -4662,26 +4663,26 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_8"/>
 <wire x1="177.8" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
-<label x="175.006" y="138.176" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="138.176" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_8/7_C" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_8:7_C"/>
 <wire x1="177.8" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<label x="175.006" y="133.096" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="133.096" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="3"/>
-<wire x1="350.52" y1="218.44" x2="332.74" y2="218.44" width="0.1524" layer="91"/>
-<label x="322.58" y="218.44" size="1.778" layer="95"/>
+<wire x1="350.52" y1="218.44" x2="342.9" y2="218.44" width="0.1524" layer="91"/>
+<label x="330.2" y="218.44" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CT_7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_7"/>
 <wire x1="177.8" y1="127" x2="175.26" y2="127" width="0.1524" layer="91"/>
-<label x="175.006" y="128.016" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="128.016" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
@@ -4700,40 +4701,40 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_7"/>
 <wire x1="177.8" y1="121.92" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
-<label x="175.006" y="122.936" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="122.936" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CT_6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_6"/>
 <wire x1="177.8" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
-<label x="175.006" y="117.856" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="117.856" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_6"/>
 <wire x1="177.8" y1="111.76" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
-<label x="175.006" y="112.776" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="112.776" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_6/5_C" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_6:5_C"/>
 <wire x1="177.8" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
-<label x="175.006" y="107.442" size="1.778" layer="95" rot="R180"/>
+<label x="175.006" y="107.442" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="2"/>
-<wire x1="350.52" y1="220.98" x2="332.74" y2="220.98" width="0.1524" layer="91"/>
-<label x="322.58" y="220.98" size="1.778" layer="95"/>
+<wire x1="350.52" y1="220.98" x2="342.9" y2="220.98" width="0.1524" layer="91"/>
+<label x="330.2" y="220.98" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CT_5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_5"/>
 <wire x1="177.8" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
-<label x="174.752" y="102.362" size="1.778" layer="95" rot="R180"/>
+<label x="174.752" y="102.362" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_10" class="0">
@@ -4745,7 +4746,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_10"/>
 <wire x1="177.8" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
-<label x="174.752" y="163.068" size="1.778" layer="95" rot="R180"/>
+<label x="174.752" y="163.068" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CB_10/9_C" class="0">
@@ -4764,12 +4765,12 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_10:9_C"/>
 <wire x1="177.8" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
-<label x="174.498" y="158.242" size="1.778" layer="95" rot="R180"/>
+<label x="174.498" y="158.242" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="4"/>
-<wire x1="350.52" y1="215.9" x2="332.74" y2="215.9" width="0.1524" layer="91"/>
-<label x="322.58" y="215.9" size="1.778" layer="95"/>
+<wire x1="350.52" y1="215.9" x2="342.9" y2="215.9" width="0.1524" layer="91"/>
+<label x="328.676" y="215.9" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CT_9" class="0">
@@ -4787,7 +4788,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CT_9"/>
 <wire x1="177.8" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
-<label x="174.752" y="153.162" size="1.778" layer="95" rot="R180"/>
+<label x="174.752" y="153.162" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CT_2" class="0">
@@ -4801,7 +4802,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <segment>
 <pinref part="IC1" gate="G$1" pin="CB_5"/>
 <wire x1="177.8" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
-<label x="174.752" y="97.536" size="1.778" layer="95" rot="R180"/>
+<label x="174.752" y="97.536" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 </segment>
 </net>
 <net name="CT_4" class="0">
@@ -4826,8 +4827,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="1"/>
-<wire x1="350.52" y1="223.52" x2="332.74" y2="223.52" width="0.1524" layer="91"/>
-<label x="325.12" y="223.52" size="1.778" layer="95"/>
+<wire x1="350.52" y1="223.52" x2="342.9" y2="223.52" width="0.1524" layer="91"/>
+<label x="330.2" y="223.52" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CT_3" class="0">
@@ -4859,8 +4860,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="7"/>
-<wire x1="350.52" y1="208.28" x2="332.74" y2="208.28" width="0.1524" layer="91"/>
-<label x="317.5" y="208.28" size="1.778" layer="95"/>
+<wire x1="350.52" y1="208.28" x2="342.9" y2="208.28" width="0.1524" layer="91"/>
+<label x="330.2" y="208.28" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CB_1" class="0">
@@ -4984,7 +4985,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <wire x1="175.26" y1="233.68" x2="177.8" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="236.22" x2="172.72" y2="236.22" width="0.1524" layer="91"/>
 <junction x="175.26" y="236.22"/>
-<label x="172.72" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="172.72" y="236.22" size="1.778" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -5160,8 +5161,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <net name="CELL1-" class="0">
 <segment>
 <pinref part="JP5" gate="A" pin="8"/>
-<wire x1="350.52" y1="205.74" x2="332.74" y2="205.74" width="0.1524" layer="91"/>
-<label x="322.58" y="205.74" size="1.778" layer="95"/>
+<wire x1="350.52" y1="205.74" x2="342.9" y2="205.74" width="0.1524" layer="91"/>
+<label x="333.756" y="205.74" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CB_14+/14_C" class="0">
@@ -5182,8 +5183,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="9"/>
-<wire x1="350.52" y1="203.2" x2="332.74" y2="203.2" width="0.1524" layer="91"/>
-<label x="317.5" y="203.2" size="1.778" layer="95"/>
+<wire x1="350.52" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
+<label x="326.136" y="203.2" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CB_9/8_C" class="0">
@@ -5205,8 +5206,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="12"/>
-<wire x1="350.52" y1="195.58" x2="332.74" y2="195.58" width="0.1524" layer="91"/>
-<label x="317.5" y="195.58" size="1.778" layer="95"/>
+<wire x1="350.52" y1="195.58" x2="342.9" y2="195.58" width="0.1524" layer="91"/>
+<label x="330.2" y="195.58" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CB_11/10_C" class="0">
@@ -5218,7 +5219,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="121.92" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="124.46" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="114.3" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
 <junction x="83.82" y="116.84"/>
@@ -5228,22 +5230,22 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="11"/>
-<wire x1="350.52" y1="198.12" x2="332.74" y2="198.12" width="0.1524" layer="91"/>
-<label x="317.5" y="198.12" size="1.778" layer="95"/>
+<wire x1="350.52" y1="198.12" x2="342.9" y2="198.12" width="0.1524" layer="91"/>
+<label x="327.66" y="198.12" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CB_3/2_C" class="0">
 <segment>
 <pinref part="JP5" gate="A" pin="15"/>
-<wire x1="350.52" y1="187.96" x2="332.74" y2="187.96" width="0.1524" layer="91"/>
-<label x="317.5" y="187.96" size="1.778" layer="95"/>
+<wire x1="350.52" y1="187.96" x2="342.9" y2="187.96" width="0.1524" layer="91"/>
+<label x="330.2" y="187.96" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CB_5/4_C" class="0">
 <segment>
 <pinref part="JP5" gate="A" pin="14"/>
-<wire x1="350.52" y1="190.5" x2="332.74" y2="190.5" width="0.1524" layer="91"/>
-<label x="317.5" y="190.5" size="1.778" layer="95"/>
+<wire x1="350.52" y1="190.5" x2="342.9" y2="190.5" width="0.1524" layer="91"/>
+<label x="330.2" y="190.5" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="CSB" class="0">
@@ -5278,8 +5280,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <net name="CB_7/6_C" class="0">
 <segment>
 <pinref part="JP5" gate="A" pin="13"/>
-<wire x1="350.52" y1="193.04" x2="332.74" y2="193.04" width="0.1524" layer="91"/>
-<label x="317.5" y="193.04" size="1.778" layer="95"/>
+<wire x1="350.52" y1="193.04" x2="342.9" y2="193.04" width="0.1524" layer="91"/>
+<label x="330.2" y="193.04" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 </nets>
@@ -8112,11 +8114,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <label x="15.24" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="22.86" y1="127" x2="20.32" y2="127" width="0.1524" layer="91"/>
-<label x="15.24" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="X2" gate="-3" pin="S"/>
 <wire x1="22.86" y1="121.92" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
 <label x="15.24" y="121.92" size="1.778" layer="95"/>
@@ -8140,11 +8137,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="X2" gate="-8" pin="S"/>
 <wire x1="55.88" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
 <label x="58.42" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-6" pin="S"/>
-<wire x1="55.88" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="55.88" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-2" pin="S"/>
@@ -8321,13 +8313,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="X2" gate="-5" pin="S"/>
 <wire x1="22.86" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
 <label x="10.16" y="116.84" size="1.778" layer="95" font="vector" ratio="12"/>
-</segment>
-</net>
-<net name="ISP" class="0">
-<segment>
-<pinref part="X2" gate="-11" pin="S"/>
-<wire x1="22.86" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
-<label x="15.24" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RDTX_OUT+" class="0">
@@ -8718,6 +8703,27 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="X3" gate="-7" pin="S"/>
 <wire x1="88.9" y1="111.76" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
 <label x="81.28" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="X2" gate="-11" pin="S"/>
+<wire x1="22.86" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
+<label x="15.24" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="X2" gate="-6" pin="S"/>
+<wire x1="55.88" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
+<label x="55.88" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCLK" class="0">
+<segment>
+<pinref part="X2" gate="-1" pin="S"/>
+<wire x1="22.86" y1="127" x2="20.32" y2="127" width="0.1524" layer="91"/>
+<label x="15.24" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
