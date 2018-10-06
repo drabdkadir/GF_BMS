@@ -214,141 +214,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="con-molex" urn="urn:adsk.eagle:library:165">
-<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="87758-2016" library_version="2">
-<description>&lt;b&gt;2.00mm Pitch Milli-Grid™ Header, Through Hole, Vertical, 20 Circuits, 0.38µm Gold (Au) Selective Plating, Pocket Tray Packaging, Lead-Free&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/877582016_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-9.85" y1="-1.9" x2="9.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="9.85" y1="-1.9" x2="9.85" y2="-0.4" width="0.2032" layer="21"/>
-<wire x1="9.85" y1="0.4" x2="9.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="9.85" y1="1.9" x2="-9.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-9.85" y1="1.9" x2="-9.85" y2="0.4" width="0.2032" layer="21"/>
-<wire x1="-9.85" y1="-0.4" x2="-9.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-9.85" y1="0.4" x2="-9.85" y2="-0.4" width="0.2032" layer="21" curve="-129.184564"/>
-<wire x1="9.85" y1="-0.4" x2="9.85" y2="0.4" width="0.2032" layer="21" curve="-129.184564"/>
-<pad name="1" x="-9" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="2" x="-9" y="1" drill="0.9" diameter="1.27"/>
-<pad name="3" x="-7" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="4" x="-7" y="1" drill="0.9" diameter="1.27"/>
-<pad name="5" x="-5" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="6" x="-5" y="1" drill="0.9" diameter="1.27"/>
-<pad name="7" x="-3" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="8" x="-3" y="1" drill="0.9" diameter="1.27"/>
-<pad name="9" x="-1" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="10" x="-1" y="1" drill="0.9" diameter="1.27"/>
-<pad name="11" x="1" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="12" x="1" y="1" drill="0.9" diameter="1.27"/>
-<pad name="13" x="3" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="14" x="3" y="1" drill="0.9" diameter="1.27"/>
-<pad name="15" x="5" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="16" x="5" y="1" drill="0.9" diameter="1.27"/>
-<pad name="17" x="7" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="18" x="7" y="1" drill="0.9" diameter="1.27"/>
-<pad name="19" x="9" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="20" x="9" y="1" drill="0.9" diameter="1.27"/>
-<text x="-9.65" y="-1.75" size="0.3048" layer="21" font="vector">1</text>
-<text x="-9.62" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-9.25" y1="-1.25" x2="-8.75" y2="-0.75" layer="51"/>
-<rectangle x1="-9.25" y1="0.75" x2="-8.75" y2="1.25" layer="51"/>
-<rectangle x1="-7.25" y1="-1.25" x2="-6.75" y2="-0.75" layer="51"/>
-<rectangle x1="-7.25" y1="0.75" x2="-6.75" y2="1.25" layer="51"/>
-<rectangle x1="-5.25" y1="-1.25" x2="-4.75" y2="-0.75" layer="51"/>
-<rectangle x1="-5.25" y1="0.75" x2="-4.75" y2="1.25" layer="51"/>
-<rectangle x1="-3.25" y1="-1.25" x2="-2.75" y2="-0.75" layer="51"/>
-<rectangle x1="-3.25" y1="0.75" x2="-2.75" y2="1.25" layer="51"/>
-<rectangle x1="-1.25" y1="-1.25" x2="-0.75" y2="-0.75" layer="51"/>
-<rectangle x1="-1.25" y1="0.75" x2="-0.75" y2="1.25" layer="51"/>
-<rectangle x1="0.75" y1="-1.25" x2="1.25" y2="-0.75" layer="51"/>
-<rectangle x1="0.75" y1="0.75" x2="1.25" y2="1.25" layer="51"/>
-<rectangle x1="2.75" y1="-1.25" x2="3.25" y2="-0.75" layer="51"/>
-<rectangle x1="2.75" y1="0.75" x2="3.25" y2="1.25" layer="51"/>
-<rectangle x1="4.75" y1="-1.25" x2="5.25" y2="-0.75" layer="51"/>
-<rectangle x1="4.75" y1="0.75" x2="5.25" y2="1.25" layer="51"/>
-<rectangle x1="6.75" y1="-1.25" x2="7.25" y2="-0.75" layer="51"/>
-<rectangle x1="6.75" y1="0.75" x2="7.25" y2="1.25" layer="51"/>
-<rectangle x1="8.75" y1="-1.25" x2="9.25" y2="-0.75" layer="51"/>
-<rectangle x1="8.75" y1="0.75" x2="9.25" y2="1.25" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MV" library_version="2">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="M" library_version="2">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="87758-2016" prefix="X" library_version="2">
-<description>&lt;b&gt;20 Pin - 2mm Dual Row Single Wafer, Vertical T/H HDR&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
-<gates>
-<gate name="-1" symbol="MV" x="-10.16" y="10.16" addlevel="always"/>
-<gate name="-2" symbol="MV" x="10.16" y="10.16" addlevel="always"/>
-<gate name="-3" symbol="M" x="-10.16" y="7.62" addlevel="always"/>
-<gate name="-4" symbol="M" x="10.16" y="7.62" addlevel="always"/>
-<gate name="-5" symbol="M" x="-10.16" y="5.08" addlevel="always"/>
-<gate name="-6" symbol="M" x="10.16" y="5.08" addlevel="always"/>
-<gate name="-7" symbol="M" x="-10.16" y="2.54" addlevel="always"/>
-<gate name="-8" symbol="M" x="10.16" y="2.54" addlevel="always"/>
-<gate name="-9" symbol="M" x="-10.16" y="0" addlevel="always"/>
-<gate name="-10" symbol="M" x="10.16" y="0" addlevel="always"/>
-<gate name="-11" symbol="M" x="-10.16" y="-2.54" addlevel="always"/>
-<gate name="-12" symbol="M" x="10.16" y="-2.54" addlevel="always"/>
-<gate name="-13" symbol="M" x="-10.16" y="-5.08" addlevel="always"/>
-<gate name="-14" symbol="M" x="10.16" y="-5.08" addlevel="always"/>
-<gate name="-15" symbol="M" x="-10.16" y="-7.62" addlevel="always"/>
-<gate name="-16" symbol="M" x="10.16" y="-7.62" addlevel="always"/>
-<gate name="-17" symbol="M" x="-10.16" y="-10.16" addlevel="always"/>
-<gate name="-18" symbol="M" x="10.16" y="-10.16" addlevel="always"/>
-<gate name="-19" symbol="M" x="-10.16" y="-12.7" addlevel="always"/>
-<gate name="-20" symbol="M" x="10.16" y="-12.7" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="87758-2016">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-10" pin="S" pad="10"/>
-<connect gate="-11" pin="S" pad="11"/>
-<connect gate="-12" pin="S" pad="12"/>
-<connect gate="-13" pin="S" pad="13"/>
-<connect gate="-14" pin="S" pad="14"/>
-<connect gate="-15" pin="S" pad="15"/>
-<connect gate="-16" pin="S" pad="16"/>
-<connect gate="-17" pin="S" pad="17"/>
-<connect gate="-18" pin="S" pad="18"/>
-<connect gate="-19" pin="S" pad="19"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-20" pin="S" pad="20"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-<connect gate="-6" pin="S" pad="6"/>
-<connect gate="-7" pin="S" pad="7"/>
-<connect gate="-8" pin="S" pad="8"/>
-<connect gate="-9" pin="S" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="87758-2016" constant="no"/>
-<attribute name="OC_FARNELL" value="7472374" constant="no"/>
-<attribute name="OC_NEWARK" value="25M5677" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="GreenFuel">
 <packages>
 <package name="64PIN-LQFP">
@@ -3778,8 +3643,6 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLML5203" device="" package3d_urn="urn:adsk.eagle:package:29512/2"/>
 <part name="R98" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="10k"/>
-<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="87758-2016" device=""/>
-<part name="X3" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="87758-2016" device=""/>
 <part name="R3" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
 <part name="R1" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
 <part name="R4" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
@@ -3856,6 +3719,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="GND80" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R107" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603"/>
 <part name="PACK-" library="simpa" deviceset="WPAD" device=""/>
+<part name="JP4" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
+<part name="JP6" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7445,7 +7310,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 &gt;&gt;OLED
 &gt;&gt;LED's</text>
 <text x="154.94" y="147.32" size="2.54" layer="91">FET optoisolated, drivers and precharge circuit</text>
-<text x="55.88" y="68.58" size="2.54" layer="91">Piggy board connectors !</text>
+<text x="55.88" y="68.58" size="2.54" layer="94" font="vector" ratio="12">Piggy board connectors !</text>
 <text x="344.424" y="20.574" size="2.1844" layer="94">GFBMS-PCB</text>
 <text x="292.1" y="12.7" size="2.1844" layer="94">Greenfuel Energy Solutions Pvt. Ltd.</text>
 <text x="269.24" y="127" size="2.54" layer="91">Key-In and wake up module</text>
@@ -7534,130 +7399,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="R98" gate="G$1" x="226.06" y="226.06" rot="R180">
 <attribute name="NAME" x="228.6" y="224.536" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="228.6" y="229.362" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X2" gate="-1" x="25.4" y="127">
-<attribute name="NAME" x="27.94" y="126.238" size="1.524" layer="95"/>
-<attribute name="VALUE" x="24.638" y="128.397" size="1.778" layer="96"/>
-</instance>
-<instance part="X2" gate="-2" x="53.34" y="127" rot="MR0">
-<attribute name="NAME" x="50.8" y="126.238" size="1.524" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="54.102" y="128.397" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-3" x="25.4" y="121.92">
-<attribute name="NAME" x="27.94" y="121.158" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-4" x="53.34" y="121.92" rot="MR0">
-<attribute name="NAME" x="50.8" y="121.158" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-5" x="25.4" y="116.84">
-<attribute name="NAME" x="27.94" y="116.078" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-6" x="53.34" y="116.84" rot="MR0">
-<attribute name="NAME" x="50.8" y="116.078" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-7" x="25.4" y="111.76">
-<attribute name="NAME" x="27.94" y="110.998" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-8" x="53.34" y="111.76" rot="MR0">
-<attribute name="NAME" x="50.8" y="110.998" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-9" x="25.4" y="106.68">
-<attribute name="NAME" x="27.94" y="105.918" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-10" x="53.34" y="106.68" rot="MR0">
-<attribute name="NAME" x="50.8" y="105.918" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-11" x="25.4" y="101.6">
-<attribute name="NAME" x="27.94" y="100.838" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-12" x="53.34" y="101.6" rot="MR0">
-<attribute name="NAME" x="50.8" y="100.838" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-13" x="25.4" y="96.52">
-<attribute name="NAME" x="27.94" y="95.758" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-14" x="53.34" y="96.52" rot="MR0">
-<attribute name="NAME" x="50.8" y="95.758" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-15" x="25.4" y="91.44">
-<attribute name="NAME" x="27.94" y="90.678" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-16" x="53.34" y="91.44" rot="MR0">
-<attribute name="NAME" x="50.8" y="90.678" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-17" x="25.4" y="86.36">
-<attribute name="NAME" x="27.94" y="85.598" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-18" x="53.34" y="86.36" rot="MR0">
-<attribute name="NAME" x="50.8" y="85.598" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-19" x="25.4" y="81.28">
-<attribute name="NAME" x="27.94" y="80.518" size="1.524" layer="95"/>
-</instance>
-<instance part="X2" gate="-20" x="53.34" y="81.28" rot="MR0">
-<attribute name="NAME" x="50.8" y="80.518" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-1" x="91.44" y="127">
-<attribute name="NAME" x="93.98" y="126.238" size="1.524" layer="95"/>
-<attribute name="VALUE" x="90.678" y="128.397" size="1.778" layer="96"/>
-</instance>
-<instance part="X3" gate="-2" x="119.38" y="127" rot="MR0">
-<attribute name="NAME" x="116.84" y="126.238" size="1.524" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="120.142" y="128.397" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-3" x="91.44" y="121.92">
-<attribute name="NAME" x="93.98" y="121.158" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-4" x="119.38" y="121.92" rot="MR0">
-<attribute name="NAME" x="116.84" y="121.158" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-5" x="91.44" y="116.84">
-<attribute name="NAME" x="93.98" y="116.078" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-6" x="119.38" y="116.84" rot="MR0">
-<attribute name="NAME" x="116.84" y="116.078" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-7" x="91.44" y="111.76">
-<attribute name="NAME" x="93.98" y="110.998" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-8" x="119.38" y="111.76" rot="MR0">
-<attribute name="NAME" x="116.84" y="110.998" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-9" x="91.44" y="106.68">
-<attribute name="NAME" x="93.98" y="105.918" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-10" x="119.38" y="106.68" rot="MR0">
-<attribute name="NAME" x="116.84" y="105.918" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-11" x="91.44" y="101.6">
-<attribute name="NAME" x="93.98" y="100.838" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-12" x="119.38" y="101.6" rot="MR0">
-<attribute name="NAME" x="116.84" y="100.838" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-13" x="91.44" y="96.52">
-<attribute name="NAME" x="93.98" y="95.758" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-14" x="119.38" y="96.52" rot="MR0">
-<attribute name="NAME" x="116.84" y="95.758" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-15" x="91.44" y="91.44">
-<attribute name="NAME" x="93.98" y="90.678" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-16" x="119.38" y="91.44" rot="MR0">
-<attribute name="NAME" x="116.84" y="90.678" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-17" x="91.44" y="86.36">
-<attribute name="NAME" x="93.98" y="85.598" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-18" x="119.38" y="86.36" rot="MR0">
-<attribute name="NAME" x="116.84" y="85.598" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X3" gate="-19" x="91.44" y="81.28">
-<attribute name="NAME" x="93.98" y="80.518" size="1.524" layer="95"/>
-</instance>
-<instance part="X3" gate="-20" x="119.38" y="81.28" rot="MR0">
-<attribute name="NAME" x="116.84" y="80.518" size="1.524" layer="95" rot="MR0"/>
 </instance>
 <instance part="LED1" gate="G$1" x="287.02" y="233.68" rot="R90">
 <attribute name="NAME" x="292.1" y="240.03" size="1.778" layer="95" rot="R180"/>
@@ -7796,6 +7537,14 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </instance>
 <instance part="PACK-" gate="G$1" x="83.82" y="208.28" rot="R180">
 <attribute name="NAME" x="81.28" y="208.28" size="1.778" layer="95" font="vector" ratio="18" rot="R180"/>
+</instance>
+<instance part="JP4" gate="A" x="71.12" y="99.06">
+<attribute name="NAME" x="64.77" y="120.015" size="1.778" layer="95"/>
+<attribute name="VALUE" x="64.77" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="JP6" gate="A" x="78.74" y="99.06" rot="R180">
+<attribute name="NAME" x="85.09" y="78.105" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="85.09" y="121.92" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8104,81 +7853,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="228.6" y1="177.8" x2="228.6" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-2" pin="S"/>
-<wire x1="55.88" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
-<label x="58.42" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-7" pin="S"/>
-<wire x1="22.86" y1="111.76" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
-<label x="15.24" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-3" pin="S"/>
-<wire x1="22.86" y1="121.92" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
-<label x="15.24" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-15" pin="S"/>
-<wire x1="22.86" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
-<label x="15.24" y="91.44" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-20" pin="S"/>
-<wire x1="55.88" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<label x="58.42" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-18" pin="S"/>
-<wire x1="55.88" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
-<label x="58.42" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-8" pin="S"/>
-<wire x1="55.88" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="58.42" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-2" pin="S"/>
-<wire x1="121.92" y1="127" x2="124.46" y2="127" width="0.1524" layer="91"/>
-<label x="124.46" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-1" pin="S"/>
-<wire x1="88.9" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
-<label x="81.28" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-3" pin="S"/>
-<wire x1="88.9" y1="121.92" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
-<label x="81.28" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-20" pin="S"/>
-<wire x1="121.92" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<label x="124.46" y="81.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-18" pin="S"/>
-<wire x1="121.92" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
-<label x="124.46" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-14" pin="S"/>
-<wire x1="121.92" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
-<label x="124.46" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-10" pin="S"/>
-<wire x1="121.92" y1="106.68" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
-<label x="124.46" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-8" pin="S"/>
-<wire x1="121.92" y1="111.76" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
-<label x="124.46" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="GND75" gate="1" pin="GND"/>
 <pinref part="R102" gate="G$1" pin="2"/>
 <wire x1="317.5" y1="208.28" x2="317.5" y2="213.36" width="0.1524" layer="91"/>
@@ -8296,45 +7970,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="215.9" y1="226.06" x2="220.98" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="X2" gate="-13" pin="S"/>
-<wire x1="22.86" y1="96.52" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
-<label x="15.24" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-12" pin="S"/>
-<wire x1="121.92" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
-<label x="124.46" y="101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FAULT_OUT" class="0">
-<segment>
-<pinref part="X2" gate="-5" pin="S"/>
-<wire x1="22.86" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
-<label x="10.16" y="116.84" size="1.778" layer="95" font="vector" ratio="12"/>
-</segment>
-</net>
-<net name="RDTX_OUT+" class="0">
-<segment>
-<pinref part="X3" gate="-5" pin="S"/>
-<wire x1="88.9" y1="116.84" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
-<label x="73.66" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RDTX_OUT-" class="0">
-<segment>
-<pinref part="X3" gate="-9" pin="S"/>
-<wire x1="88.9" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
-<label x="73.66" y="106.68" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
-<segment>
-<pinref part="X3" gate="-16" pin="S"/>
-<wire x1="121.92" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
-<label x="124.46" y="91.44" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R101" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="218.44" x2="287.02" y2="215.9" width="0.1524" layer="91"/>
@@ -8344,11 +7980,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="JP3" gate="A" pin="3"/>
 <wire x1="284.48" y1="203.2" x2="289.56" y2="203.2" width="0.1524" layer="91"/>
 <label x="294.64" y="203.2" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-12" pin="S"/>
-<wire x1="55.88" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
-<label x="58.42" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="190.5" y="86.36" size="1.778" layer="95"/>
@@ -8369,22 +8000,12 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="279.4" y1="233.68" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
 <label x="276.86" y="233.68" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="X3" gate="-11" pin="S"/>
-<wire x1="88.9" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
-<label x="81.28" y="101.6" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S-LED_2" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="CG"/>
 <wire x1="294.64" y1="233.68" x2="297.18" y2="233.68" width="0.1524" layer="91"/>
 <label x="297.18" y="233.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-13" pin="S"/>
-<wire x1="88.9" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
-<label x="81.28" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -8414,22 +8035,12 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="317.5" y1="233.68" x2="317.5" y2="236.22" width="0.1524" layer="91"/>
 <label x="317.5" y="236.22" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="X3" gate="-15" pin="S"/>
-<wire x1="88.9" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
-<label x="81.28" y="91.44" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S-LED_4" class="0">
 <segment>
 <pinref part="D18" gate="1" pin="A"/>
 <wire x1="340.36" y1="233.68" x2="340.36" y2="236.22" width="0.1524" layer="91"/>
 <label x="340.36" y="236.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-17" pin="S"/>
-<wire x1="88.9" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
-<label x="81.28" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S-LED_5" class="0">
@@ -8438,11 +8049,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="363.22" y1="233.68" x2="363.22" y2="236.22" width="0.1524" layer="91"/>
 <label x="363.22" y="236.22" size="1.778" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="X3" gate="-19" pin="S"/>
-<wire x1="88.9" y1="81.28" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
-<label x="81.28" y="81.28" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="OLED_SDA" class="0">
 <segment>
@@ -8450,22 +8056,12 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="284.48" y1="198.12" x2="289.56" y2="198.12" width="0.1524" layer="91"/>
 <label x="302.26" y="198.12" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="X3" gate="-4" pin="S"/>
-<wire x1="121.92" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
-<label x="124.46" y="121.92" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="OLED_SCL" class="0">
 <segment>
 <pinref part="JP3" gate="A" pin="2"/>
 <wire x1="284.48" y1="200.66" x2="289.56" y2="200.66" width="0.1524" layer="91"/>
 <label x="302.26" y="200.66" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-6" pin="S"/>
-<wire x1="121.92" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-<label x="124.46" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WAKE" class="0">
@@ -8552,22 +8148,12 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </net>
 <net name="RX_O" class="0">
 <segment>
-<pinref part="X2" gate="-14" pin="S"/>
-<wire x1="55.88" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
-<label x="58.42" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="190.5" y="81.28" size="1.778" layer="95"/>
 <wire x1="182.88" y1="81.28" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="TX_O" class="0">
-<segment>
-<pinref part="X2" gate="-16" pin="S"/>
-<wire x1="55.88" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<label x="58.42" y="91.44" size="1.778" layer="95"/>
-</segment>
 <segment>
 <label x="190.5" y="83.82" size="1.778" layer="95"/>
 <wire x1="182.88" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
@@ -8579,11 +8165,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <label x="190.5" y="88.9" size="1.778" layer="95"/>
 <wire x1="182.88" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-5" pin="S"/>
-</segment>
-<segment>
-<pinref part="X2" gate="-10" pin="S"/>
-<wire x1="55.88" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<label x="58.42" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE" class="0">
@@ -8614,22 +8195,12 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </net>
 <net name="PCHG_GATE" class="0">
 <segment>
-<pinref part="X2" gate="-4" pin="S"/>
-<wire x1="55.88" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<label x="58.42" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R106" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="198.12" x2="185.42" y2="198.12" width="0.1524" layer="91"/>
 <label x="185.42" y="198.12" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="DSG_GATE" class="0">
-<segment>
-<pinref part="X2" gate="-19" pin="S"/>
-<wire x1="22.86" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
-<label x="15.24" y="81.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R105" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="238.76" x2="121.92" y2="238.76" width="0.1524" layer="91"/>
@@ -8638,22 +8209,12 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </net>
 <net name="CHG_GATE" class="0">
 <segment>
-<pinref part="X2" gate="-9" pin="S"/>
-<wire x1="22.86" y1="106.68" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
-<label x="15.24" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R96" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="198.12" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
 <label x="121.92" y="198.12" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="+15V" class="0">
-<segment>
-<pinref part="X2" gate="-17" pin="S"/>
-<wire x1="22.86" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
-<label x="15.24" y="86.36" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC4" gate="G$1" pin="VDD"/>
 <wire x1="162.56" y1="238.76" x2="165.1" y2="238.76" width="0.1524" layer="91"/>
@@ -8696,34 +8257,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R106" gate="G$1" pin="2"/>
 <pinref part="IC6" gate="G$1" pin="ANODE"/>
 <wire x1="198.12" y1="198.12" x2="200.66" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CSB" class="0">
-<segment>
-<pinref part="X3" gate="-7" pin="S"/>
-<wire x1="88.9" y1="111.76" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
-<label x="81.28" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MISO" class="0">
-<segment>
-<pinref part="X2" gate="-11" pin="S"/>
-<wire x1="22.86" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
-<label x="15.24" y="101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="X2" gate="-6" pin="S"/>
-<wire x1="55.88" y1="116.84" x2="58.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="55.88" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SCLK" class="0">
-<segment>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="22.86" y1="127" x2="20.32" y2="127" width="0.1524" layer="91"/>
-<label x="15.24" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
