@@ -6839,13 +6839,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <label x="175.26" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="CELL14+" class="0">
-<segment>
-<pinref part="R66" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
-<label x="149.86" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="D9" gate="G$1" pin="A"/>
@@ -7434,6 +7427,13 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R107" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="EN"/>
 <wire x1="360.68" y1="142.24" x2="320.04" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CB_14+/14_C" class="0">
+<segment>
+<pinref part="R66" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="149.86" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
