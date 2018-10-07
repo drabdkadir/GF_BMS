@@ -1062,6 +1062,13 @@ Inifineon</description>
 <text x="2.5" y="9" size="1.27" layer="25" font="vector" ratio="12" rot="R180">&gt;NAME</text>
 <text x="2" y="-8" size="0.7" layer="27" font="vector" ratio="12" rot="R180">&gt;VALUE</text>
 </package>
+<package name="PIG6030">
+<wire x1="-30" y1="15" x2="30" y2="15" width="0.4064" layer="21"/>
+<wire x1="-30" y1="15" x2="-30" y2="-15" width="0.4064" layer="21"/>
+<wire x1="-30" y1="-15" x2="30" y2="-15" width="0.4064" layer="21"/>
+<wire x1="30" y1="-15" x2="30" y2="15" width="0.4064" layer="21"/>
+<text x="-6" y="-14.5" size="1.27" layer="21" font="vector" ratio="12">&gt;PIGGY BOARD</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="L-59EGW-CA" urn="urn:adsk.eagle:package:15881/1" type="box">
@@ -1433,6 +1440,14 @@ Inifineon</description>
 <text x="2.54" y="3.175" size="1.27" layer="95" font="vector" ratio="12" rot="R180">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="95" font="vector" ratio="12">&gt;VALUE</text>
 <rectangle x1="-1.905" y1="-0.635" x2="1.905" y2="0.635" layer="94"/>
+</symbol>
+<symbol name="PGBRD6030">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.4064" layer="94"/>
+<text x="2.54" y="10.16" size="1.27" layer="95" font="vector" ratio="12" rot="R180">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1841,6 +1856,18 @@ infrared emitting diode, Infineon</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PGBRD6030" prefix="S">
+<gates>
+<gate name="G$1" symbol="PGBRD6030" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-6030" package="PIG6030">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3721,6 +3748,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="PACK-" library="simpa" deviceset="WPAD" device=""/>
 <part name="JP4" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
 <part name="JP6" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
+<part name="S1" library="GreenFuel" deviceset="PGBRD6030" device="-6030"/>
 </parts>
 <sheets>
 <sheet>
@@ -7545,6 +7573,10 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="JP6" gate="A" x="78.74" y="99.06" rot="R180">
 <attribute name="NAME" x="85.09" y="78.105" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="85.09" y="121.92" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="S1" gate="G$1" x="281.94" y="101.6">
+<attribute name="NAME" x="284.48" y="111.76" size="1.27" layer="95" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="279.4" y="91.44" size="1.27" layer="96" font="vector" ratio="12"/>
 </instance>
 </instances>
 <busses>

@@ -5375,8 +5375,8 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </classes>
 <parts>
 <part name="Q1" library="adafruit" deviceset="CRYSTAL" device="CTS406"/>
-<part name="C1" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="20pF"/>
-<part name="C2" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="20pF"/>
+<part name="C1" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="20pF"/>
+<part name="C2" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="20pF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="GreenFuel" deviceset="TJA1052I" device="-I"/>
@@ -5428,7 +5428,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="C20" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value=".1uF"/>
 <part name="R15" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="1k"/>
 <part name="R16" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="10k"/>
-<part name="C21" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="0.1uF"/>
+<part name="C21" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L3" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="MMZ2012R301ATD25"/>
 <part name="L4" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="MMZ2012R301ATD25"/>
