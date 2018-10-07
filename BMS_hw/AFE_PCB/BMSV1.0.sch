@@ -8018,6 +8018,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="182.88" y1="86.36" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="X4" gate="-4" pin="S"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="A" pin="1"/>
+<wire x1="68.58" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<label x="58.42" y="116.84" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
 </net>
 <net name="N$71" class="0">
 <segment>
