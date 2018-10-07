@@ -7571,7 +7571,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="64.77" y="76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="JP6" gate="A" x="78.74" y="99.06" rot="R180">
-<attribute name="NAME" x="85.09" y="78.105" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="85.09" y="78.105" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="85.09" y="121.92" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="S1" gate="G$1" x="281.94" y="101.6">
@@ -8289,6 +8289,34 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R106" gate="G$1" pin="2"/>
 <pinref part="IC6" gate="G$1" pin="ANODE"/>
 <wire x1="198.12" y1="198.12" x2="200.66" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CSB" class="0">
+<segment>
+<pinref part="JP6" gate="A" pin="4"/>
+<wire x1="81.28" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
+<label x="88.9" y="88.9" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="JP6" gate="A" pin="3"/>
+<wire x1="81.28" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<label x="88.9" y="86.36" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="SCLK" class="0">
+<segment>
+<pinref part="JP6" gate="A" pin="2"/>
+<wire x1="81.28" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
+<label x="88.9" y="83.82" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="JP6" gate="A" pin="1"/>
+<wire x1="81.28" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<label x="88.9" y="81.28" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 </nets>
