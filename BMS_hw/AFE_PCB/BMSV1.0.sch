@@ -1069,6 +1069,32 @@ Inifineon</description>
 <wire x1="30" y1="-15" x2="30" y2="15" width="0.4064" layer="21"/>
 <text x="-6" y="-14.5" size="1.27" layer="21" font="vector" ratio="12">&gt;PIGGY BOARD</text>
 </package>
+<package name="SOT-223" urn="urn:adsk.eagle:footprint:15291/1" locally_modified="yes">
+<description>&lt;b&gt;Small Outline Transistor; 4 leads&lt;/b&gt; Wave soldering&lt;p&gt;
+Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
+<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
+<text x="-3.81" y="5.1308" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.81" y="-5.0292" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<wire x1="-3.302" y1="0.889" x2="-3.302" y2="1.778" width="0.5" layer="21"/>
+<wire x1="-3.302" y1="1.778" x2="-2.413" y2="1.778" width="0.5" layer="21"/>
+<wire x1="-3.302" y1="-1.27" x2="-3.302" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="-3.302" y1="-1.778" x2="-2.794" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="3.302" y1="-1.27" x2="3.302" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="3.302" y1="-1.778" x2="2.794" y2="-1.778" width="0.5" layer="21"/>
+<wire x1="2.54" y1="1.778" x2="3.302" y2="1.778" width="0.5" layer="21"/>
+<wire x1="3.302" y1="1.778" x2="3.302" y2="1.27" width="0.5" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="L-59EGW-CA" urn="urn:adsk.eagle:package:15881/1" type="box">
@@ -1448,6 +1474,15 @@ Inifineon</description>
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.4064" layer="94"/>
 <text x="2.54" y="10.16" size="1.27" layer="95" font="vector" ratio="12" rot="R180">&gt;NAME</text>
 <text x="-2.54" y="-10.16" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+</symbol>
+<symbol name="NCP1117LP">
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<pin name="IN" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="ADJ/GND" x="0" y="-10.16" length="short" rot="R90"/>
+<pin name="OUT" x="-12.7" y="0" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1868,6 +1903,23 @@ infrared emitting diode, Infineon</description>
 </gates>
 <devices>
 <device name="-6030" package="PIG6030">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCP1117LP" prefix="U">
+<gates>
+<gate name="G$1" symbol="NCP1117LP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PG" package="SOT-223">
+<connects>
+<connect gate="G$1" pin="ADJ/GND" pad="1 4"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3749,6 +3801,18 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="JP4" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
 <part name="JP6" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
 <part name="S1" library="GreenFuel" deviceset="PGBRD6030" device="-6030"/>
+<part name="U1" library="GreenFuel" deviceset="NCP1117LP" device="-PG"/>
+<part name="GND81" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C69" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="10uF"/>
+<part name="C70" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="10uF"/>
+<part name="GND82" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND83" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U2" library="GreenFuel" deviceset="NCP1117LP" device="-PG"/>
+<part name="GND84" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C81" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="10uF"/>
+<part name="C82" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="10uF"/>
+<part name="GND85" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND86" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7333,16 +7397,18 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </sheet>
 <sheet>
 <plain>
-<text x="17.78" y="144.78" size="2.54" layer="91">CHG and DSG FET Circuit</text>
+<text x="43.18" y="142.24" size="2.54" layer="94" font="vector" ratio="12">CHG and DSG FET Circuit</text>
 <text x="309.88" y="187.96" size="2.54" layer="91">Read out ways
 &gt;&gt;OLED
 &gt;&gt;LED's</text>
-<text x="154.94" y="147.32" size="2.54" layer="91">FET optoisolated, drivers and precharge circuit</text>
-<text x="55.88" y="68.58" size="2.54" layer="94" font="vector" ratio="12">Piggy board connectors !</text>
+<text x="154.94" y="147.32" size="2.54" layer="94" font="vector" ratio="12">FET optoisolated, drivers and precharge circuit</text>
+<text x="43.18" y="76.2" size="2.54" layer="94" font="vector" ratio="12">Piggy board connectors !</text>
 <text x="344.424" y="20.574" size="2.1844" layer="94">GFBMS-PCB</text>
 <text x="292.1" y="12.7" size="2.1844" layer="94">Greenfuel Energy Solutions Pvt. Ltd.</text>
 <text x="269.24" y="127" size="2.54" layer="91">Key-In and wake up module</text>
-<text x="180.34" y="66.04" size="2.54" layer="91">UART and CAN connector</text>
+<text x="180.34" y="66.04" size="2.54" layer="94" font="vector" ratio="12">UART and CAN connector</text>
+<text x="91.44" y="17.78" size="1.778" layer="94" font="vector" ratio="12">Voltage regulator 3.3 volt</text>
+<text x="170.18" y="20.32" size="1.778" layer="94" font="vector" ratio="12">Voltage regulator 5 volt</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0">
@@ -7566,17 +7632,53 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="PACK-" gate="G$1" x="83.82" y="208.28" rot="R180">
 <attribute name="NAME" x="81.28" y="208.28" size="1.778" layer="95" font="vector" ratio="18" rot="R180"/>
 </instance>
-<instance part="JP4" gate="A" x="71.12" y="99.06">
-<attribute name="NAME" x="64.77" y="120.015" size="1.778" layer="95"/>
-<attribute name="VALUE" x="64.77" y="76.2" size="1.778" layer="96"/>
+<instance part="JP4" gate="A" x="58.42" y="106.68">
+<attribute name="NAME" x="52.07" y="127.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="JP6" gate="A" x="78.74" y="99.06" rot="R180">
-<attribute name="NAME" x="85.09" y="78.105" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="85.09" y="121.92" size="1.778" layer="96" rot="R180"/>
+<instance part="JP6" gate="A" x="66.04" y="106.68" rot="R180">
+<attribute name="NAME" x="72.39" y="85.725" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="72.39" y="129.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="S1" gate="G$1" x="281.94" y="101.6">
 <attribute name="NAME" x="284.48" y="111.76" size="1.27" layer="95" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="279.4" y="91.44" size="1.27" layer="96" font="vector" ratio="12"/>
+</instance>
+<instance part="U1" gate="G$1" x="104.14" y="45.72"/>
+<instance part="GND81" gate="1" x="104.14" y="27.94">
+<attribute name="VALUE" x="101.6" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="C69" gate="G$1" x="86.36" y="38.1" rot="R90">
+<attribute name="NAME" x="83.82" y="35.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="90.678" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C70" gate="G$1" x="121.92" y="38.1" rot="R90">
+<attribute name="NAME" x="119.38" y="35.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="126.238" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND82" gate="1" x="121.92" y="27.94">
+<attribute name="VALUE" x="119.38" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="GND83" gate="1" x="86.36" y="27.94">
+<attribute name="VALUE" x="83.82" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="182.88" y="45.72"/>
+<instance part="GND84" gate="1" x="182.88" y="27.94">
+<attribute name="VALUE" x="180.34" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="C81" gate="G$1" x="165.1" y="38.1" rot="R90">
+<attribute name="NAME" x="162.56" y="35.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="169.418" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C82" gate="G$1" x="200.66" y="38.1" rot="R90">
+<attribute name="NAME" x="198.12" y="35.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="204.978" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND85" gate="1" x="200.66" y="27.94">
+<attribute name="VALUE" x="198.12" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="GND86" gate="1" x="165.1" y="27.94">
+<attribute name="VALUE" x="162.56" y="25.4" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7949,6 +8051,36 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="132.08" y1="175.26" x2="132.08" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="177.8" x2="137.16" y2="177.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND83" gate="1" pin="GND"/>
+<pinref part="C69" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="30.48" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND82" gate="1" pin="GND"/>
+<pinref part="C70" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND81" gate="1" pin="GND"/>
+<pinref part="U1" gate="G$1" pin="ADJ/GND"/>
+<wire x1="104.14" y1="30.48" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND86" gate="1" pin="GND"/>
+<pinref part="C81" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="30.48" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND85" gate="1" pin="GND"/>
+<pinref part="C82" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="30.48" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND84" gate="1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="ADJ/GND"/>
+<wire x1="182.88" y1="30.48" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CHG_FET" class="0">
 <segment>
@@ -8020,8 +8152,15 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="1"/>
-<wire x1="68.58" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<label x="58.42" y="116.84" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="55.88" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
+<label x="45.72" y="124.46" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<pinref part="C69" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="45.72" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<label x="86.36" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$71" class="0">
@@ -8299,29 +8438,54 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <net name="CSB" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="4"/>
-<wire x1="81.28" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
-<label x="88.9" y="88.9" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="68.58" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
+<label x="76.2" y="96.52" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="3"/>
-<wire x1="81.28" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
-<label x="88.9" y="86.36" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="68.58" y1="93.98" x2="76.2" y2="93.98" width="0.1524" layer="91"/>
+<label x="76.2" y="93.98" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="2"/>
-<wire x1="81.28" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
-<label x="88.9" y="83.82" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="68.58" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<label x="76.2" y="91.44" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="1"/>
-<wire x1="81.28" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
-<label x="88.9" y="81.28" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="68.58" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+<label x="76.2" y="88.9" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="15V_AUX" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="116.84" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C70" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="45.72" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<label x="119.38" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="IN"/>
+<wire x1="195.58" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C82" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="45.72" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="198.12" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="OUT"/>
+<pinref part="C81" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="45.72" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="45.72" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<label x="165.1" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
