@@ -3677,9 +3677,9 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="IC3" library="GreenFuel" deviceset="MIC28515" device="V1"/>
 <part name="C76" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="2.2uF"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C77" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="2.2uF"/>
+<part name="C77" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0805" value="4.7uF"/>
 <part name="GND68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R91" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="2E2"/>
+<part name="R91" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="1R"/>
 <part name="R90" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="200k"/>
 <part name="R89" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="100k"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -3690,7 +3690,6 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="C66" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="47nF"/>
 <part name="R85" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="127E"/>
 <part name="R86" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
-<part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R80" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="1.6k"/>
 <part name="C65" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="0.1uF 100V"/>
@@ -3796,7 +3795,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="C64" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="1210" value="2.2uF 100V"/>
 <part name="C80" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="1210" value="2.2uF 100V"/>
 <part name="GND80" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R107" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603"/>
+<part name="R107" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="100k"/>
 <part name="PACK-" library="simpa" deviceset="WPAD" device=""/>
 <part name="JP4" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
 <part name="JP6" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
@@ -3813,6 +3812,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="C82" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="10uF"/>
 <part name="GND85" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND86" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R108" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="0R"/>
 </parts>
 <sheets>
 <sheet>
@@ -5245,23 +5245,23 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 </sheet>
 <sheet>
 <plain>
-<text x="34.9" y="16.4" size="1.778" layer="91">Second order cell terminal filters and cell balancing resistors.</text>
-<text x="172.72" y="96.52" size="1.778" layer="91">Temperature Channels</text>
-<text x="152.4" y="35.56" size="1.778" layer="91">
+<text x="34.9" y="16.4" size="1.778" layer="94" font="vector" ratio="12">Second order cell terminal filters and cell balancing resistors.</text>
+<text x="172.72" y="96.52" size="1.778" layer="94" font="vector" ratio="12">Temperature Channels</text>
+<text x="152.4" y="35.56" size="1.778" layer="94" font="vector" ratio="12">
 Hot Plug Protection : VPWR1, 2 components to withstand hot plug 
 </text>
 <text x="304.356" y="179.198" size="1.778" layer="101">current channel filter </text>
 <text x="256.54" y="215.9" size="1.778" layer="97">100uOhm shunt 
 200uOhms in parallel</text>
-<text x="292.1" y="15.24" size="2.1844" layer="94">Greenfuel Energy Solutions Pvt. Ltd.</text>
-<text x="344.424" y="20.574" size="2.1844" layer="94">GFBMS-PCB</text>
-<text x="274.32" y="50.8" size="1.778" layer="91">Buck convertor (Vin = 75v, Vout=15v)</text>
+<text x="292.1" y="15.24" size="2.1844" layer="94" font="vector" ratio="12">Greenfuel Energy Solutions Pvt. Ltd.</text>
+<text x="344.424" y="20.574" size="2.1844" layer="94" font="vector" ratio="12">GFBMS-PCB</text>
+<text x="266.7" y="48.26" size="1.778" layer="94" font="vector" ratio="12">Buck convertor (Vin = 75v, Vout=15v)</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0">
-<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94" font="vector" ratio="12"/>
+<attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94" font="vector" ratio="12"/>
+<attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94" font="vector" ratio="12"/>
 </instance>
 <instance part="C29" gate="G$1" x="58.42" y="223.52" rot="R270">
 <attribute name="NAME" x="60.96" y="226.06" size="1.778" layer="95" rot="R270"/>
@@ -5286,7 +5286,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="73.66" y="210.82" size="1.778" layer="96"/>
 </instance>
 <instance part="CELL7+" gate="G$1" x="40.64" y="241.3" rot="R180">
-<attribute name="NAME" x="45.72" y="238.76" size="1.27" layer="95" rot="R180"/>
+<attribute name="NAME" x="45.72" y="238.76" size="1.27" layer="95" font="vector" ratio="12" rot="R180"/>
 </instance>
 <instance part="C26" gate="G$1" x="48.26" y="200.66" rot="R270">
 <attribute name="NAME" x="50.8" y="203.2" size="1.778" layer="95" rot="R270"/>
@@ -5632,7 +5632,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="200.66" y="122.682" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND45" gate="1" x="172.72" y="111.76">
-<attribute name="VALUE" x="170.18" y="109.22" size="1.778" layer="96"/>
+<attribute name="VALUE" x="170.18" y="109.22" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C48" gate="G$1" x="142.24" y="223.52" rot="R270">
 <attribute name="NAME" x="144.78" y="226.06" size="1.778" layer="95" rot="R270"/>
@@ -5678,44 +5678,44 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="170.18" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="GND42" gate="1" x="160.02" y="111.76">
-<attribute name="VALUE" x="157.48" y="109.22" size="1.778" layer="96"/>
+<attribute name="VALUE" x="157.48" y="109.22" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="GND46" gate="1" x="187.96" y="104.14">
 <attribute name="VALUE" x="185.42" y="101.6" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="165.1" y="73.66" rot="R90">
-<attribute name="NAME" x="163.195" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="168.91" y="71.12" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="163.195" y="71.12" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="168.91" y="71.12" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="D2" gate="G$1" x="175.26" y="73.66" rot="R90">
-<attribute name="NAME" x="173.355" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="179.07" y="71.12" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="173.355" y="71.12" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="179.07" y="71.12" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="D3" gate="G$1" x="185.42" y="66.04" rot="R90">
-<attribute name="NAME" x="183.515" y="63.5" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="189.23" y="63.5" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="183.515" y="63.5" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="189.23" y="63.5" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="D4" gate="G$1" x="195.58" y="73.66" rot="R90">
-<attribute name="NAME" x="193.675" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="199.39" y="71.12" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="193.675" y="71.12" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="199.39" y="71.12" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="D5" gate="G$1" x="205.74" y="73.66" rot="R90">
-<attribute name="NAME" x="203.835" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="209.55" y="71.12" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="203.835" y="71.12" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="209.55" y="71.12" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="R66" gate="G$1" x="157.48" y="78.74">
-<attribute name="NAME" x="154.94" y="80.264" size="1.778" layer="95"/>
-<attribute name="VALUE" x="154.94" y="75.438" size="1.778" layer="96"/>
+<attribute name="NAME" x="154.94" y="80.264" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="154.94" y="75.438" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C61" gate="G$1" x="213.36" y="73.66" rot="R270">
 <attribute name="NAME" x="215.9" y="76.2" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="209.042" y="76.2" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND54" gate="1" x="213.36" y="63.5">
-<attribute name="VALUE" x="210.82" y="60.96" size="1.778" layer="96"/>
+<attribute name="VALUE" x="210.82" y="60.96" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="GND47" gate="1" x="205.74" y="66.04">
-<attribute name="VALUE" x="203.2" y="63.5" size="1.778" layer="96"/>
+<attribute name="VALUE" x="203.2" y="63.5" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="D8" gate="G$1" x="314.96" y="200.66" rot="R90">
 <attribute name="NAME" x="313.055" y="198.12" size="1.778" layer="95" rot="R90"/>
@@ -5738,7 +5738,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="322.58" y="202.438" size="1.778" layer="96"/>
 </instance>
 <instance part="GND63" gate="1" x="332.74" y="190.5">
-<attribute name="VALUE" x="330.2" y="187.96" size="1.778" layer="96"/>
+<attribute name="VALUE" x="330.2" y="187.96" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="GND61" gate="1" x="314.96" y="185.42">
 <attribute name="VALUE" x="312.42" y="182.88" size="1.778" layer="96"/>
@@ -5789,30 +5789,30 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="270.51" y="198.12" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="G$1" x="299.72" y="142.24">
-<attribute name="NAME" x="284.48" y="167.64" size="1.27" layer="95"/>
-<attribute name="VALUE" x="284.48" y="116.84" size="1.27" layer="96"/>
+<attribute name="NAME" x="289.56" y="167.64" size="1.27" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="284.48" y="119.38" size="1.27" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C76" gate="G$1" x="345.44" y="152.4" rot="R270">
-<attribute name="NAME" x="347.98" y="154.94" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="341.122" y="154.94" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="347.98" y="154.94" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="341.122" y="154.94" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="345.44" y="129.54">
-<attribute name="VALUE" x="343.535" y="126.365" size="1.778" layer="96"/>
+<attribute name="VALUE" x="340.995" y="131.445" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C77" gate="G$1" x="347.98" y="124.46" rot="R270">
-<attribute name="NAME" x="350.52" y="127" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="343.662" y="127" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="350.52" y="127" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="343.662" y="127" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="GND68" gate="1" x="347.98" y="114.3">
-<attribute name="VALUE" x="345.44" y="111.76" size="1.778" layer="96"/>
+<attribute name="VALUE" x="345.44" y="111.76" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R91" gate="G$1" x="355.6" y="149.86" rot="R90">
-<attribute name="NAME" x="354.076" y="147.32" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="358.902" y="147.32" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="354.076" y="147.32" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="358.902" y="147.32" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="R90" gate="G$1" x="342.9" y="106.68">
-<attribute name="NAME" x="340.36" y="108.204" size="1.778" layer="95"/>
-<attribute name="VALUE" x="340.36" y="103.378" size="1.778" layer="96"/>
+<attribute name="NAME" x="340.36" y="108.204" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="340.36" y="103.378" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R89" gate="G$1" x="337.82" y="96.52" rot="R270">
 <attribute name="NAME" x="339.344" y="99.06" size="1.778" layer="95" rot="R270"/>
@@ -5822,68 +5822,65 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="335.915" y="83.185" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R82" gate="G$1" x="271.78" y="162.56" rot="R180">
-<attribute name="NAME" x="266.7" y="165.1254" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="275.59" y="165.862" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="266.7" y="165.1254" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="275.59" y="165.862" size="1.778" layer="96" font="vector" ratio="12" rot="R180"/>
 </instance>
 <instance part="C73" gate="G$1" x="322.58" y="116.84" rot="R270">
 <attribute name="NAME" x="325.12" y="119.38" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="318.262" y="119.38" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="GND64" gate="1" x="322.58" y="106.68">
-<attribute name="VALUE" x="320.04" y="104.14" size="1.778" layer="96"/>
+<attribute name="VALUE" x="320.04" y="104.14" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R83" gate="G$1" x="271.78" y="96.52" rot="R270">
-<attribute name="NAME" x="273.304" y="99.06" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="268.478" y="99.06" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="273.304" y="99.06" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="268.478" y="99.06" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="C66" gate="G$1" x="271.78" y="83.82" rot="R270">
-<attribute name="NAME" x="274.32" y="86.36" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="267.462" y="86.36" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="274.32" y="86.36" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="267.462" y="86.36" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="R85" gate="G$1" x="289.56" y="91.44" rot="R270">
-<attribute name="NAME" x="291.084" y="93.98" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="286.258" y="93.98" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="291.084" y="93.98" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="286.258" y="93.98" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="R86" gate="G$1" x="289.56" y="68.58" rot="R270">
-<attribute name="NAME" x="291.084" y="71.12" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="286.258" y="71.12" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND65" gate="1" x="297.18" y="86.36">
-<attribute name="VALUE" x="294.64" y="83.82" size="1.778" layer="96"/>
+<attribute name="NAME" x="291.084" y="71.12" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="286.258" y="71.12" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="289.56" y="58.42">
-<attribute name="VALUE" x="287.655" y="55.245" size="1.778" layer="96"/>
+<attribute name="VALUE" x="287.655" y="55.245" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R80" gate="G$1" x="259.08" y="99.06">
-<attribute name="NAME" x="256.54" y="100.584" size="1.778" layer="95"/>
-<attribute name="VALUE" x="256.54" y="95.758" size="1.778" layer="96"/>
+<attribute name="NAME" x="256.54" y="100.584" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="256.54" y="95.758" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
-<instance part="C65" gate="G$1" x="264.16" y="114.3" rot="R270">
-<attribute name="NAME" x="266.7" y="116.84" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="270.002" y="121.92" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
+<instance part="C65" gate="G$1" x="241.3" y="109.22">
+<attribute name="NAME" x="238.76" y="111.76" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="233.68" y="115.062" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
-<instance part="P+1" gate="VCC" x="314.96" y="109.22">
-<attribute name="VALUE" x="312.42" y="106.68" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="VCC" x="289.56" y="109.22">
+<attribute name="VALUE" x="287.02" y="106.68" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="GND57" gate="1" x="246.38" y="127">
-<attribute name="VALUE" x="243.84" y="124.46" size="1.778" layer="96"/>
+<attribute name="VALUE" x="243.84" y="124.46" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C74" gate="G$1" x="340.36" y="167.64" rot="R270">
-<attribute name="NAME" x="342.9" y="170.18" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="336.042" y="170.18" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="342.9" y="170.18" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="336.042" y="170.18" size="1.778" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
 <instance part="GND67" gate="1" x="340.36" y="144.78">
-<attribute name="VALUE" x="337.82" y="142.24" size="1.778" layer="96"/>
+<attribute name="VALUE" x="342.9" y="144.78" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R79" gate="G$1" x="256.54" y="149.86" rot="R180">
-<attribute name="NAME" x="259.08" y="148.336" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="259.08" y="153.162" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="259.08" y="148.336" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="259.08" y="153.162" size="1.778" layer="96" font="vector" ratio="12" rot="R180"/>
 </instance>
 <instance part="GND66" gate="1" x="330.2" y="106.68">
-<attribute name="VALUE" x="327.66" y="104.14" size="1.778" layer="96"/>
+<attribute name="VALUE" x="327.66" y="104.14" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R42" gate="G$1" x="50.8" y="241.3">
-<attribute name="NAME" x="48.26" y="242.824" size="1.778" layer="95"/>
+<attribute name="NAME" x="48.26" y="242.824" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="48.26" y="237.998" size="1.778" layer="96"/>
 </instance>
 <instance part="R36" gate="G$1" x="33.02" y="208.28">
@@ -5923,14 +5920,14 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="292.1" y="223.52" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND56" gate="1" x="236.22" y="127">
-<attribute name="VALUE" x="233.68" y="124.46" size="1.778" layer="96"/>
+<attribute name="VALUE" x="233.68" y="124.46" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R34" gate="G$1" x="33.02" y="30.48">
-<attribute name="NAME" x="30.48" y="32.004" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.48" y="27.178" size="1.778" layer="96"/>
+<attribute name="NAME" x="30.48" y="32.004" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="30.48" y="27.178" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="D20" gate="G$1" x="185.42" y="73.66" rot="R90">
-<attribute name="NAME" x="183.515" y="71.12" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="183.515" y="71.12" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="189.23" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TP2" gate="G$1" x="137.16" y="231.14" rot="R180">
@@ -5965,23 +5962,27 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="278.13" y="100.965" size="1.27" layer="95" font="vector" ratio="12"/>
 </instance>
 <instance part="C63" gate="G$1" x="256.54" y="137.16" rot="R90">
-<attribute name="NAME" x="254" y="134.62" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="260.858" y="134.62" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="254" y="134.62" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="260.858" y="129.54" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="C64" gate="G$1" x="246.38" y="137.16" rot="R90">
-<attribute name="NAME" x="243.84" y="134.62" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="250.698" y="134.62" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="243.84" y="134.62" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="250.698" y="129.54" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="C80" gate="G$1" x="236.22" y="137.16" rot="R90">
-<attribute name="NAME" x="233.68" y="134.62" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="240.538" y="134.62" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="233.68" y="134.62" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="240.538" y="129.54" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="GND80" gate="1" x="256.54" y="127">
-<attribute name="VALUE" x="254" y="124.46" size="1.778" layer="96"/>
+<attribute name="VALUE" x="254" y="124.46" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R107" gate="G$1" x="365.76" y="142.24">
-<attribute name="NAME" x="363.22" y="143.764" size="1.778" layer="95"/>
-<attribute name="VALUE" x="363.22" y="138.938" size="1.778" layer="96"/>
+<attribute name="NAME" x="363.22" y="143.764" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="363.22" y="138.938" size="1.778" layer="96" font="vector" ratio="12"/>
+</instance>
+<instance part="R108" gate="G$1" x="254" y="109.22">
+<attribute name="NAME" x="251.46" y="110.744" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="251.46" y="105.918" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 </instances>
 <busses>
@@ -6228,7 +6229,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="320.04" y1="124.46" x2="330.2" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="124.46" x2="330.2" y2="127" width="0.1524" layer="91"/>
 <junction x="330.2" y="127"/>
-<label x="330.2" y="127" size="1.778" layer="95"/>
+<label x="330.2" y="127" size="1.778" layer="95" font="vector" ratio="12"/>
 <pinref part="IC3" gate="G$1" pin="PGND@5"/>
 <wire x1="320.04" y1="137.16" x2="330.2" y2="137.16" width="0.1524" layer="91"/>
 <junction x="330.2" y="137.16"/>
@@ -6295,7 +6296,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="71.12" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="165.1" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="165.1" y="68.58" size="1.778" layer="95" font="vector" ratio="12" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CT_1" class="0">
@@ -6779,21 +6780,21 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="185.42" y1="63.5" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
-<label x="185.42" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="185.42" y="60.96" size="1.778" layer="95" font="vector" ratio="12" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CB_12" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="195.58" y1="71.12" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
-<label x="195.58" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="195.58" y="68.58" size="1.778" layer="95" font="vector" ratio="12" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CB_10/9_C" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="71.12" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
-<label x="175.26" y="68.58" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="175.26" y="68.58" size="1.778" layer="95" font="vector" ratio="12" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7000,12 +7001,53 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="R90" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="106.68" x2="350.52" y2="106.68" width="0.1524" layer="91"/>
-<label x="350.52" y="106.68" size="1.778" layer="95"/>
+<label x="350.52" y="106.68" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 <segment>
 <pinref part="R107" gate="G$1" pin="2"/>
 <wire x1="370.84" y1="142.24" x2="373.38" y2="142.24" width="0.1524" layer="91"/>
 <label x="373.38" y="142.24" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VIN@4"/>
+<wire x1="281.94" y1="142.24" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VIN@5"/>
+<wire x1="281.94" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="139.7" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
+<junction x="279.4" y="139.7"/>
+<pinref part="IC3" gate="G$1" pin="VIN@6"/>
+<wire x1="281.94" y1="137.16" x2="279.4" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="137.16" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VIN@1"/>
+<pinref part="IC3" gate="G$1" pin="VIN"/>
+<wire x1="281.94" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="152.4" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
+<junction x="279.4" y="149.86"/>
+<pinref part="IC3" gate="G$1" pin="VIN@2"/>
+<wire x1="281.94" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="147.32" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VIN@3"/>
+<wire x1="236.22" y1="144.78" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="144.78" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="147.32" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
+<junction x="279.4" y="147.32"/>
+<junction x="279.4" y="144.78"/>
+<wire x1="279.4" y1="142.24" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
+<junction x="279.4" y="142.24"/>
+<pinref part="R79" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="149.86" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
+<label x="236.22" y="144.78" size="1.778" layer="95" font="vector" ratio="12"/>
+<pinref part="C80" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="142.24" x2="236.22" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C64" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="142.24" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
+<junction x="246.38" y="144.78"/>
+<pinref part="C63" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="142.24" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
+<junction x="256.54" y="144.78"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -7020,8 +7062,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="R80" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="99.06" x2="264.16" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C65" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="109.22" x2="264.16" y2="104.14" width="0.1524" layer="91"/>
 <junction x="264.16" y="104.14"/>
 <wire x1="264.16" y1="104.14" x2="259.08" y2="104.14" width="0.1524" layer="91"/>
 <label x="256.54" y="104.14" size="1.778" layer="95" font="vector" ratio="12"/>
@@ -7031,6 +7071,9 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="277.495" y1="104.14" x2="271.78" y2="104.14" width="0.1524" layer="91"/>
 <junction x="271.78" y="104.14"/>
+<pinref part="R108" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="109.22" x2="264.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="109.22" x2="264.16" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SW"/>
@@ -7054,12 +7097,12 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="264.16" y1="132.08" x2="279.4" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="157.48" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
 <junction x="264.16" y="157.48"/>
-<label x="264.16" y="129.54" size="1.778" layer="95"/>
+<label x="264.16" y="129.54" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="SW@5"/>
 <wire x1="320.04" y1="132.08" x2="332.74" y2="132.08" width="0.1524" layer="91"/>
-<label x="332.74" y="132.08" size="1.778" layer="95"/>
+<label x="332.74" y="132.08" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -7073,7 +7116,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="C66" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="78.74" x2="271.78" y2="76.2" width="0.1524" layer="91"/>
-<label x="269.24" y="73.66" size="1.778" layer="95"/>
+<label x="269.24" y="73.66" size="1.778" layer="95" font="vector" ratio="12"/>
 <pinref part="R86" gate="G$1" pin="1"/>
 <pinref part="R85" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="73.66" x2="289.56" y2="76.2" width="0.1524" layer="91"/>
@@ -7084,27 +7127,26 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="IC3" gate="G$1" pin="FB"/>
 <wire x1="320.04" y1="149.86" x2="322.58" y2="149.86" width="0.1524" layer="91"/>
-<label x="322.58" y="149.86" size="1.778" layer="95"/>
+<label x="322.58" y="149.86" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="BST" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="BST"/>
 <wire x1="281.94" y1="154.94" x2="279.4" y2="154.94" width="0.1524" layer="91"/>
-<label x="274.32" y="154.94" size="1.778" layer="95"/>
+<label x="274.32" y="154.94" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 <segment>
 <pinref part="C65" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="119.38" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="121.92" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
-<label x="261.62" y="121.92" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+<wire x1="236.22" y1="109.22" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
+<label x="231.14" y="109.22" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="ILIM" class="0">
 <segment>
 <pinref part="R80" gate="G$1" pin="1"/>
 <wire x1="254" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
-<label x="248.92" y="99.06" size="1.778" layer="95"/>
+<label x="246.38" y="99.06" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 <segment>
 <pinref part="R82" gate="G$1" pin="1"/>
@@ -7113,7 +7155,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="279.4" y1="162.56" x2="281.94" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="162.56" x2="279.4" y2="165.1" width="0.1524" layer="91"/>
 <junction x="279.4" y="162.56"/>
-<label x="279.4" y="165.1" size="1.778" layer="95"/>
+<label x="279.4" y="165.1" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -7135,8 +7177,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <net name="+15V" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="314.96" y1="106.68" x2="314.96" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="104.14" x2="314.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="106.68" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R85" gate="G$1" pin="1"/>
 <wire x1="289.56" y1="96.52" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
@@ -7197,7 +7238,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<label x="22.86" y="30.48" size="1.778" layer="95"/>
+<label x="22.86" y="30.48" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 <segment>
 <pinref part="R84" gate="G$1" pin="4"/>
@@ -7261,49 +7302,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="284.48" y1="218.44" x2="284.48" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="215.9" x2="297.18" y2="215.9" width="0.1524" layer="91"/>
 <junction x="297.18" y="215.9"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="VIN@4"/>
-<wire x1="281.94" y1="142.24" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN@5"/>
-<wire x1="281.94" y1="139.7" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="139.7" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
-<junction x="279.4" y="139.7"/>
-<pinref part="IC3" gate="G$1" pin="VIN@6"/>
-<wire x1="281.94" y1="137.16" x2="279.4" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="137.16" x2="279.4" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN@1"/>
-<pinref part="IC3" gate="G$1" pin="VIN"/>
-<wire x1="281.94" y1="152.4" x2="279.4" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="152.4" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
-<junction x="279.4" y="149.86"/>
-<pinref part="IC3" gate="G$1" pin="VIN@2"/>
-<wire x1="281.94" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="147.32" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN@3"/>
-<wire x1="236.22" y1="144.78" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="144.78" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="147.32" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
-<junction x="279.4" y="147.32"/>
-<junction x="279.4" y="144.78"/>
-<wire x1="279.4" y1="142.24" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
-<junction x="279.4" y="142.24"/>
-<pinref part="R79" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="149.86" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
-<label x="248.92" y="144.78" size="1.778" layer="95"/>
-<pinref part="C80" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="142.24" x2="236.22" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C64" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="142.24" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
-<junction x="246.38" y="144.78"/>
-<pinref part="C63" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="142.24" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
-<junction x="256.54" y="144.78"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -7390,7 +7388,14 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="R66" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
-<label x="149.86" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="149.86" y="78.74" size="1.778" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="C65" gate="G$1" pin="2"/>
+<pinref part="R108" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="109.22" x2="248.92" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
