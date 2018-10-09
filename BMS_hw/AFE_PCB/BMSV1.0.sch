@@ -975,21 +975,6 @@ Inifineon</description>
 <text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-5" y1="2" x2="5" y2="2" width="0.254" layer="21"/>
 </package>
-<package name="22-23-2051">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 5 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232051_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-6.35" y1="3.175" x2="6.35" y2="3.175" width="0.254" layer="21"/>
-<wire x1="6.35" y1="3.175" x2="6.35" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="6.35" y1="-3.175" x2="-6.35" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-6.35" y1="-3.175" x2="-6.35" y2="3.175" width="0.254" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="4" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-6.35" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="-6.25" y1="2" x2="6.25" y2="2" width="0.254" layer="21"/>
-</package>
 <package name="1X15">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <pad name="1" x="-14" y="0" drill="1.016" shape="long" rot="R90"/>
@@ -1795,35 +1780,6 @@ infrared emitting diode, Infineon</description>
 <attribute name="MPN" value="22-23-2041" constant="no"/>
 <attribute name="OC_FARNELL" value="1462920" constant="no"/>
 <attribute name="OC_NEWARK" value="38C0355" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="22-23-2051" prefix="X">
-<description>.100" (2.54mm) Center Header - 5 Pin</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always" swaplevel="1"/>
-<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
-<gate name="-3" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
-<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
-<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="22-23-2051">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-<connect gate="-2" pin="S" pad="2"/>
-<connect gate="-3" pin="S" pad="3"/>
-<connect gate="-4" pin="S" pad="4"/>
-<connect gate="-5" pin="S" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MPN" value="22-23-2051" constant="no"/>
-<attribute name="OC_FARNELL" value="1462952" constant="no"/>
-<attribute name="OC_NEWARK" value="38C9178" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3762,7 +3718,6 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="JP1" library="adafruit" deviceset="PINHD-1X1" device="CB"/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X1" device="CB"/>
 <part name="X5" library="GreenFuel" deviceset="22-23-2041" device=""/>
-<part name="X4" library="GreenFuel" deviceset="22-23-2051" device=""/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R34" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0R"/>
 <part name="D20" library="ipc-7351-diode" deviceset="ZENER_" device="SOD-123" value="8.2V"/>
@@ -3816,6 +3771,10 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="C85" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="1210" value="47uF"/>
 <part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED2" library="GreenFuel" deviceset="L-59EGW-CA" device="GR" package3d_urn="urn:adsk.eagle:package:15881/1"/>
+<part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R109" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="10K"/>
+<part name="R110" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="10K"/>
+<part name="GND87" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4186,6 +4145,20 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <attribute name="NAME" x="302.895" y="162.56" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="308.61" y="162.56" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
+<instance part="GND75" gate="1" x="332.74" y="78.74">
+<attribute name="VALUE" x="330.2" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="R109" gate="G$1" x="347.98" y="96.52">
+<attribute name="NAME" x="345.44" y="98.044" size="1.778" layer="95"/>
+<attribute name="VALUE" x="345.44" y="93.218" size="1.778" layer="96"/>
+</instance>
+<instance part="R110" gate="G$1" x="350.52" y="175.26">
+<attribute name="NAME" x="347.98" y="176.784" size="1.778" layer="95"/>
+<attribute name="VALUE" x="347.98" y="171.958" size="1.778" layer="96"/>
+</instance>
+<instance part="GND87" gate="1" x="337.82" y="154.94">
+<attribute name="VALUE" x="335.28" y="152.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4325,6 +4298,16 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <pinref part="GND79" gate="1" pin="GND"/>
 <pinref part="IC8" gate="LED" pin="K"/>
 <wire x1="327.66" y1="124.46" x2="327.66" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND75" gate="1" pin="GND"/>
+<pinref part="IC2" gate="CE" pin="E"/>
+<wire x1="332.74" y1="81.28" x2="332.74" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="CE" pin="E"/>
+<pinref part="GND87" gate="1" pin="GND"/>
+<wire x1="337.82" y1="160.02" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CB_14" class="0">
@@ -4962,19 +4945,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <wire x1="312.42" y1="93.98" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCORE" class="0">
-<segment>
-<pinref part="IC2" gate="CE" pin="C"/>
-<wire x1="332.74" y1="93.98" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
-<label x="342.9" y="96.52" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="CE" pin="C"/>
-<wire x1="337.82" y1="170.18" x2="337.82" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="172.72" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
-<label x="347.98" y="172.72" size="1.778" layer="95" xref="yes"/>
-</segment>
+<net name="OUT1" class="0">
 <segment>
 <pinref part="IC8" gate="CE" pin="C"/>
 <wire x1="340.36" y1="137.16" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
@@ -4982,19 +4953,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <label x="350.52" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FAULT_OUT" class="0">
-<segment>
-<pinref part="IC2" gate="CE" pin="E"/>
-<wire x1="332.74" y1="83.82" x2="332.74" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="81.28" x2="342.9" y2="81.28" width="0.1524" layer="91"/>
-<label x="342.9" y="81.28" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="CE" pin="E"/>
-<wire x1="337.82" y1="160.02" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="157.48" x2="347.98" y2="157.48" width="0.1524" layer="91"/>
-<label x="347.98" y="157.48" size="1.778" layer="95" xref="yes"/>
-</segment>
+<net name="OUT2" class="0">
 <segment>
 <pinref part="IC8" gate="CE" pin="E"/>
 <wire x1="340.36" y1="127" x2="340.36" y2="124.46" width="0.1524" layer="91"/>
@@ -5242,6 +5201,57 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <pinref part="JP5" gate="A" pin="13"/>
 <wire x1="350.52" y1="193.04" x2="342.9" y2="193.04" width="0.1524" layer="91"/>
 <label x="330.2" y="193.04" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="FLOUT" class="0">
+<segment>
+<pinref part="IC2" gate="CE" pin="C"/>
+<wire x1="332.74" y1="93.98" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R109" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="96.52" x2="337.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="96.52" x2="337.82" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="101.6" x2="365.76" y2="101.6" width="0.1524" layer="91"/>
+<label x="365.76" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="R109" gate="G$1" pin="2"/>
+<wire x1="353.06" y1="96.52" x2="355.6" y2="96.52" width="0.1524" layer="91"/>
+<label x="355.6" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R110" gate="G$1" pin="2"/>
+<wire x1="355.6" y1="175.26" x2="360.68" y2="175.26" width="0.1524" layer="91"/>
+<label x="363.22" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RDD" class="0">
+<segment>
+<pinref part="IC7" gate="CE" pin="C"/>
+<pinref part="R110" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="175.26" x2="342.9" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="175.26" x2="337.82" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="175.26" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="175.26" x2="342.9" y2="170.18" width="0.1524" layer="91"/>
+<junction x="342.9" y="175.26"/>
+<wire x1="342.9" y1="170.18" x2="360.68" y2="170.18" width="0.1524" layer="91"/>
+<label x="360.68" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SGNL" class="0">
+<segment>
+<pinref part="D21" gate="G$1" pin="A"/>
+<wire x1="304.8" y1="162.56" x2="304.8" y2="157.48" width="0.1524" layer="91"/>
+<label x="304.8" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SGNL1" class="0">
+<segment>
+<pinref part="R97" gate="G$1" pin="1"/>
+<wire x1="309.88" y1="137.16" x2="307.34" y2="137.16" width="0.1524" layer="91"/>
+<label x="307.34" y="137.16" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -7455,7 +7465,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <text x="344.424" y="20.574" size="2.1844" layer="94">GFBMS-PCB</text>
 <text x="292.1" y="12.7" size="2.1844" layer="94">Greenfuel Energy Solutions Pvt. Ltd.</text>
 <text x="269.24" y="127" size="2.54" layer="94" font="vector" ratio="12">Key-In and wake up module</text>
-<text x="180.34" y="66.04" size="2.54" layer="94" font="vector" ratio="12">UART and CAN connector</text>
 <text x="91.44" y="17.78" size="1.778" layer="94" font="vector" ratio="12">Voltage regulator 3.3 volt</text>
 <text x="170.18" y="20.32" size="1.778" layer="94" font="vector" ratio="12">Voltage regulator 5 volt</text>
 </plain>
@@ -7639,22 +7648,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </instance>
 <instance part="X5" gate="-4" x="233.68" y="116.84">
 <attribute name="NAME" x="236.22" y="116.078" size="1.524" layer="95"/>
-</instance>
-<instance part="X4" gate="-1" x="180.34" y="78.74" rot="R180">
-<attribute name="NAME" x="177.8" y="79.502" size="1.524" layer="95" rot="R180"/>
-<attribute name="VALUE" x="181.102" y="77.343" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X4" gate="-2" x="180.34" y="81.28" rot="R180">
-<attribute name="NAME" x="177.8" y="82.042" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X4" gate="-3" x="180.34" y="83.82" rot="R180">
-<attribute name="NAME" x="177.8" y="84.582" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X4" gate="-4" x="180.34" y="86.36" rot="R180">
-<attribute name="NAME" x="177.8" y="87.122" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X4" gate="-5" x="180.34" y="88.9" rot="R180">
-<attribute name="NAME" x="177.8" y="89.662" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="R96" gate="G$1" x="129.54" y="198.12">
 <attribute name="NAME" x="127" y="199.644" size="1.778" layer="95"/>
@@ -8070,11 +8063,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="218.44" y="93.98"/>
 </segment>
 <segment>
-<label x="190.5" y="78.74" size="1.778" layer="95"/>
-<wire x1="182.88" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-1" pin="S"/>
-</segment>
-<segment>
 <pinref part="GND70" gate="1" pin="GND"/>
 <pinref part="IC4" gate="G$1" pin="CATHODE"/>
 <wire x1="132.08" y1="215.9" x2="132.08" y2="218.44" width="0.1524" layer="91"/>
@@ -8185,11 +8173,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="JP3" gate="A" pin="3"/>
 <wire x1="327.66" y1="149.86" x2="332.74" y2="149.86" width="0.1524" layer="91"/>
 <label x="337.82" y="149.86" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<label x="190.5" y="86.36" size="1.778" layer="95"/>
-<wire x1="182.88" y1="86.36" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-4" pin="S"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
@@ -8391,27 +8374,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="X5" gate="-4" pin="S"/>
 </segment>
 </net>
-<net name="RX_O" class="0">
-<segment>
-<label x="190.5" y="81.28" size="1.778" layer="95"/>
-<wire x1="182.88" y1="81.28" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-2" pin="S"/>
-</segment>
-</net>
-<net name="TX_O" class="0">
-<segment>
-<label x="190.5" y="83.82" size="1.778" layer="95"/>
-<wire x1="182.88" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-3" pin="S"/>
-</segment>
-</net>
-<net name="!MCLR" class="0">
-<segment>
-<label x="190.5" y="88.9" size="1.778" layer="95"/>
-<wire x1="182.88" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-5" pin="S"/>
-</segment>
-</net>
 <net name="GATE" class="0">
 <segment>
 <pinref part="R93" gate="G$1" pin="1"/>
@@ -8444,6 +8406,11 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="187.96" y1="198.12" x2="185.42" y2="198.12" width="0.1524" layer="91"/>
 <label x="185.42" y="198.12" size="1.778" layer="95" rot="R270"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="A" pin="10"/>
+<wire x1="55.88" y1="101.6" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
+<label x="35.56" y="101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DSG_GATE" class="0">
 <segment>
@@ -8451,12 +8418,22 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="124.46" y1="238.76" x2="121.92" y2="238.76" width="0.1524" layer="91"/>
 <label x="121.92" y="236.22" size="1.778" layer="95" rot="R270"/>
 </segment>
+<segment>
+<pinref part="JP4" gate="A" pin="8"/>
+<wire x1="55.88" y1="106.68" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
+<label x="38.1" y="106.68" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CHG_GATE" class="0">
 <segment>
 <pinref part="R96" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="198.12" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
 <label x="121.92" y="198.12" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="9"/>
+<wire x1="55.88" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
+<label x="38.1" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -8579,6 +8556,13 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="JP4" gate="A" pin="6"/>
 <wire x1="55.88" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
 <label x="40.64" y="111.76" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="FLOUT" class="0">
+<segment>
+<pinref part="JP6" gate="A" pin="7"/>
+<wire x1="68.58" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+<label x="76.2" y="104.14" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 </nets>
