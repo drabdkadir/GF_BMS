@@ -6054,7 +6054,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="253.238" y="132.08" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="C80" gate="G$1" x="238.76" y="139.7" rot="R90">
-<attribute name="NAME" x="236.22" y="137.16" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="243.078" y="132.08" size="1.778" layer="96" font="vector" ratio="12" rot="R90"/>
 </instance>
 <instance part="GND80" gate="1" x="259.08" y="129.54">
@@ -7154,51 +7153,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="373.38" y1="144.78" x2="375.92" y2="144.78" width="0.1524" layer="91"/>
 <label x="375.92" y="144.78" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="VIN@4"/>
-<wire x1="284.48" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN@5"/>
-<wire x1="284.48" y1="142.24" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="142.24" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
-<junction x="281.94" y="142.24"/>
-<pinref part="IC3" gate="G$1" pin="VIN@6"/>
-<wire x1="284.48" y1="139.7" x2="281.94" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="139.7" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN@1"/>
-<pinref part="IC3" gate="G$1" pin="VIN"/>
-<wire x1="284.48" y1="154.94" x2="281.94" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="154.94" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="152.4" x2="284.48" y2="152.4" width="0.1524" layer="91"/>
-<junction x="281.94" y="152.4"/>
-<pinref part="IC3" gate="G$1" pin="VIN@2"/>
-<wire x1="284.48" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="149.86" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VIN@3"/>
-<wire x1="238.76" y1="147.32" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="147.32" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="147.32" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="147.32" x2="284.48" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="149.86" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
-<junction x="281.94" y="149.86"/>
-<junction x="281.94" y="147.32"/>
-<wire x1="281.94" y1="144.78" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
-<junction x="281.94" y="144.78"/>
-<pinref part="R79" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="152.4" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
-<label x="238.76" y="147.32" size="1.778" layer="95" font="vector" ratio="12"/>
-<pinref part="C80" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="144.78" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C64" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="144.78" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
-<junction x="248.92" y="147.32"/>
-<pinref part="C63" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="144.78" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
-<junction x="259.08" y="147.32"/>
-<pinref part="C86" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="144.78" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="147.32" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
-<junction x="238.76" y="147.32"/>
-</segment>
 </net>
 <net name="N$18" class="0">
 <segment>
@@ -7534,6 +7488,51 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R66" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 <label x="149.86" y="78.74" size="1.778" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VIN@4"/>
+<wire x1="284.48" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VIN@5"/>
+<wire x1="284.48" y1="142.24" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="142.24" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
+<junction x="281.94" y="142.24"/>
+<pinref part="IC3" gate="G$1" pin="VIN@6"/>
+<wire x1="284.48" y1="139.7" x2="281.94" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="139.7" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VIN@1"/>
+<pinref part="IC3" gate="G$1" pin="VIN"/>
+<wire x1="284.48" y1="154.94" x2="281.94" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="154.94" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="152.4" x2="284.48" y2="152.4" width="0.1524" layer="91"/>
+<junction x="281.94" y="152.4"/>
+<pinref part="IC3" gate="G$1" pin="VIN@2"/>
+<wire x1="284.48" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="149.86" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="VIN@3"/>
+<wire x1="238.76" y1="147.32" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="147.32" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="147.32" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="147.32" x2="284.48" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="149.86" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
+<junction x="281.94" y="149.86"/>
+<junction x="281.94" y="147.32"/>
+<wire x1="281.94" y1="144.78" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
+<junction x="281.94" y="144.78"/>
+<pinref part="R79" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="152.4" x2="281.94" y2="152.4" width="0.1524" layer="91"/>
+<label x="238.76" y="147.32" size="1.778" layer="95" font="vector" ratio="12"/>
+<pinref part="C80" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="144.78" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C64" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="144.78" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
+<junction x="248.92" y="147.32"/>
+<pinref part="C63" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="144.78" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
+<junction x="259.08" y="147.32"/>
+<pinref part="C86" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="144.78" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="147.32" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
+<junction x="238.76" y="147.32"/>
 </segment>
 </net>
 <net name="N$13" class="0">
