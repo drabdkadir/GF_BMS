@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1286,7 +1286,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <rectangle x1="4.699" y1="0.889" x2="5.461" y2="1.905" layer="51"/>
 <rectangle x1="7.239" y1="0.889" x2="8.001" y2="1.905" layer="51"/>
 </package>
-<package name="SFH482" urn="urn:adsk.eagle:footprint:15650/1">
+<package name="SFH482" urn="urn:adsk.eagle:footprint:15650/1" locally_modified="yes">
 <description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
@@ -1313,7 +1313,7 @@ Inifineon</description>
 <text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="L-59EGW-CA" urn="urn:adsk.eagle:footprint:15763/1">
+<package name="L-59EGW-CA" urn="urn:adsk.eagle:footprint:15763/1" locally_modified="yes">
 <description>&lt;b&gt;T-1 4/4 (5mm) BI-POLAR AND BI-COLOR INDICATOR LAMPS&lt;/b&gt;&lt;p&gt;
 Source: Kingbright L-59 Series</description>
 <wire x1="0" y1="-0.635" x2="-0.635" y2="0" width="0.1524" layer="51" curve="-90"/>
@@ -1339,6 +1339,7 @@ Source: Kingbright L-59 Series</description>
 <pad name="3" x="0" y="-2.54" drill="0.8" diameter="1.4" rot="R90"/>
 <text x="3.81" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.81" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<dimension x1="0" y1="0" x2="0" y2="2.538984375" x3="0" y3="1.269490625" textsize="1.27" layer="21" dtype="radius"/>
 </package>
 <package name="22-23-2041">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 4 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232041_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
@@ -1726,7 +1727,7 @@ Source: Kingbright L-59 Series</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SFH482" urn="urn:adsk.eagle:package:15795/1" type="box">
+<package3d name="SFH482" urn="urn:adsk.eagle:package:15795/1" locally_modified="yes" type="box">
 <description>IR LED
 infrared emitting diode, Infineon
 TO-18, lead spacing 2.54 mm, cathode marking
@@ -1735,7 +1736,7 @@ Inifineon</description>
 <packageinstance name="SFH482"/>
 </packageinstances>
 </package3d>
-<package3d name="L-59EGW-CA" urn="urn:adsk.eagle:package:15881/1" type="box">
+<package3d name="L-59EGW-CA" urn="urn:adsk.eagle:package:15881/1" locally_modified="yes" type="box">
 <description>T-1 4/4 (5mm) BI-POLAR AND BI-COLOR INDICATOR LAMPS
 Source: Kingbright L-59 Series</description>
 <packageinstances>
@@ -2946,8 +2947,8 @@ Source: http://www.kingbright.com/manager/upload/pdf/L-59EGW-CA%28Ver1292805989.
 <devices>
 <device name="GR" package="L-59EGW-CA">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="CG" pad="2"/>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="CG" pad="1"/>
 <connect gate="G$1" pin="CR" pad="3"/>
 </connects>
 <package3dinstances>

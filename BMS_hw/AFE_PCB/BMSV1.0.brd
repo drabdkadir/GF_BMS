@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.2.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
@@ -1615,125 +1615,125 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C5" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.532" y="36.829" rot="R180">
+<element name="C5" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.532" y="36.829" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.894" y="37.012" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="50.307" y="38.678" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C6" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.53" y="29.21" rot="R180">
+<element name="C6" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.53" y="29.21" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.305" y="28.123" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="50.305" y="31.059" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C7" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="50.8" y="20.32" rot="R270">
+<element name="C7" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="50.8" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.641" y="20.828" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="48.951" y="21.095" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C8" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.977" y="39.367" rot="R180">
+<element name="C8" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.977" y="39.367" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.292" y="39.423" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="54.752" y="41.216" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C9" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.975" y="31.115" rot="R180">
+<element name="C9" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.975" y="31.115" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.544" y="30.916996875" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="54.75" y="32.964" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C10" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.975" y="23.495" rot="R180">
+<element name="C10" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.975" y="23.495" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.713" y="24.016" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="54.75" y="25.344" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C11" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.004" y="44.455" rot="R180">
+<element name="C11" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.004" y="44.455" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.779" y="46.543" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="40.779" y="46.304" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C12" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="52.707" y="41.913" rot="R180">
+<element name="C12" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="52.707" y="41.913" smashed="yes" rot="R180">
 <attribute name="NAME" x="52.212" y="43.874" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="53.482" y="43.762" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C13" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.966" y="34.91" rot="R180">
+<element name="C13" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.966" y="34.91" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.765" y="34.884" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="54.741" y="36.759" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C14" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.975" y="27.305" rot="R180">
+<element name="C14" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="53.975" y="27.305" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.756" y="27.249" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="54.75" y="29.154" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C1" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.53" y="33.02" rot="R180">
+<element name="C1" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.53" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.908" y="34.727" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="50.305" y="34.869" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C15" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="72.39" y="41.275" rot="R225">
+<element name="C15" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="72.39" y="41.275" smashed="yes" rot="R225">
 <attribute name="NAME" x="74.236421875" y="43.44559375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="71.630565625" y="43.13045" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C16" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="71.12" y="41.91" rot="R225">
+<element name="C16" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="71.12" y="41.91" smashed="yes" rot="R225">
 <attribute name="NAME" x="70.680421875" y="43.44559375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="70.360565625" y="43.76545" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C17" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="69.85" y="40.005" rot="R225">
+<element name="C17" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="69.85" y="40.005" smashed="yes" rot="R225">
 <attribute name="NAME" x="69.537421875" y="41.54059375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="69.090565625" y="41.86045" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C18" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.31" y="40.005" rot="R225">
+<element name="C18" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.31" y="40.005" smashed="yes" rot="R225">
 <attribute name="NAME" x="66.743421875" y="41.41359375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="66.550565625" y="41.86045" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C19" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.945" y="38.1" rot="R225">
+<element name="C19" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.945" y="38.1" smashed="yes" rot="R225">
 <attribute name="NAME" x="66.997421875" y="37.34959375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="67.185565625" y="39.95545" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C20" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.31" y="29.845" rot="R225">
+<element name="C20" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.31" y="29.845" smashed="yes" rot="R225">
 <attribute name="NAME" x="67.632425" y="32.01559375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="66.55056875" y="31.70045" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C21" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="66.04" y="26.67" rot="R315">
+<element name="C21" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="66.04" y="26.67" smashed="yes" rot="R315">
 <attribute name="NAME" x="66.40940625" y="27.627425" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="64.18455" y="25.91056875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="C2" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="34.923" y="41.275" rot="R270">
+<element name="C2" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="34.923" y="41.275" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.343" y="42.177" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="33.074" y="42.05" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C23" library="ipc-7351-capacitor" package="CAPC1005X60N" value=".047uF" x="86.995" y="41.275" rot="R45">
+<element name="C23" library="ipc-7351-capacitor" package="CAPC1005X60N" value=".047uF" x="86.995" y="41.275" smashed="yes" rot="R45">
 <attribute name="NAME" x="87.942578125" y="41.771409375" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="87.754434375" y="39.419553125" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="C22" library="ipc-7351-capacitor" package="CAPC1608X92N" value="2.2uF" x="88.900996875" y="26.033" rot="R45">
+<element name="C22" library="ipc-7351-capacitor" package="CAPC1608X92N" value="2.2uF" x="88.900996875" y="26.033" smashed="yes" rot="R45">
 <attribute name="NAME" x="87.562575" y="26.0214" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="89.660434375" y="24.177546875" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="C3" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="57.786" y="44.449" rot="R180">
+<element name="C3" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="57.786" y="44.449" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.18" y="46.156" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="58.561" y="46.298" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C4" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.53" y="25.4" rot="R180">
+<element name="C4" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="49.53" y="25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.061" y="26.048" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="50.305" y="27.249" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="CELL10+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="202.5" y="54">
+<element name="CELL10+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="202.5" y="54" smashed="yes">
 <attribute name="NAME" x="209.485" y="53.365" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="CELL11+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="202.5" y="6">
+<element name="CELL11+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="202.5" y="6" smashed="yes">
 <attribute name="NAME" x="209.485" y="6.635" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="CELL12+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="240.5" y="54">
+<element name="CELL12+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="240.5" y="54" smashed="yes">
 <attribute name="NAME" x="237.325" y="47.015" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="CELL13+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="240.5" y="6">
+<element name="CELL13+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="240.5" y="6" smashed="yes">
 <attribute name="NAME" x="226.53" y="7.27" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="CELL14+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="259.5" y="54">
+<element name="CELL14+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="259.5" y="54" smashed="yes">
 <attribute name="NAME" x="256.325" y="47.015" size="1.27" layer="25" font="vector" ratio="12"/>
 <attribute name="SPICEPREFIX" value="X" x="259.5" y="54" size="1.778" layer="27" display="off"/>
 </element>
-<element name="CELL8+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="164.5" y="54">
+<element name="CELL8+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="164.5" y="54" smashed="yes">
 <attribute name="NAME" x="172.12" y="55.27" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="CELL9+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="164.5" y="6">
+<element name="CELL9+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="164.5" y="6" smashed="yes">
 <attribute name="NAME" x="171.485" y="6.635" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="IC1" library="GreenFuel" package="64PIN-LQFP" value="MC33771BEP" x="80.955" y="30.48" rot="R315">
+<element name="IC1" library="GreenFuel" package="64PIN-LQFP" value="MC33771BEP" x="80.955" y="30.48" smashed="yes" rot="R315">
 <attribute name="NAME" x="81.2292875" y="38.60678125" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="81.34390625" y="35.040840625" size="0.6096" layer="27" rot="R315"/>
 </element>
-<element name="IC2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="SFH" package3d_urn="urn:adsk.eagle:package:21969/1" value="SFH6156-1" x="203.2" y="25.4">
+<element name="IC2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="SFH" package3d_urn="urn:adsk.eagle:package:21969/1" value="SFH6156-1" x="203.2" y="25.4" smashed="yes">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="203.2" y="25.4" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="SFH6156-4T" x="203.2" y="25.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="204.978" y="32.131" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
@@ -1741,763 +1741,763 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="21H7733" x="203.2" y="25.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="199.39" y="22.86" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R12" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="23.495" rot="MR180">
+<element name="R12" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="23.495" smashed="yes" rot="MR180">
 <attribute name="NAME" x="51.32" y="24.846" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="55.13" y="25.319" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R13" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="63.5" y="42.545" rot="MR0">
+<element name="R13" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="63.5" y="42.545" smashed="yes" rot="MR0">
 <attribute name="NAME" x="66.56" y="43.896" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="64.25" y="40.721" size="1.27" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="R14" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="33.655" rot="MR180">
+<element name="R14" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="33.655" smashed="yes" rot="MR180">
 <attribute name="NAME" x="51.32" y="33.736" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="55.13" y="35.479" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R15" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.708" y="36.83">
+<element name="R15" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.708" y="36.83" smashed="yes">
 <attribute name="NAME" x="57.292" y="37.257" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="51.958" y="35.006" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R16" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="29.21">
+<element name="R16" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="29.21" smashed="yes">
 <attribute name="NAME" x="59.17" y="29.418" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="51.955" y="27.386" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R17" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="21.59">
+<element name="R17" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="21.59" smashed="yes">
 <attribute name="NAME" x="52.717" y="19.731" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="51.955" y="19.766" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R5" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="27.94" rot="MR180">
+<element name="R5" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="27.94" smashed="yes" rot="MR180">
 <attribute name="NAME" x="51.955" y="28.021" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="55.13" y="29.764" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R18" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="42.547">
+<element name="R18" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="42.547" smashed="yes">
 <attribute name="NAME" x="38.215" y="42.751" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="38.62" y="40.723" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R19" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="57.79" y="42.546" rot="R180">
+<element name="R19" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="57.79" y="42.546" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.191" y="42.881" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="58.54" y="44.37" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R20" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="33.009">
+<element name="R20" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="33.009" smashed="yes">
 <attribute name="NAME" x="57.289" y="32.42" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="51.955" y="31.185" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R21" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="25.4">
+<element name="R21" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="52.705" y="25.4" smashed="yes">
 <attribute name="NAME" x="57.162" y="25.065" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="51.955" y="23.576" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R22" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="57.785" y="41.275">
+<element name="R22" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="57.785" y="41.275" smashed="yes">
 <attribute name="NAME" x="57.162" y="40.177996875" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="57.035" y="39.450996875" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R23" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="36.83">
+<element name="R23" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="36.83" smashed="yes">
 <attribute name="NAME" x="59.321" y="37.892" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="55.13" y="35.006" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R24" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="33.02">
+<element name="R24" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="33.02" smashed="yes">
 <attribute name="NAME" x="59.448" y="33.193" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="55.13" y="31.196" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R25" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="29.21">
+<element name="R25" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="29.21" smashed="yes">
 <attribute name="NAME" x="59.829" y="29.637" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="55.13" y="27.386" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R26" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="25.4">
+<element name="R26" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="25.4" smashed="yes">
 <attribute name="NAME" x="59.448" y="25.446" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="55.13" y="23.576" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R27" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="21.59">
+<element name="R27" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="55.88" y="21.59" smashed="yes">
 <attribute name="NAME" x="56.019" y="19.858" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="55.13" y="19.766" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R28" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="42.545">
+<element name="R28" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="42.545" smashed="yes">
 <attribute name="NAME" x="43.065" y="42.464" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="40.721" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R6" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="38.1" rot="MR180">
+<element name="R6" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="38.1" smashed="yes" rot="MR180">
 <attribute name="NAME" x="51.955" y="38.816" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="55.13" y="39.924" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R7" library="ipc-7351-resistor" package="RESC3225X70N" value="100" x="65.405" y="38.1" rot="MR180">
+<element name="R7" library="ipc-7351-resistor" package="RESC3225X70N" value="100" x="65.405" y="38.1" smashed="yes" rot="MR180">
 <attribute name="NAME" x="61.48" y="38.054" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="64.655" y="39.924" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R31" library="ipc-7351-resistor" package="RESC1005X40AN" value="127E" x="94.615" y="16.51" rot="R315">
+<element name="R31" library="ipc-7351-resistor" package="RESC1005X40AN" value="127E" x="94.615" y="16.51" smashed="yes" rot="R315">
 <attribute name="NAME" x="94.603403125" y="17.55906875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="92.794903125" y="15.75056875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R29" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="92.71" y="16.51" rot="R315">
+<element name="R29" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="92.71" y="16.51" smashed="yes" rot="R315">
 <attribute name="NAME" x="93.46040625" y="15.40006875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="90.88990625" y="15.75056875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R30" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="84.455" y="40.64" rot="R45">
+<element name="R30" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="84.455" y="40.64" smashed="yes" rot="R45">
 <attribute name="NAME" x="83.53293125" y="40.50140625" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="85.21443125" y="38.81990625" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="R11" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="42.545" rot="MR180">
+<element name="R11" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="55.88" y="42.545" smashed="yes" rot="MR180">
 <attribute name="NAME" x="52.439" y="41.956" size="0.762" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="55.13" y="44.369" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="C29" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="38.735" rot="R180">
+<element name="C29" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="38.735" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.668" y="38.791" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.335" y="40.584" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R50" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="38.735">
+<element name="R50" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="38.735" smashed="yes">
 <attribute name="NAME" x="38.747" y="37.765" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.62" y="36.911" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R56" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="40.64" rot="R90">
+<element name="R56" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.557" y="40.305" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="43.734" y="39.89" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C34" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="38.735" y="40.64" rot="R180">
+<element name="C34" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="38.735" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.659" y="39.314" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="39.51" y="42.489" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="CELL7+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="126.5" y="6">
+<element name="CELL7+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="126.5" y="6" smashed="yes">
 <attribute name="NAME" x="132.85" y="6" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C26" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.559" y="34.928" rot="R180">
+<element name="C26" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.559" y="34.928" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.334" y="34.222" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.334" y="36.777" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R51" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.372" y="34.93">
+<element name="R51" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.372" y="34.93" smashed="yes">
 <attribute name="NAME" x="42.94" y="34.087" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.622" y="33.106" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R57" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="34.925">
+<element name="R57" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="34.925" smashed="yes">
 <attribute name="NAME" x="44.843" y="35.098" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="33.101" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C35" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="39.886615625" y="36.67669375" rot="R180">
+<element name="C35" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="39.886615625" y="36.67669375" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.217615625" y="36.85969375" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="40.661615625" y="38.52569375" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="CELL6+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="126.5" y="54">
+<element name="CELL6+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="126.5" y="54" smashed="yes">
 <attribute name="NAME" x="132.85" y="55.27" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C25" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="31.115" rot="R180">
+<element name="C25" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="31.115" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.335" y="30.282" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.335" y="32.964" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R44" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="31.115">
+<element name="R44" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="31.115" smashed="yes">
 <attribute name="NAME" x="44.692" y="30.942" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="38.62" y="29.291" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R58" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="31.115">
+<element name="R58" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="31.115" smashed="yes">
 <attribute name="NAME" x="44.843" y="31.288" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="29.291" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C32" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.008" y="33.022" rot="R180">
+<element name="C32" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.008" y="33.022" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.339" y="33.586" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="40.783" y="34.871" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C41" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="70.485" y="17.78" rot="R315">
+<element name="C41" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="70.485" y="17.78" smashed="yes" rot="R315">
 <attribute name="NAME" x="70.34640625" y="18.737425" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="68.62955" y="17.02056875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R39" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="29.917265625" y="40.45854375" rot="MR180">
+<element name="R39" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="29.917265625" y="40.45854375" smashed="yes" rot="MR180">
 <attribute name="NAME" x="29.294265625" y="38.50754375" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="29.167265625" y="42.28254375" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R46" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="35.56" rot="MR180">
+<element name="R46" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="35.56" smashed="yes" rot="MR180">
 <attribute name="NAME" x="29.603" y="33.736" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="29.73" y="37.384" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="CELL5+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="88.5" y="6">
+<element name="CELL5+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="88.5" y="6" smashed="yes">
 <attribute name="NAME" x="94.85" y="6" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C40" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.945" y="24.765" rot="R315">
+<element name="C40" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="67.945" y="24.765" smashed="yes" rot="R315">
 <attribute name="NAME" x="68.18740625" y="25.595425" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="66.08955" y="24.00556875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="C24" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="27.305" rot="R180">
+<element name="C24" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="27.305" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.541" y="27.488" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.335" y="29.154" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R52" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="27.305">
+<element name="R52" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="27.305" smashed="yes">
 <attribute name="NAME" x="43.192" y="26.716" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.62" y="25.481" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R59" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="27.305">
+<element name="R59" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="27.305" smashed="yes">
 <attribute name="NAME" x="44.843" y="27.859" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="25.481" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C36" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="29.205" rot="R180">
+<element name="C36" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="29.205" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.532" y="29.032" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="40.78" y="31.054" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="CELL4+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="88.5" y="54">
+<element name="CELL4+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="88.5" y="54" smashed="yes">
 <attribute name="NAME" x="94.85" y="54" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C30" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.562" y="23.483" rot="R180">
+<element name="C30" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.562" y="23.483" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.035" y="23.666" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.337" y="25.332" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R53" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="23.495">
+<element name="R53" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="23.495" smashed="yes">
 <attribute name="NAME" x="43.319" y="23.287" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.62" y="21.671" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R60" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="23.495">
+<element name="R60" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="23.495" smashed="yes">
 <attribute name="NAME" x="45.732" y="23.414" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="21.671" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C37" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="25.4" rot="R180">
+<element name="C37" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.336" y="25.71" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="40.78" y="27.249" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C43" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="73.025" y="15.24" rot="R315">
+<element name="C43" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="73.025" y="15.24" smashed="yes" rot="R315">
 <attribute name="NAME" x="72.88640625" y="16.197425" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="71.16955" y="14.48056875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R35" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="31.115" rot="MR180">
+<element name="R35" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="31.115" smashed="yes" rot="MR180">
 <attribute name="NAME" x="26.97" y="30.619" size="0.762" layer="26" font="vector" ratio="12" rot="MR90"/>
 <attribute name="VALUE" x="29.73" y="32.939" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R47" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="27.305" rot="MR180">
+<element name="R47" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="27.305" smashed="yes" rot="MR180">
 <attribute name="NAME" x="27.513" y="28.055" size="0.762" layer="26" font="vector" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="29.73" y="29.129" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="CELL3+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="50.5" y="6">
+<element name="CELL3+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="50.5" y="6" smashed="yes">
 <attribute name="NAME" x="56.85" y="6" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C42" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="73.025" y="17.78" rot="R315">
+<element name="C42" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="73.025" y="17.78" smashed="yes" rot="R315">
 <attribute name="NAME" x="72.88640625" y="18.737425" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="71.16955" y="17.02056875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="C28" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.558" y="19.686" rot="R180">
+<element name="C28" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.558" y="19.686" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.793" y="19.742" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.333" y="21.535" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R55" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="19.685">
+<element name="R55" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="19.685" smashed="yes">
 <attribute name="NAME" x="43.065" y="18.969" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.62" y="17.861" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R61" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="19.685">
+<element name="R61" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="19.685" smashed="yes">
 <attribute name="NAME" x="45.224" y="19.985" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="17.861" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C39" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="39.995" y="21.6" rot="R180">
+<element name="C39" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="39.995" y="21.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.326" y="21.656" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="40.77" y="23.449" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="CELL2+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="50.5" y="54">
+<element name="CELL2+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="50.5" y="54" smashed="yes">
 <attribute name="NAME" x="56.85" y="54.635" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C31" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="15.875" rot="R180">
+<element name="C31" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="15.875" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.303" y="15.042" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.335" y="17.724" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R54" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="15.875">
+<element name="R54" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="15.875" smashed="yes">
 <attribute name="NAME" x="45.072996875" y="15.956" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="38.620003125" y="14.051" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R62" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="15.875">
+<element name="R62" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="15.875" smashed="yes">
 <attribute name="NAME" x="45.859" y="15.921" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="14.051" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C38" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="17.78" rot="R180">
+<element name="C38" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.336" y="17.836" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="40.78" y="19.629" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C45" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="88.265" y="19.431" rot="R45">
+<element name="C45" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="88.265" y="19.431" smashed="yes" rot="R45">
 <attribute name="NAME" x="87.307575" y="19.292409375" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="89.02443125" y="17.575553125" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="R40" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="22.225" rot="MR180">
+<element name="R40" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="22.225" smashed="yes" rot="MR180">
 <attribute name="NAME" x="27.42" y="23.414" size="0.762" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="29.73" y="24.049" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R48" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="18.415" rot="MR180">
+<element name="R48" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="18.415" smashed="yes" rot="MR180">
 <attribute name="NAME" x="33.54" y="19.766" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="29.73" y="20.239" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="CELL1+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="12.5" y="6">
+<element name="CELL1+" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="12.5" y="6" smashed="yes">
 <attribute name="NAME" x="18.85" y="6" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C44" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="87.63" y="17.145" rot="R45">
+<element name="C44" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="87.63" y="17.145" smashed="yes" rot="R45">
 <attribute name="NAME" x="86.672575" y="17.00640625" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="88.38943125" y="15.28955" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="CELL1-" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="12.5" y="54">
+<element name="CELL1-" library="GreenFuel" package="CELL_PAD" value="GF_BMS_CELL_PADP_PAD" x="12.5" y="54" smashed="yes">
 <attribute name="NAME" x="20.755" y="54" size="1.27" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="C27" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="12.065" rot="R180">
+<element name="C27" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.047uF" x="35.56" y="12.065" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.605" y="13.645" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="36.335" y="13.914" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R49" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="12.7" rot="MR180">
+<element name="R49" library="ipc-7351-resistor" package="RESC3225X70N" value="39E" x="30.48" y="12.7" smashed="yes" rot="MR180">
 <attribute name="NAME" x="27.42" y="12.619" size="0.762" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="29.73" y="14.524" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R63" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="12.065">
+<element name="R63" library="ipc-7351-resistor" package="RESC1005X40AN" value="2k" x="41.91" y="12.065" smashed="yes">
 <attribute name="NAME" x="44.97" y="12.619" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="41.16" y="10.241" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R45" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="12.065">
+<element name="R45" library="ipc-7351-resistor" package="RESC1005X40AN" value="3k" x="39.37" y="12.065" smashed="yes">
 <attribute name="NAME" x="43.319" y="11.476" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.62" y="10.241" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C33" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="13.97" rot="R180">
+<element name="C33" library="ipc-7351-capacitor" package="CAPC3215X168N" value="0.47uF" x="40.005" y="13.97" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.209" y="14.153" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="40.78" y="15.819" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C46" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="88.9" y="21.59" rot="R45">
+<element name="C46" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="88.9" y="21.59" smashed="yes" rot="R45">
 <attribute name="NAME" x="87.942575" y="21.451409375" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="89.65943125" y="19.734553125" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="C47" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="90.17" y="20.32" rot="R315">
+<element name="C47" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.047uF" x="90.17" y="20.32" smashed="yes" rot="R315">
 <attribute name="NAME" x="90.031409375" y="21.277425" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="88.314553125" y="19.56056875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R64" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="89.535" y="29.845" rot="MR225">
+<element name="R64" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="89.535" y="29.845" smashed="yes" rot="MR225">
 <attribute name="NAME" x="90.64493125" y="28.967590625" size="0.762" layer="26" font="vector" ratio="12" rot="MR225"/>
 <attribute name="VALUE" x="90.29443125" y="31.665090625" size="1.27" layer="28" font="vector" ratio="10" rot="MR225"/>
 </element>
-<element name="R65" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="90.805" y="31.115" rot="MR225">
+<element name="R65" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="90.805" y="31.115" smashed="yes" rot="MR225">
 <attribute name="NAME" x="91.91493125" y="30.237590625" size="0.762" layer="26" font="vector" ratio="12" rot="MR225"/>
 <attribute name="VALUE" x="91.56443125" y="32.935090625" size="1.27" layer="28" font="vector" ratio="10" rot="MR225"/>
 </element>
-<element name="R67" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="92.075" y="32.385" rot="MR225">
+<element name="R67" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="92.075" y="32.385" smashed="yes" rot="MR225">
 <attribute name="NAME" x="93.31193125" y="31.253590625" size="0.762" layer="26" font="vector" ratio="12" rot="MR225"/>
 <attribute name="VALUE" x="92.83443125" y="34.205090625" size="1.27" layer="28" font="vector" ratio="10" rot="MR225"/>
 </element>
-<element name="R68" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="93.345" y="33.655" rot="MR225">
+<element name="R68" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="93.345" y="33.655" smashed="yes" rot="MR225">
 <attribute name="NAME" x="94.708928125" y="32.39659375" size="0.762" layer="26" font="vector" ratio="12" rot="MR225"/>
 <attribute name="VALUE" x="94.104428125" y="35.47509375" size="1.27" layer="28" font="vector" ratio="10" rot="MR225"/>
 </element>
-<element name="R69" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="94.615" y="34.925" rot="MR225">
+<element name="R69" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="94.615" y="34.925" smashed="yes" rot="MR225">
 <attribute name="NAME" x="96.10593125" y="33.920590625" size="0.762" layer="26" font="vector" ratio="12" rot="MR225"/>
 <attribute name="VALUE" x="95.37443125" y="36.745090625" size="1.27" layer="28" font="vector" ratio="10" rot="MR225"/>
 </element>
-<element name="R70" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="95.885" y="36.195" rot="MR225">
+<element name="R70" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="95.885" y="36.195" smashed="yes" rot="MR225">
 <attribute name="NAME" x="97.37593125" y="35.444590625" size="0.762" layer="26" font="vector" ratio="12" rot="MR225"/>
 <attribute name="VALUE" x="96.64443125" y="38.015090625" size="1.27" layer="28" font="vector" ratio="10" rot="MR225"/>
 </element>
-<element name="R71" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="97.155" y="37.465" rot="MR225">
+<element name="R71" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="97.155" y="37.465" smashed="yes" rot="MR225">
 <attribute name="NAME" x="98.51893125" y="36.714590625" size="0.762" layer="26" font="vector" ratio="12" rot="MR225"/>
 <attribute name="VALUE" x="97.91443125" y="39.285090625" size="1.27" layer="28" font="vector" ratio="10" rot="MR225"/>
 </element>
-<element name="C59" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="92.075" y="29.845" rot="R315">
+<element name="C59" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="92.075" y="29.845" smashed="yes" rot="R315">
 <attribute name="NAME" x="92.95240625" y="28.770421875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="90.21955" y="29.085565625" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R72" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="86.995" y="32.385" rot="MR45">
+<element name="R72" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="86.995" y="32.385" smashed="yes" rot="MR45">
 <attribute name="NAME" x="85.885065625" y="33.26240625" size="0.762" layer="26" font="vector" ratio="12" rot="MR45"/>
 <attribute name="VALUE" x="86.235565625" y="30.56490625" size="1.27" layer="28" font="vector" ratio="10" rot="MR45"/>
 </element>
-<element name="C55" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="93.345" y="31.115" rot="R315">
+<element name="C55" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="93.345" y="31.115" smashed="yes" rot="R315">
 <attribute name="NAME" x="94.09540625" y="30.040421875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="91.48955" y="30.355565625" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R73" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="88.265" y="33.655" rot="MR45">
+<element name="R73" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="88.265" y="33.655" smashed="yes" rot="MR45">
 <attribute name="NAME" x="87.155065625" y="34.40540625" size="0.762" layer="26" font="vector" ratio="12" rot="MR45"/>
 <attribute name="VALUE" x="87.505565625" y="31.83490625" size="1.27" layer="28" font="vector" ratio="10" rot="MR45"/>
 </element>
-<element name="C56" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="94.615" y="32.385" rot="R315">
+<element name="C56" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="94.615" y="32.385" smashed="yes" rot="R315">
 <attribute name="NAME" x="95.49240625" y="31.310421875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="92.75955" y="31.625565625" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R74" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="89.535" y="34.925" rot="MR45">
+<element name="R74" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="89.535" y="34.925" smashed="yes" rot="MR45">
 <attribute name="NAME" x="88.4250625" y="35.802409375" size="0.762" layer="26" font="vector" ratio="12" rot="MR45"/>
 <attribute name="VALUE" x="88.7755625" y="33.104909375" size="1.27" layer="28" font="vector" ratio="10" rot="MR45"/>
 </element>
-<element name="C57" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="95.885" y="33.655" rot="R315">
+<element name="C57" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="95.885" y="33.655" smashed="yes" rot="R315">
 <attribute name="NAME" x="96.76240625" y="32.580421875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="94.02955" y="32.89556875" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R75" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="90.805" y="36.195" rot="MR45">
+<element name="R75" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="90.805" y="36.195" smashed="yes" rot="MR45">
 <attribute name="NAME" x="89.56806875" y="36.94540625" size="0.762" layer="26" font="vector" ratio="12" rot="MR45"/>
 <attribute name="VALUE" x="90.04556875" y="34.37490625" size="1.27" layer="28" font="vector" ratio="10" rot="MR45"/>
 </element>
-<element name="C58" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="97.155" y="34.925" rot="R315">
+<element name="C58" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="97.155" y="34.925" smashed="yes" rot="R315">
 <attribute name="NAME" x="98.15940625" y="33.850421875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="95.29955" y="34.165565625" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R76" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="92.075" y="37.465" rot="MR45">
+<element name="R76" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="92.075" y="37.465" smashed="yes" rot="MR45">
 <attribute name="NAME" x="90.711065625" y="38.34240625" size="0.762" layer="26" font="vector" ratio="12" rot="MR45"/>
 <attribute name="VALUE" x="91.315565625" y="35.64490625" size="1.27" layer="28" font="vector" ratio="10" rot="MR45"/>
 </element>
-<element name="C62" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="98.425" y="36.195" rot="R315">
+<element name="C62" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="98.425" y="36.195" smashed="yes" rot="R315">
 <attribute name="NAME" x="99.30240625" y="35.120421875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="96.56955" y="35.435565625" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R77" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="93.345" y="38.735" rot="MR45">
+<element name="R77" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="93.345" y="38.735" smashed="yes" rot="MR45">
 <attribute name="NAME" x="92.108065625" y="39.61240625" size="0.762" layer="26" font="vector" ratio="12" rot="MR45"/>
 <attribute name="VALUE" x="92.585565625" y="36.91490625" size="1.27" layer="28" font="vector" ratio="10" rot="MR45"/>
 </element>
-<element name="C60" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="99.695" y="37.465" rot="R315">
+<element name="C60" library="ipc-7351-capacitor" package="CAPC1005X60N" value="1000pF" x="99.695" y="37.465" smashed="yes" rot="R315">
 <attribute name="NAME" x="100.57240625" y="36.263421875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="97.83955" y="36.705565625" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R78" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="94.615" y="40.005" rot="MR45">
+<element name="R78" library="ipc-7351-resistor" package="RESC1005X40AN" value="1k" x="94.615" y="40.005" smashed="yes" rot="MR45">
 <attribute name="NAME" x="93.37806875" y="40.75540625" size="0.762" layer="26" font="vector" ratio="12" rot="MR45"/>
 <attribute name="VALUE" x="93.85556875" y="38.18490625" size="1.27" layer="28" font="vector" ratio="10" rot="MR45"/>
 </element>
-<element name="C48" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="77.47" y="48.26" rot="MR135">
+<element name="C48" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="77.47" y="48.26" smashed="yes" rot="MR135">
 <attribute name="NAME" x="78.22040625" y="49.461578125" size="0.762" layer="26" font="vector" ratio="12" rot="MR135"/>
 <attribute name="VALUE" x="75.61455" y="49.019434375" size="1.27" layer="28" font="vector" ratio="10" rot="MR135"/>
 </element>
-<element name="C49" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="80.0064625" y="48.256465625" rot="MR135">
+<element name="C49" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="80.0064625" y="48.256465625" smashed="yes" rot="MR135">
 <attribute name="NAME" x="80.75686875" y="49.45804375" size="0.762" layer="26" font="vector" ratio="12" rot="MR135"/>
 <attribute name="VALUE" x="78.151015625" y="49.0159" size="1.27" layer="28" font="vector" ratio="10" rot="MR135"/>
 </element>
-<element name="C50" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="82.196146875" y="48.149203125" rot="MR135">
+<element name="C50" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="82.196146875" y="48.149203125" smashed="yes" rot="MR135">
 <attribute name="NAME" x="83.20055625" y="49.47778125" size="0.762" layer="26" font="vector" ratio="12" rot="MR135"/>
 <attribute name="VALUE" x="80.3407" y="48.9086375" size="1.27" layer="28" font="vector" ratio="10" rot="MR135"/>
 </element>
-<element name="C52" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="84.459240625" y="48.26283125" rot="MR135">
+<element name="C52" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="84.459240625" y="48.26283125" smashed="yes" rot="MR135">
 <attribute name="NAME" x="85.209646875" y="49.46440625" size="0.762" layer="26" font="vector" ratio="12" rot="MR135"/>
 <attribute name="VALUE" x="82.60379375" y="49.0222625" size="1.27" layer="28" font="vector" ratio="10" rot="MR135"/>
 </element>
-<element name="C53" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="86.995" y="48.26" rot="MR135">
+<element name="C53" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="86.995" y="48.26" smashed="yes" rot="MR135">
 <attribute name="NAME" x="87.74540625" y="49.461578125" size="0.762" layer="26" font="vector" ratio="12" rot="MR135"/>
 <attribute name="VALUE" x="85.13955" y="49.019434375" size="1.27" layer="28" font="vector" ratio="10" rot="MR135"/>
 </element>
-<element name="C51" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="89.535" y="48.26" rot="MR135">
+<element name="C51" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="89.535" y="48.26" smashed="yes" rot="MR135">
 <attribute name="NAME" x="90.28540625" y="49.461578125" size="0.762" layer="26" font="vector" ratio="12" rot="MR135"/>
 <attribute name="VALUE" x="87.67955" y="49.019434375" size="1.27" layer="28" font="vector" ratio="10" rot="MR135"/>
 </element>
-<element name="C54" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="92.075" y="48.26" rot="MR135">
+<element name="C54" library="ipc-7351-capacitor" package="CAPC1005X60N" value="2200pF" x="92.075" y="48.26" smashed="yes" rot="MR135">
 <attribute name="NAME" x="92.69840625" y="49.461578125" size="0.762" layer="26" font="vector" ratio="12" rot="MR135"/>
 <attribute name="VALUE" x="90.21955" y="49.019434375" size="1.27" layer="28" font="vector" ratio="10" rot="MR135"/>
 </element>
-<element name="D1" library="ipc-7351-diode" package="SOD2514X100N" value="43V" x="51.308" y="46.736" rot="MR0">
+<element name="D1" library="ipc-7351-diode" package="SOD2514X100N" value="43V" x="51.308" y="46.736" smashed="yes" rot="MR0">
 <attribute name="NAME" x="51.6285" y="47.8265" size="0.762" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="52.7715" y="44.2485" size="1.27" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="D2" library="ipc-7351-diode" package="SOD3718X135N" value="33V" x="46.355" y="48.895" rot="MR0">
+<element name="D2" library="ipc-7351-diode" package="SOD3718X135N" value="33V" x="46.355" y="48.895" smashed="yes" rot="MR0">
 <attribute name="NAME" x="46.9295" y="50.2395" size="0.762" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="47.8185" y="46.4075" size="1.27" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="D3" library="ipc-7351-diode" package="SOD3718X135N" value="8.2V" x="66.675" y="45.72" rot="MR0">
+<element name="D3" library="ipc-7351-diode" package="SOD3718X135N" value="8.2V" x="66.675" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="70.9325" y="45.4135" size="0.762" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="68.1385" y="43.2325" size="1.27" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="D4" library="ipc-7351-diode" package="SOD3718X135N" value="20V" x="74.93" y="36.83" rot="MR0">
+<element name="D4" library="ipc-7351-diode" package="SOD3718X135N" value="20V" x="74.93" y="36.83" smashed="yes" rot="MR0">
 <attribute name="NAME" x="76.3935" y="38.0475" size="1.27" layer="26" font="vector" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="76.3935" y="34.3425" size="1.27" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="D5" library="ipc-7351-diode" package="SOD3718X135N" value="75V" x="71.755" y="49.022" rot="MR180">
+<element name="D5" library="ipc-7351-diode" package="SOD3718X135N" value="75V" x="71.755" y="49.022" smashed="yes" rot="MR180">
 <attribute name="NAME" x="74.6095" y="49.4555" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="70.2915" y="51.5095" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="R66" library="ipc-7351-resistor" package="RESC1005X40AN" value="10" x="66.675" y="50.165" rot="R180">
+<element name="R66" library="ipc-7351-resistor" package="RESC1005X40AN" value="10" x="66.675" y="50.165" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.203003125" y="50.373" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="67.425003125" y="51.989" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C61" library="ipc-7351-capacitor" package="CAPC2012X145AN" value="0.22uF" x="60.96" y="48.26" rot="MR270">
+<element name="C61" library="ipc-7351-capacitor" package="CAPC2012X145AN" value="0.22uF" x="60.96" y="48.26" smashed="yes" rot="MR270">
 <attribute name="NAME" x="59.74599375" y="48.273" size="0.762" layer="26" font="vector" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="62.808996875" y="49.035" size="1.27" layer="28" font="vector" ratio="10" rot="MR270"/>
 </element>
-<element name="D8" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="104.14" y="51.435">
+<element name="D8" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="104.14" y="51.435" smashed="yes">
 <attribute name="NAME" x="103.8195" y="52.9065" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="102.6765" y="48.9475" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="D9" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="109.855" y="51.435" rot="R180">
+<element name="D9" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="109.855" y="51.435" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.1755" y="53.3925" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="111.3185" y="53.9225" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C72" library="ipc-7351-capacitor" package="CAPC1005X60N" value="47nF" x="87.63223125" y="40.136653125" rot="R45">
+<element name="C72" library="ipc-7351-capacitor" package="CAPC1005X60N" value="47nF" x="87.63223125" y="40.136653125" smashed="yes" rot="R45">
 <attribute name="NAME" x="85.65880625" y="38.093059375" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="88.3916625" y="38.281203125" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="C68" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="113.665" y="50.8" rot="R90">
+<element name="C68" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="113.665" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="113.721" y="52.692" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="115.514" y="50.025" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R88" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="90.245571875" y="41.1983" rot="R225">
+<element name="R88" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="90.245571875" y="41.1983" smashed="yes" rot="R225">
 <attribute name="NAME" x="92.564640625" y="44.00389375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="89.486140625" y="43.01839375" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C75" library="ipc-7351-capacitor" package="CAPC1005X60N" value="6.8uF" x="87.26824375" y="37.729734375" rot="R135">
+<element name="C75" library="ipc-7351-capacitor" package="CAPC1005X60N" value="6.8uF" x="87.26824375" y="37.729734375" smashed="yes" rot="R135">
 <attribute name="NAME" x="87.025834375" y="36.899309375" size="0.762" layer="25" font="vector" ratio="12" rot="R135"/>
 <attribute name="VALUE" x="89.123690625" y="38.489165625" size="1.27" layer="27" font="vector" ratio="10" rot="R135"/>
 </element>
-<element name="C67" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="116.205" y="46.99" rot="R90">
+<element name="C67" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="116.205" y="46.99" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.245" y="47.104" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="118.054" y="46.215" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="D6" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="102.225" y="48.255">
+<element name="D6" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="102.225" y="48.255" smashed="yes">
 <attribute name="NAME" x="101.7775" y="45.4085" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="100.7615" y="45.7675" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="D7" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="107.95" y="48.26" rot="R180">
+<element name="D7" library="ipc-7351-diode" package="SOD3718X135N" value="2v" x="107.95" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="108.3975" y="47.1695" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="109.4135" y="50.7475" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R87" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="91.499053125" y="39.90759375" rot="R225">
+<element name="R87" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="91.499053125" y="39.90759375" smashed="yes" rot="R225">
 <attribute name="NAME" x="93.81811875" y="42.840184375" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="90.73961875" y="41.727684375" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C71" library="ipc-7351-capacitor" package="CAPC1005X60N" value="47nF" x="90.17" y="37.465" rot="R45">
+<element name="C71" library="ipc-7351-capacitor" package="CAPC1005X60N" value="47nF" x="90.17" y="37.465" smashed="yes" rot="R45">
 <attribute name="NAME" x="89.212575" y="37.32640625" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="90.929434375" y="35.609546875" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="IC3" library="GreenFuel" package="VQFN-32" value="MIC28515V1" x="250.825" y="29.8455" rot="R90">
+<element name="IC3" library="GreenFuel" package="VQFN-32" value="MIC28515V1" x="250.825" y="29.8455" smashed="yes" rot="R90">
 <attribute name="NAME" x="252.167" y="37.7835" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="255.325" y="25.8455" size="0.254" layer="27" rot="R90"/>
 </element>
-<element name="C76" library="ipc-7351-capacitor" package="CAPC1608X92N" value="2.2uF" x="245.105" y="28.57" rot="R180">
+<element name="C76" library="ipc-7351-capacitor" package="CAPC1608X92N" value="2.2uF" x="245.105" y="28.57" smashed="yes" rot="R180">
 <attribute name="NAME" x="245.499" y="27.61" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="245.88" y="30.419" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C77" library="ipc-7351-capacitor" package="CAPC2012X145AN" value="4.7uF" x="254.637" y="35.567" rot="R90">
+<element name="C77" library="ipc-7351-capacitor" package="CAPC2012X145AN" value="4.7uF" x="254.637" y="35.567" smashed="yes" rot="R90">
 <attribute name="NAME" x="256.598" y="36.062" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="256.486" y="34.792" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R91" library="ipc-7351-resistor" package="RESC1608X55N" value="1R" x="243.207" y="30.482">
+<element name="R91" library="ipc-7351-resistor" package="RESC1608X55N" value="1R" x="243.207" y="30.482" smashed="yes">
 <attribute name="NAME" x="242.457" y="31.036" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="242.457" y="28.658" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R90" library="ipc-7351-resistor" package="RESC1608X55N" value="200k" x="240.668" y="36.827" rot="R90">
+<element name="R90" library="ipc-7351-resistor" package="RESC1608X55N" value="200k" x="240.668" y="36.827" smashed="yes" rot="R90">
 <attribute name="NAME" x="239.606" y="36.077" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="242.492" y="36.077" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R89" library="ipc-7351-resistor" package="RESC1608X55N" value="100k" x="245.753" y="33.648" rot="R180">
+<element name="R89" library="ipc-7351-resistor" package="RESC1608X55N" value="100k" x="245.753" y="33.648" smashed="yes" rot="R180">
 <attribute name="NAME" x="246.884" y="32.713" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="246.503" y="35.472" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R82" library="ipc-7351-resistor" package="RESC1608X55N" value="1.6k" x="241.3" y="27.305" rot="R180">
+<element name="R82" library="ipc-7351-resistor" package="RESC1608X55N" value="1.6k" x="241.3" y="27.305" smashed="yes" rot="R180">
 <attribute name="NAME" x="240.78" y="28.91" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="242.05" y="29.129" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C73" library="ipc-7351-capacitor" package="CAPC1608X92N" value="1uF" x="249.555" y="35.56">
+<element name="C73" library="ipc-7351-capacitor" package="CAPC1608X92N" value="1uF" x="249.555" y="35.56" smashed="yes">
 <attribute name="NAME" x="248.653" y="36.52" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="248.78" y="33.711" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R83" library="ipc-7351-resistor" package="RESC1608X55N" value="16.2k" x="259.711" y="37.466">
+<element name="R83" library="ipc-7351-resistor" package="RESC1608X55N" value="16.2k" x="259.711" y="37.466" smashed="yes">
 <attribute name="NAME" x="261.501" y="37.258" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="258.961" y="35.642" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C66" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="234.313" y="34.924" rot="R270">
+<element name="C66" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="234.313" y="34.924" smashed="yes" rot="R270">
 <attribute name="NAME" x="234.246" y="36.818" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="232.464" y="35.699" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R85" library="ipc-7351-resistor" package="RESC1608X55N" value="10k" x="261.624" y="19.046" rot="R180">
+<element name="R85" library="ipc-7351-resistor" package="RESC1608X55N" value="10k" x="261.624" y="19.046" smashed="yes" rot="R180">
 <attribute name="NAME" x="265.422" y="19.381" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="262.374" y="20.87" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R86" library="ipc-7351-resistor" package="RESC1005X40AN" value="380E" x="239.396" y="33.017" rot="R270">
+<element name="R86" library="ipc-7351-resistor" package="RESC1005X40AN" value="380E" x="239.396" y="33.017" smashed="yes" rot="R270">
 <attribute name="NAME" x="239.95" y="33.767" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="237.572" y="33.767" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R80" library="ipc-7351-resistor" package="RESC1608X55N" value="1.6k" x="239.395" y="25.4" rot="R180">
+<element name="R80" library="ipc-7351-resistor" package="RESC1608X55N" value="1.6k" x="239.395" y="25.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="237.478" y="25.735" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="240.145" y="27.224" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C65" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF 100V" x="245.11" y="23.495" rot="R180">
+<element name="C65" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF 100V" x="245.11" y="23.495" smashed="yes" rot="R180">
 <attribute name="NAME" x="246.012" y="22.535" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="245.885" y="25.344" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C74" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="244.475" y="18.41" rot="R90">
+<element name="C74" library="ipc-7351-capacitor" package="CAPC1608X92N" value="47nF" x="244.475" y="18.41" smashed="yes" rot="R90">
 <attribute name="NAME" x="246.309" y="17.508" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="246.324" y="17.635" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R79" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="249.555" y="16.51" rot="R180">
+<element name="R79" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="249.555" y="16.51" smashed="yes" rot="R180">
 <attribute name="NAME" x="247.765" y="16.718" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="250.305" y="18.334" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R92" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="132.08" y="46.99">
+<element name="R92" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="132.08" y="46.99" smashed="yes">
 <attribute name="NAME" x="127.774" y="46.401" size="1.27" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="131.33" y="45.166" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R94" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="179.695" y="43.182" rot="MR270">
+<element name="R94" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="179.695" y="43.182" smashed="yes" rot="MR270">
 <attribute name="NAME" x="181.3" y="44.059" size="0.762" layer="26" font="vector" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="181.519" y="43.932" size="1.27" layer="28" font="vector" ratio="10" rot="MR270"/>
 </element>
-<element name="D11" library="ipc-7351-diode" package="SOD3718X135N" value="8.2v" x="172.085" y="45.72" rot="MR180">
+<element name="D11" library="ipc-7351-diode" package="SOD3718X135N" value="8.2v" x="172.085" y="45.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="167.005" y="46.101" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="170.561" y="48.133" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="D10" library="ipc-7351-diode" package="SOD3718X135N" value="" x="177.165" y="43.815" rot="MR90">
+<element name="D10" library="ipc-7351-diode" package="SOD3718X135N" value="" x="177.165" y="43.815" smashed="yes" rot="MR90">
 <attribute name="NAME" x="176.8475" y="38.989" size="0.762" layer="26" font="vector" ratio="12" rot="MR90"/>
 <attribute name="VALUE" x="174.3075" y="40.64" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R93" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="161.29" y="46.355">
+<element name="R93" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="161.29" y="46.355" smashed="yes">
 <attribute name="NAME" x="160.54" y="46.909" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="160.54" y="44.531" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="MICRO3" package3d_urn="urn:adsk.eagle:package:29512/2" value="IRLML5203" x="187.325" y="52.07">
+<element name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="MICRO3" package3d_urn="urn:adsk.eagle:package:29512/2" value="IRLML5203" x="187.325" y="52.07" smashed="yes">
 <attribute name="NAME" x="185.725" y="53.67" size="1.778" layer="25"/>
 <attribute name="VALUE" x="185.825" y="48.67" size="1.778" layer="27"/>
 </element>
-<element name="T4" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="156.21" y="40.005" rot="R90">
+<element name="T4" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="156.21" y="40.005" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.3525" y="48.6335" size="1.27" layer="25"/>
 <attribute name="VALUE" x="165.7045" y="35.503" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="T3" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="156.21" y="27.305" rot="R90">
+<element name="T3" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="156.21" y="27.305" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.8445" y="19.9465" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="165.7045" y="22.803" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="T1" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="138.43" y="27.305" rot="R270">
+<element name="T1" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="138.43" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="145.1295" y="18.7885" size="1.27" layer="25"/>
 <attribute name="VALUE" x="128.9355" y="31.807" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="T2" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="138.43" y="40.005" rot="R270">
+<element name="T2" library="GreenFuel" package="PG-HSOF-9" value="IPT020N10N3V1" x="138.43" y="40.005" smashed="yes" rot="R270">
 <attribute name="NAME" x="137.7635" y="48.1255" size="1.27" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="128.9355" y="44.507" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IC5" library="GreenFuel" package="SOP5" value="FOD8384-COC" x="166.37" y="50.165" rot="MR270">
+<element name="IC5" library="GreenFuel" package="SOP5" value="FOD8384-COC" x="166.37" y="50.165" smashed="yes" rot="MR270">
 <attribute name="NAME" x="157.02" y="53.46" size="1.27" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="174.87" y="53.665" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="IC6" library="GreenFuel" package="SOP5" value="FOD8384-COC" x="148.605" y="50.165" rot="MR270">
+<element name="IC6" library="GreenFuel" package="SOP5" value="FOD8384-COC" x="148.605" y="50.165" smashed="yes" rot="MR270">
 <attribute name="NAME" x="141.105" y="51.26" size="1.27" layer="26" font="vector" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="157.105" y="53.665" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="IC4" library="GreenFuel" package="SOP5" value="FOD8384-COC" x="132.715" y="50.165" rot="MR270">
+<element name="IC4" library="GreenFuel" package="SOP5" value="FOD8384-COC" x="132.715" y="50.165" smashed="yes" rot="MR270">
 <attribute name="NAME" x="125.215" y="51.895" size="1.27" layer="26" font="vector" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="141.215" y="53.665" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="MICRO3" package3d_urn="urn:adsk.eagle:package:29512/2" value="IRLML5203" x="140.97" y="18.415" rot="R90">
+<element name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" package="MICRO3" package3d_urn="urn:adsk.eagle:package:29512/2" value="IRLML5203" x="140.97" y="18.415" smashed="yes" rot="R90">
 <attribute name="NAME" x="143.815" y="18.085" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="144.37" y="16.915" size="1.778" layer="27" rot="R90"/>
 </element>
-<element name="R98" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="137.795" y="19.685">
+<element name="R98" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="137.795" y="19.685" smashed="yes">
 <attribute name="NAME" x="136.664" y="18.207" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="137.045" y="17.861" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R3" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="250.19" y="56.515" rot="R180">
+<element name="R3" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="250.19" y="56.515" smashed="yes" rot="R180">
 <attribute name="NAME" x="250.559" y="55.58" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="250.94" y="58.339" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R1" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="229.87" y="55.88" rot="R180">
+<element name="R1" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="229.87" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="230.493" y="55.072" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="230.62" y="57.704" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R4" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="193.04" y="53.975" rot="R180">
+<element name="R4" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="193.04" y="53.975" smashed="yes" rot="R180">
 <attribute name="NAME" x="193.79" y="53.421" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="193.79" y="55.799" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R2" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="156.21" y="52.705" rot="R180">
+<element name="R2" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="156.21" y="52.705" smashed="yes" rot="R180">
 <attribute name="NAME" x="156.96" y="52.151" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="156.96" y="54.529" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R42" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="116.205" y="6.985" rot="R180">
+<element name="R42" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="116.205" y="6.985" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.955" y="6.431" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="116.955" y="8.809" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R36" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="118.745" y="51.435" rot="R180">
+<element name="R36" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="118.745" y="51.435" smashed="yes" rot="R180">
 <attribute name="NAME" x="119.749" y="52.913" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="119.495" y="53.259" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R33" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="80.645" y="8.255" rot="R180">
+<element name="R33" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="80.645" y="8.255" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.141" y="9.606" size="0.508" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="81.395" y="10.079" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R32" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="80.01" y="50.165" rot="R180">
+<element name="R32" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="80.01" y="50.165" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.268" y="52.405" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="80.76" y="51.989" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R37" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="42.545" y="51.435" rot="R180">
+<element name="R37" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="42.545" y="51.435" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.168" y="52.786" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="43.295" y="53.259" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R38" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="8.255" y="46.99" rot="R270">
+<element name="R38" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="8.255" y="46.99" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.317" y="47.486" size="0.508" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="6.431" y="47.74" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R43" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="43.18" y="9.525" rot="R180">
+<element name="R43" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="43.18" y="9.525" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.057" y="8.59" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="43.93" y="11.349" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R41" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="12.062" y="13.335" rot="R90">
+<element name="R41" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="12.062" y="13.335" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.873" y="12.585" size="0.508" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="13.886" y="12.585" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R9" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="191.77" y="4.445" rot="R180">
+<element name="R9" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="191.77" y="4.445" smashed="yes" rot="R180">
 <attribute name="NAME" x="192.52" y="3.891" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="192.52" y="6.269" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R8" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="231.775" y="3.175" rot="R180">
+<element name="R8" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="231.775" y="3.175" smashed="yes" rot="R180">
 <attribute name="NAME" x="232.525" y="2.621" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="232.525" y="4.999" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R10" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="153.67" y="5.715">
+<element name="R10" library="ipc-7351-resistor" package="RESC1005X40AN" value="" x="153.67" y="5.715" smashed="yes">
 <attribute name="NAME" x="152.92" y="6.269" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="152.92" y="3.891" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R81" library="GreenFuel" package="SMD4" value="LRMAP3920SUNT" x="120.65" y="40.005" rot="R180">
+<element name="R81" library="GreenFuel" package="SMD4" value="LRMAP3920SUNT" x="120.65" y="40.005" smashed="yes" rot="R180">
 <attribute name="NAME" x="125.65" y="35.505" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="125.65" y="45.505" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R84" library="GreenFuel" package="SMD4" value="LRMAP3920SUNT" x="120.65" y="27.305" rot="R180">
+<element name="R84" library="GreenFuel" package="SMD4" value="LRMAP3920SUNT" x="120.65" y="27.305" smashed="yes" rot="R180">
 <attribute name="NAME" x="125.65" y="22.805" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="125.65" y="32.805" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED1" library="GreenFuel" package="L-59EGW-CA" package3d_urn="urn:adsk.eagle:package:15881/1" value="L-59EGW-CAGR" x="185.42" y="45.72" rot="R90">
+<element name="LED1" library="GreenFuel" package="L-59EGW-CA" package3d_urn="urn:adsk.eagle:package:15881/1" value="L-59EGW-CAGR" x="185.42" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.705" y="41.91" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="187.96" y="49.53" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="LED4" library="GreenFuel" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH48225" x="185.42" y="22.86">
+<element name="LED4" library="GreenFuel" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH48225" x="185.42" y="22.86" smashed="yes">
 <attribute name="NAME" x="179.832" y="22.225" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="184.15" y="18.542" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="LED3" library="GreenFuel" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH48225" x="185.42" y="30.48">
+<element name="LED3" library="GreenFuel" package="SFH482" package3d_urn="urn:adsk.eagle:package:15795/1" value="SFH48225" x="185.42" y="30.48" smashed="yes">
 <attribute name="NAME" x="179.832" y="29.845" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="184.15" y="26.162" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R101" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="190.751334375" y="45.810175" rot="R270">
+<element name="R101" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="190.751334375" y="45.810175" smashed="yes" rot="R270">
 <attribute name="NAME" x="191.305334375" y="46.560175" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="188.927334375" y="46.560175" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R103" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="189.23" y="29.845" rot="R270">
+<element name="R103" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="189.23" y="29.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="190.165" y="31.103" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="187.406" y="30.595" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R102" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="190.5" y="38.1" rot="R270">
+<element name="R102" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="190.5" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="191.308" y="39.231" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="188.676" y="38.85" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R104" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="189.23" y="22.225" rot="R270">
+<element name="R104" library="ipc-7351-resistor" package="RESC1005X40AN" value="10k" x="189.23" y="22.225" smashed="yes" rot="R270">
 <attribute name="NAME" x="190.165" y="23.61" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="187.406" y="22.975" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="JP3" library="GreenFuel" package="OLED-CON" value="" x="183.141334375" y="12.800175">
+<element name="JP3" library="GreenFuel" package="OLED-CON" value="" x="183.141334375" y="12.800175" smashed="yes">
 <attribute name="NAME" x="181.871334375" y="15.340175" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="186.951334375" y="10.895175" size="0.127" layer="27" font="vector" ratio="12"/>
 </element>
-<element name="R99" library="ipc-7351-resistor" package="RESC1005X40AN" value="2.2k" x="227.965" y="26.035" rot="R180">
+<element name="R99" library="ipc-7351-resistor" package="RESC1005X40AN" value="2.2k" x="227.965" y="26.035" smashed="yes" rot="R180">
 <attribute name="NAME" x="228.715" y="25.481" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="228.715" y="27.859" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R100" library="ipc-7351-resistor" package="RESC1005X40AN" value="56k" x="227.33" y="27.94" rot="R180">
+<element name="R100" library="ipc-7351-resistor" package="RESC1005X40AN" value="56k" x="227.33" y="27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="225.344" y="29.198" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="228.08" y="29.764" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C78" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF" x="228.6" y="31.75" rot="R180">
+<element name="C78" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF" x="228.6" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="229.248" y="33.33" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="229.375" y="33.599" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="D16" library="ipc-7351-diode" package="SOD3718X135N" value="" x="229.87" y="29.845">
+<element name="D16" library="ipc-7351-diode" package="SOD3718X135N" value="" x="229.87" y="29.845" smashed="yes">
 <attribute name="NAME" x="230.3115" y="31.0625" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="228.4065" y="27.3575" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="D12" library="ipc-7351-diode" package="SOD3718X135N" value="" x="232.41" y="26.67" rot="R180">
+<element name="D12" library="ipc-7351-diode" package="SOD3718X135N" value="" x="232.41" y="26.67" smashed="yes" rot="R180">
 <attribute name="NAME" x="232.7305" y="25.0715" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="233.8735" y="29.1575" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="D13" library="ipc-7351-diode" package="SOD3718X135N" value="" x="235.585" y="29.21" rot="R180">
+<element name="D13" library="ipc-7351-diode" package="SOD3718X135N" value="" x="235.585" y="29.21" smashed="yes" rot="R180">
 <attribute name="NAME" x="236.9215" y="31.2945" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="237.0485" y="31.6975" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="D14" library="ipc-7351-diode" package="SOD3718X135N" value="" x="224.79" y="36.83" rot="R270">
+<element name="D14" library="ipc-7351-diode" package="SOD3718X135N" value="" x="224.79" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="222.8325" y="37.9125" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="222.3025" y="38.2935" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="D15" library="ipc-7351-diode" package="SOD3718X135N" value="" x="227.965" y="36.83" rot="R270">
+<element name="D15" library="ipc-7351-diode" package="SOD3718X135N" value="" x="227.965" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="229.4365" y="37.5315" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="225.4775" y="38.2935" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="JP1" library="adafruit" package="1X01-CLEANBIG" value="" x="233.68" y="31.75">
+<element name="JP1" library="adafruit" package="1X01-CLEANBIG" value="" x="233.68" y="31.75" smashed="yes">
 <attribute name="NAME" x="235.2548" y="32.0548" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="232.41" y="28.575" size="1.27" layer="27"/>
 </element>
-<element name="JP2" library="adafruit" package="1X01-CLEANBIG" value="" x="258.445" y="3.175">
+<element name="JP2" library="adafruit" package="1X01-CLEANBIG" value="" x="258.445" y="3.175" smashed="yes">
 <attribute name="NAME" x="253.2888" y="2.4638" size="1.27" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="257.175" y="0" size="1.27" layer="27"/>
 </element>
-<element name="X5" library="GreenFuel" package="22-23-2041" value="22-23-2041" x="259.715" y="8.255">
+<element name="X5" library="GreenFuel" package="22-23-2041" value="22-23-2041" x="259.715" y="8.255" smashed="yes">
 <attribute name="MF" value="MOLEX" x="259.715" y="8.255" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="259.715" y="8.255" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="266.065" y="4.445" size="1.016" layer="25" font="vector" ratio="12"/>
@@ -2505,62 +2505,62 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="259.715" y="8.255" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="254.635" y="3.175" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="R34" library="ipc-7351-resistor" package="RESC1005X40AN" value="0R" x="105.41" y="24.13" rot="R135">
+<element name="R34" library="ipc-7351-resistor" package="RESC1005X40AN" value="0R" x="105.41" y="24.13" smashed="yes" rot="R135">
 <attribute name="NAME" x="105.548590625" y="22.95393125" size="0.762" layer="25" font="vector" ratio="12" rot="R135"/>
 <attribute name="VALUE" x="107.230090625" y="24.88943125" size="1.27" layer="27" font="vector" ratio="10" rot="R135"/>
 </element>
-<element name="D20" library="ipc-7351-diode" package="SOD3718X135N" value="8.2V" x="66.04" y="48.26" rot="MR0">
+<element name="D20" library="ipc-7351-diode" package="SOD3718X135N" value="8.2V" x="66.04" y="48.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="67.8845" y="49.7315" size="0.762" layer="26" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="67.5035" y="45.7725" size="1.27" layer="28" font="vector" ratio="10" rot="MR0"/>
 </element>
-<element name="C79" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF" x="93.345" y="13.97" rot="R315">
+<element name="C79" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF" x="93.345" y="13.97" smashed="yes" rot="R315">
 <attribute name="NAME" x="94.781821875" y="12.2215875" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="91.0203875" y="13.413153125" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="R96" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="174.625" y="53.34" rot="R180">
+<element name="R96" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="174.625" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="175.875" y="52.5225" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="175.875" y="55.4275" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R105" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="136.525" y="53.34" rot="R180">
+<element name="R105" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="136.525" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="139.085" y="52.8875" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="137.775" y="55.4275" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R106" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="151.13" y="52.705" rot="R180">
+<element name="R106" library="ipc-7351-resistor" package="RESC1608X55N" value="127E" x="151.13" y="52.705" smashed="yes" rot="R180">
 <attribute name="NAME" x="152.38" y="54.8085" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="152.38" y="54.7925" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="JP5" library="GreenFuel" package="1X15" value="" x="18.415" y="28.575" rot="R90">
+<element name="JP5" library="GreenFuel" package="1X15" value="" x="18.415" y="28.575" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.1262" y="11.9888" size="0.508" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="21.59" y="9.525" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="TP2" library="simpa" package="TP7035" value="TPTH7035" x="76.2" y="45.72">
+<element name="TP2" library="simpa" package="TP7035" value="TPTH7035" x="76.2" y="45.72" smashed="yes">
 <attribute name="NAME" x="75.692" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP3" library="simpa" package="TP7035" value="TPTH7035" x="78.74" y="45.72">
+<element name="TP3" library="simpa" package="TP7035" value="TPTH7035" x="78.74" y="45.72" smashed="yes">
 <attribute name="NAME" x="77.978" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP4" library="simpa" package="TP7035" value="TPTH7035" x="81.28" y="45.72">
+<element name="TP4" library="simpa" package="TP7035" value="TPTH7035" x="81.28" y="45.72" smashed="yes">
 <attribute name="NAME" x="80.645" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP5" library="simpa" package="TP7035" value="TPTH7035" x="83.82" y="45.72">
+<element name="TP5" library="simpa" package="TP7035" value="TPTH7035" x="83.82" y="45.72" smashed="yes">
 <attribute name="NAME" x="83.312" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP6" library="simpa" package="TP7035" value="TPTH7035" x="86.36" y="45.72">
+<element name="TP6" library="simpa" package="TP7035" value="TPTH7035" x="86.36" y="45.72" smashed="yes">
 <attribute name="NAME" x="85.725" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP7" library="simpa" package="TP7035" value="TPTH7035" x="88.9" y="45.72">
+<element name="TP7" library="simpa" package="TP7035" value="TPTH7035" x="88.9" y="45.72" smashed="yes">
 <attribute name="NAME" x="88.138" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP8" library="simpa" package="TP7035" value="TPTH7035" x="73.66" y="45.72">
+<element name="TP8" library="simpa" package="TP7035" value="TPTH7035" x="73.66" y="45.72" smashed="yes">
 <attribute name="NAME" x="73.152" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP9" library="simpa" package="TP7035" value="TPTH7035" x="91.44" y="45.72">
+<element name="TP9" library="simpa" package="TP7035" value="TPTH7035" x="91.44" y="45.72" smashed="yes">
 <attribute name="NAME" x="90.678" y="47.371" size="0.762" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="BGND" library="simpa" package="WPAD" value="" x="107.95" y="34.925">
+<element name="BGND" library="simpa" package="WPAD" value="" x="107.95" y="34.925" smashed="yes">
 <attribute name="NAME" x="109.855" y="38.989" size="1.016" layer="25" ratio="12" rot="R180"/>
 </element>
-<element name="IC7" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="SFH" package3d_urn="urn:adsk.eagle:package:21969/1" value="SFH6156-1" x="209.55" y="28.575" rot="MR270">
+<element name="IC7" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="SFH" package3d_urn="urn:adsk.eagle:package:21969/1" value="SFH6156-1" x="209.55" y="28.575" smashed="yes" rot="MR270">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="194.945" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="SFH6156-4T" x="194.945" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="219.71" y="27.94" size="1.27" layer="26" font="vector" ratio="12" rot="MR0"/>
@@ -2568,11 +2568,11 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="21H7733" x="194.945" y="40.64" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="197.485" y="44.45" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="R95" library="ipc-7351-resistor" package="RESC1005X40AN" value="127E" x="202.565" y="24.765" rot="MR180">
+<element name="R95" library="ipc-7351-resistor" package="RESC1005X40AN" value="127E" x="202.565" y="24.765" smashed="yes" rot="MR180">
 <attribute name="NAME" x="201.815" y="23.83" size="0.762" layer="26" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="190.385" y="11.349" size="1.27" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
-<element name="IC8" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="SFH" package3d_urn="urn:adsk.eagle:package:21969/1" value="SFH6156-1" x="196.85" y="28.575">
+<element name="IC8" library="optocoupler" library_urn="urn:adsk.eagle:library:320" package="SFH" package3d_urn="urn:adsk.eagle:package:21969/1" value="SFH6156-1" x="196.85" y="28.575" smashed="yes">
 <attribute name="MF" value="VISHAY/TELEFUNKEN" x="185.42" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="SFH6156-4T" x="185.42" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="196.85" y="35.56" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
@@ -2580,115 +2580,115 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="21H7733" x="185.42" y="42.545" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="181.61" y="40.005" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R97" library="ipc-7351-resistor" package="RESC1005X40AN" value="127E" x="200.025" y="33.655" rot="R270">
+<element name="R97" library="ipc-7351-resistor" package="RESC1005X40AN" value="127E" x="200.025" y="33.655" smashed="yes" rot="R270">
 <attribute name="NAME" x="201.087" y="34.532" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="212.806" y="45.835" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="D21" library="ipc-7351-diode" package="SOD3718X135N" value="8.2V" x="199.39" y="27.94" rot="MR90">
+<element name="D21" library="ipc-7351-diode" package="SOD3718X135N" value="8.2V" x="199.39" y="27.94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="197.4325" y="27.1115" size="0.762" layer="26" font="vector" ratio="12" rot="MR90"/>
 <attribute name="VALUE" x="196.9025" y="26.4765" size="1.27" layer="28" font="vector" ratio="10" rot="MR90"/>
 </element>
-<element name="L1" library="GreenFuel" package="MSS1278D/T" value="MSS1278-D" x="262.255" y="27.305">
+<element name="L1" library="GreenFuel" package="MSS1278D/T" value="MSS1278-D" x="262.255" y="27.305" smashed="yes">
 <attribute name="NAME" x="266.914" y="37.067" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="264.255" y="19.305" size="0.7" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="C63" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF 100V" x="252.73" y="15.875" rot="R90">
+<element name="C63" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF 100V" x="252.73" y="15.875" smashed="yes" rot="R90">
 <attribute name="NAME" x="253.3595" y="17.8" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="254.7675" y="14.625" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C64" library="ipc-7351-capacitor" package="CAPC3225X168N" value="2.2uF 100V" x="255.27" y="22.86" rot="R90">
+<element name="C64" library="ipc-7351-capacitor" package="CAPC3225X168N" value="2.2uF 100V" x="255.27" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="253.3485" y="23.452" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="258.2075" y="20.785" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C80" library="ipc-7351-capacitor" package="CAPC3225X168N" value="2.2uF 100V" x="250.825" y="21.59" rot="R90">
+<element name="C80" library="ipc-7351-capacitor" package="CAPC3225X168N" value="2.2uF 100V" x="250.825" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="248.6495" y="19.642" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="253.7625" y="19.515" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R107" library="ipc-7351-resistor" package="RESC1608X55N" value="100k" x="245.745" y="36.83" rot="R180">
+<element name="R107" library="ipc-7351-resistor" package="RESC1608X55N" value="100k" x="245.745" y="36.83" smashed="yes" rot="R180">
 <attribute name="NAME" x="246.995" y="36.0125" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="246.995" y="38.9175" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="PACK-" library="simpa" package="WPAD" value="" x="171.45" y="34.925">
+<element name="PACK-" library="simpa" package="WPAD" value="" x="171.45" y="34.925" smashed="yes">
 <attribute name="NAME" x="173.99" y="38.735" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="JP4" library="GreenFuel" package="1X15" value="" x="224.155" y="42.545">
+<element name="JP4" library="GreenFuel" package="1X15" value="" x="224.155" y="42.545" smashed="yes">
 <attribute name="NAME" x="205.0288" y="44.3738" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="205.105" y="39.37" size="1.27" layer="27"/>
 </element>
-<element name="JP6" library="GreenFuel" package="1X15" value="" x="224.155" y="19.685">
+<element name="JP6" library="GreenFuel" package="1X15" value="" x="224.155" y="19.685" smashed="yes">
 <attribute name="NAME" x="234.7468" y="16.1798" size="1.27" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="205.105" y="16.51" size="1.27" layer="27"/>
 </element>
-<element name="S1" library="GreenFuel" package="PIG6030" value="PGBRD6030-6030" x="224.155" y="30.48"/>
-<element name="U1" library="GreenFuel" package="SOT-223" value="NCP1117LP-PG" x="213.36" y="34.925" rot="R90">
+<element name="S1" library="GreenFuel" package="PIG6030" value="PGBRD6030-6030" x="224.155" y="30.48" smashed="yes"/>
+<element name="U1" library="GreenFuel" package="SOT-223" value="NCP1117LP-PG" x="213.36" y="34.925" smashed="yes" rot="R90">
 <attribute name="NAME" x="207.5942" y="34.925" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="203.7842" y="24.13" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C69" library="ipc-7351-capacitor" package="CAPC1005X60N" value="10uF" x="219.71" y="33.02" rot="R90">
+<element name="C69" library="ipc-7351-capacitor" package="CAPC1005X60N" value="10uF" x="219.71" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="191.191" y="12.56" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="193.619" y="12.56" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C70" library="ipc-7351-capacitor" package="CAPC1005X60N" value="10uF" x="222.25" y="29.21" rot="R180">
+<element name="C70" library="ipc-7351-capacitor" package="CAPC1005X60N" value="10uF" x="222.25" y="29.21" smashed="yes" rot="R180">
 <attribute name="NAME" x="221.12" y="30.536" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="247.79" y="8.199" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="U2" library="GreenFuel" package="SOT-223" value="NCP1117LP-PG" x="213.36" y="26.67" rot="R90">
+<element name="U2" library="GreenFuel" package="SOT-223" value="NCP1117LP-PG" x="213.36" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="208.2292" y="26.67" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="199.9742" y="1.27" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C81" library="ipc-7351-capacitor" package="CAPC1608X92N" value="10uF" x="219.71" y="24.765" rot="R90">
+<element name="C81" library="ipc-7351-capacitor" package="CAPC1608X92N" value="10uF" x="219.71" y="24.765" smashed="yes" rot="R90">
 <attribute name="NAME" x="221.4825" y="23.896" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="217.9375" y="-19.665" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C82" library="ipc-7351-capacitor" package="CAPC1608X92N" value="10uF" x="222.885" y="27.305" rot="R180">
+<element name="C82" library="ipc-7351-capacitor" package="CAPC1608X92N" value="10uF" x="222.885" y="27.305" smashed="yes" rot="R180">
 <attribute name="NAME" x="252.3545" y="14.077" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="252.71" y="17.2775" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R108" library="ipc-7351-resistor" package="RESC1608X55N" value="0R" x="241.3" y="22.86" rot="R180">
+<element name="R108" library="ipc-7351-resistor" package="RESC1608X55N" value="0R" x="241.3" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="242.55" y="22.0425" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="242.55" y="24.9475" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C83" library="ipc-7351-capacitor" package="CAPC3225X168N" value="47uF 16V" x="267.335" y="15.24" rot="R270">
+<element name="C83" library="ipc-7351-capacitor" package="CAPC3225X168N" value="47uF 16V" x="267.335" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="269.3835" y="15.918" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="264.3975" y="17.315" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C84" library="ipc-7351-capacitor" package="CAPC3225X168N" value="47uF 16V" x="261.62" y="15.24" rot="R270">
+<element name="C84" library="ipc-7351-capacitor" package="CAPC3225X168N" value="47uF 16V" x="261.62" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="263.5415" y="15.791" size="0.762" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="258.6825" y="17.315" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="C85" library="ipc-7351-capacitor" package="CAPC3225X168N" value="47uF 16V" x="255.905" y="15.24" rot="R270">
+<element name="C85" library="ipc-7351-capacitor" package="CAPC3225X168N" value="47uF 16V" x="255.905" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="255.862" y="17.7965" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="252.9675" y="17.315" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="LED2" library="GreenFuel" package="L-59EGW-CA" package3d_urn="urn:adsk.eagle:package:15881/1" value="L-59EGW-CAGR" x="185.42" y="38.1" rot="R90">
+<element name="LED2" library="GreenFuel" package="L-59EGW-CA" package3d_urn="urn:adsk.eagle:package:15881/1" value="L-59EGW-CAGR" x="185.42" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.705" y="36.83" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="187.96" y="41.91" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R109" library="ipc-7351-resistor" package="RESC1005X40AN" value="10K" x="206.375" y="20.32" rot="R90">
+<element name="R109" library="ipc-7351-resistor" package="RESC1005X40AN" value="10K" x="206.375" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="206.71" y="16.522" size="0.762" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="208.199" y="19.57" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R110" library="ipc-7351-resistor" package="RESC1005X40AN" value="10K" x="198.755" y="13.97" rot="R180">
+<element name="R110" library="ipc-7351-resistor" package="RESC1005X40AN" value="10K" x="198.755" y="13.97" smashed="yes" rot="R180">
 <attribute name="NAME" x="199.632" y="13.162" size="0.508" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="199.505" y="15.794" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C86" library="ipc-7351-capacitor" package="CAPC3225X168N" value="2.2uF 100V" x="244.475" y="39.37" rot="R180">
+<element name="C86" library="ipc-7351-capacitor" package="CAPC3225X168N" value="2.2uF 100V" x="244.475" y="39.37" smashed="yes" rot="R180">
 <attribute name="NAME" x="248.92" y="39.624" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="246.55" y="42.3075" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C87" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF 16V" x="258.826" y="13.97" rot="R90">
+<element name="C87" library="ipc-7351-capacitor" package="CAPC1608X92N" value="0.1uF 16V" x="258.826" y="13.97" smashed="yes" rot="R90">
 <attribute name="NAME" x="260.33" y="12.3135" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="260.8635" y="12.72" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="C88" library="ipc-7351-capacitor" package="CAPC1608X92N" value="4700pF 50V" x="263.525" y="36.195" rot="R180">
+<element name="C88" library="ipc-7351-capacitor" package="CAPC1608X92N" value="4700pF 50V" x="263.525" y="36.195" smashed="yes" rot="R180">
 <attribute name="NAME" x="264.775" y="35.4275" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="264.775" y="38.2325" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="C89" library="ipc-7351-capacitor" package="CAPC1608X92N" value="10pF 50V" x="234.315" y="38.735">
+<element name="C89" library="ipc-7351-capacitor" package="CAPC1608X92N" value="10pF 50V" x="234.315" y="38.735" smashed="yes">
 <attribute name="NAME" x="233.827" y="39.8835" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="233.065" y="36.6975" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="JP7" library="GreenFuel" package="1X02" value="" x="264.795" y="43.815" rot="R90">
+<element name="JP7" library="GreenFuel" package="1X02" value="" x="264.795" y="43.815" smashed="yes" rot="R90">
 <attribute name="NAME" x="262.9662" y="39.9288" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="267.97" y="40.005" size="1.27" layer="27" rot="R90"/>
 </element>
