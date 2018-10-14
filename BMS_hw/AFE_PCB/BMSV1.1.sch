@@ -6982,7 +6982,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="280.162" y="73.66" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C90" gate="G$1" x="236.22" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.188" y="137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="234.188" y="137.16" size="1.778" layer="95" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="232.41" y="137.16" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND89" gate="1" x="236.22" y="129.54" smashed="yes">

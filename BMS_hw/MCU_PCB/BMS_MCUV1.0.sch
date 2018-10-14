@@ -4024,6 +4024,15 @@ DCR = 0.15ȍ ohm(max)
 <wire x1="175.26" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <label x="177.8" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
+<wire x1="256.54" y1="170.18" x2="271.78" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="170.18" x2="271.78" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="177.8" x2="287.02" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="177.8" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
+<label x="276.86" y="177.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -4640,16 +4649,6 @@ DCR = 0.15ȍ ohm(max)
 <pinref part="MCU2" gate="G$1" pin="AN9/RPA11/RA11"/>
 <wire x1="35.56" y1="213.36" x2="33.02" y2="213.36" width="0.1524" layer="91"/>
 <label x="27.94" y="213.36" size="1.778" layer="95" font="vector" ratio="12"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
-<wire x1="256.54" y1="170.18" x2="271.78" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="170.18" x2="271.78" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="177.8" x2="287.02" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="177.8" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
