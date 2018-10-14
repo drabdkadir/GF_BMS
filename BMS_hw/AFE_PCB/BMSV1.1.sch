@@ -6953,7 +6953,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="314.96" y="60.96" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C87" gate="G$1" x="309.88" y="114.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="312.42" y="111.76" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="312.42" y="111.76" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="302.26" y="116.84" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C88" gate="G$1" x="284.48" y="91.44" smashed="yes" rot="R270">
@@ -6972,7 +6972,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="VALUE" x="233.68" y="127" size="1.778" layer="96"/>
 </instance>
 <instance part="C91" gate="G$1" x="309.88" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="312.42" y="79.248" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="312.42" y="79.248" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="314.96" y="77.47" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R118" gate="G$1" x="340.36" y="149.86" smashed="yes">
