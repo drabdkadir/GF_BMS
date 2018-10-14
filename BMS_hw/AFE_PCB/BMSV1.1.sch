@@ -4608,21 +4608,21 @@ http://www.weartronics.com/</description>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="Q2" library="simpa" deviceset="BSS138" device="PW"/>
 <part name="R98" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="300E"/>
-<part name="R3" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R1" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R4" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R2" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R42" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R36" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R33" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R32" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R37" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R38" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R43" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R41" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R9" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R8" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
-<part name="R10" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402"/>
+<part name="R3" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R1" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R4" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R2" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R42" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R36" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R33" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R32" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R37" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R38" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R43" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R41" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R9" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R8" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
+<part name="R10" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R81" library="GreenFuel" deviceset="LRMAP3920" device="SUNT"/>
 <part name="R84" library="GreenFuel" deviceset="LRMAP3920" device="SUNT"/>
@@ -4647,7 +4647,7 @@ http://www.weartronics.com/</description>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X1" device="CB"/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X1" device="CB"/>
 <part name="X5" library="GreenFuel" deviceset="22-23-2041" device=""/>
-<part name="R34" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0R"/>
+<part name="R34" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="0E"/>
 <part name="D20" library="ipc-7351-diode" deviceset="ZENER_" device="SOD-123" value="8.2V"/>
 <part name="C79" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0603" value="0.1uF"/>
 <part name="R96" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0603" value="127E"/>
@@ -5031,8 +5031,8 @@ http://www.weartronics.com/</description>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94" font="vector" ratio="12"/>
 </instance>
 <instance part="R3" gate="G$1" x="63.5" y="236.22" smashed="yes">
-<attribute name="NAME" x="60.96" y="237.744" size="1.778" layer="95"/>
-<attribute name="VALUE" x="60.96" y="232.918" size="1.778" layer="96"/>
+<attribute name="NAME" x="60.96" y="237.744" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="60.96" y="232.918" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R1" gate="G$1" x="60.96" y="177.8" smashed="yes">
 <attribute name="NAME" x="58.42" y="179.324" size="1.778" layer="95"/>
@@ -5056,7 +5056,7 @@ http://www.weartronics.com/</description>
 </instance>
 <instance part="R10" gate="G$1" x="71.12" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="92.456" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="73.66" y="97.282" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="76.2" y="95.758" size="1.778" layer="96"/>
 </instance>
 <instance part="GND18" gate="1" x="261.62" y="195.492" smashed="yes">
 <attribute name="VALUE" x="259.08" y="192.952" size="1.778" layer="96"/>
@@ -5376,6 +5376,7 @@ http://www.weartronics.com/</description>
 <junction x="81.28" y="177.8"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="177.8" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
+<label x="68.58" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP5" gate="A" pin="10"/>
@@ -6017,7 +6018,7 @@ http://www.weartronics.com/</description>
 <net name="CB_14+/14_C" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<label x="71.12" y="241.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="71.12" y="241.3" size="1.778" layer="95" font="vector" ratio="12" rot="R180" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="236.22" x2="71.12" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="236.22" x2="71.12" y2="241.3" width="0.1524" layer="91"/>
@@ -6125,14 +6126,15 @@ http://www.weartronics.com/</description>
 </net>
 <net name="FLOUT" class="0">
 <segment>
-<pinref part="IC2" gate="CE" pin="C"/>
-<wire x1="332.74" y1="93.98" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R109" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="96.52" x2="337.82" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="96.52" x2="337.82" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="101.6" x2="365.76" y2="101.6" width="0.1524" layer="91"/>
 <label x="365.76" y="101.6" size="1.778" layer="95"/>
+<pinref part="R109" gate="G$1" pin="1"/>
+<wire x1="332.74" y1="96.52" x2="337.82" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="CE" pin="C"/>
+<wire x1="337.82" y1="96.52" x2="342.9" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="93.98" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="96.52" x2="337.82" y2="101.6" width="0.1524" layer="91"/>
+<junction x="337.82" y="96.52"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -6465,8 +6467,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="NAME" x="96.52" y="116.84" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="89.662" y="116.84" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="CELL1-" gate="G$1" x="30.48" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.56" y="40.64" size="1.27" layer="95" rot="R180"/>
+<instance part="CELL1-" gate="G$1" x="20.32" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="40.64" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="C27" gate="G$1" x="48.26" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.8" y="40.64" size="1.778" layer="95" rot="R270"/>
@@ -6944,9 +6946,9 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="GND80" gate="1" x="259.08" y="129.54" smashed="yes">
 <attribute name="VALUE" x="256.54" y="127" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
-<instance part="R107" gate="G$1" x="368.3" y="144.78" smashed="yes">
-<attribute name="NAME" x="365.76" y="146.304" size="1.778" layer="95" font="vector" ratio="12"/>
-<attribute name="VALUE" x="365.76" y="141.478" size="1.778" layer="96" font="vector" ratio="12"/>
+<instance part="R107" gate="G$1" x="347.98" y="144.78" smashed="yes">
+<attribute name="NAME" x="345.44" y="138.684" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="345.44" y="141.478" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R108" gate="G$1" x="256.54" y="111.76" smashed="yes">
 <attribute name="NAME" x="254" y="113.284" size="1.778" layer="95" font="vector" ratio="12"/>
@@ -7531,6 +7533,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="50.8" y="101.6"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="101.6" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
+<label x="50.8" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CB_3" class="0">
@@ -8041,8 +8044,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 </segment>
 <segment>
 <pinref part="R107" gate="G$1" pin="2"/>
-<wire x1="373.38" y1="144.78" x2="375.92" y2="144.78" width="0.1524" layer="91"/>
-<label x="375.92" y="144.78" size="1.778" layer="95" font="vector" ratio="12"/>
+<wire x1="353.06" y1="144.78" x2="358.14" y2="144.78" width="0.1524" layer="91"/>
+<label x="358.14" y="144.78" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -8237,7 +8240,8 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
 <pinref part="CELL1-" gate="G$1" pin="S"/>
-<wire x1="35.56" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
+<label x="25.4" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$68" class="0">
@@ -8364,7 +8368,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="R107" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="EN"/>
-<wire x1="363.22" y1="144.78" x2="322.58" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="144.78" x2="322.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CB_14+/14_C" class="0">
@@ -8422,6 +8426,13 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="248.92" y1="111.76" x2="251.46" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="R118" gate="G$1" pin="1"/>
+<pinref part="IC3" gate="G$1" pin="MODE"/>
+<wire x1="322.58" y1="149.86" x2="335.28" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
@@ -8432,39 +8443,33 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R85" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="99.06" x2="292.1" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="101.6" x2="292.1" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="106.68" x2="302.26" y2="106.68" width="0.1524" layer="91"/>
+<junction x="292.1" y="101.6"/>
+<wire x1="284.48" y1="101.6" x2="292.1" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C88" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="96.52" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
+<label x="294.64" y="101.6" size="1.778" layer="95"/>
 <pinref part="C83" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="104.14" x2="302.26" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="104.14" x2="302.26" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C84" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="96.52" x2="304.8" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="106.68" x2="302.26" y2="104.14" width="0.1524" layer="91"/>
 <junction x="302.26" y="104.14"/>
 <pinref part="C85" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="88.9" x2="302.26" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="88.9" x2="302.26" y2="96.52" width="0.1524" layer="91"/>
 <junction x="302.26" y="96.52"/>
 <wire x1="302.26" y1="114.3" x2="302.26" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="106.68" x2="302.26" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="104.14" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="81.28" x2="302.26" y2="88.9" width="0.1524" layer="91"/>
 <junction x="302.26" y="88.9"/>
-<pinref part="C88" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="96.52" x2="284.48" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="101.6" x2="292.1" y2="101.6" width="0.1524" layer="91"/>
-<junction x="292.1" y="101.6"/>
 <pinref part="C91" gate="G$1" pin="+"/>
 <wire x1="304.8" y1="81.28" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
 <junction x="302.26" y="81.28"/>
 <pinref part="C87" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="114.3" x2="302.26" y2="114.3" width="0.1524" layer="91"/>
-<label x="294.64" y="101.6" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$61" class="0">
-<segment>
-<pinref part="R118" gate="G$1" pin="1"/>
-<pinref part="IC3" gate="G$1" pin="MODE"/>
-<wire x1="322.58" y1="149.86" x2="335.28" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="106.68" x2="302.26" y2="106.68" width="0.1524" layer="91"/>
+<junction x="302.26" y="106.68"/>
 </segment>
 </net>
 </nets>
@@ -8977,6 +8982,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="T1" gate="G$1" pin="S4"/>
 <pinref part="T1" gate="G$1" pin="S5"/>
 <pinref part="T1" gate="G$1" pin="S6"/>
+<label x="27.94" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -9070,6 +9076,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <junction x="101.6" y="208.28"/>
 <pinref part="PACK-" gate="G$1" pin="P$1"/>
 <wire x1="88.9" y1="208.28" x2="91.44" y2="208.28" width="0.1524" layer="91"/>
+<label x="86.36" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -9316,7 +9323,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="JP4" gate="A" pin="13"/>
 <wire x1="55.88" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
-<label x="43.18" y="93.98" size="1.778" layer="95"/>
+<label x="45.72" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="1" pin="A"/>
@@ -9674,7 +9681,7 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="JP4" gate="A" pin="12"/>
 <wire x1="55.88" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
-<label x="43.18" y="96.52" size="1.778" layer="95"/>
+<label x="45.72" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$28" class="0">
