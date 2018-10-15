@@ -4733,6 +4733,7 @@ http://www.weartronics.com/</description>
 <part name="IC10" library="GreenFuel" deviceset="TLP152-COUPLER" device="TOSHIBA"/>
 <part name="IC11" library="GreenFuel" deviceset="TLP152-COUPLER" device="TOSHIBA"/>
 <part name="R119" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="127E"/>
+<part name="BGND@1" library="simpa" deviceset="WPAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6996,6 +6997,9 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <attribute name="NAME" x="337.82" y="151.384" size="1.778" layer="95"/>
 <attribute name="VALUE" x="340.36" y="146.558" size="1.778" layer="96"/>
 </instance>
+<instance part="BGND@1" gate="G$1" x="261.62" y="231.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="259.08" y="231.14" size="1.778" layer="95" font="vector" ratio="18" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8232,10 +8236,15 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <pinref part="R81" gate="G$1" pin="4"/>
 <wire x1="279.4" y1="236.22" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="238.76" x2="289.56" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="238.76" x2="266.7" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="238.76" x2="274.32" y2="238.76" width="0.1524" layer="91"/>
 <junction x="279.4" y="238.76"/>
 <label x="269.24" y="238.76" size="1.778" layer="95"/>
 <pinref part="BGND" gate="G$1" pin="P$1"/>
+<pinref part="BGND@1" gate="G$1" pin="P$1"/>
+<wire x1="274.32" y1="238.76" x2="266.7" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="231.14" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="238.76" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
+<junction x="274.32" y="238.76"/>
 </segment>
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
