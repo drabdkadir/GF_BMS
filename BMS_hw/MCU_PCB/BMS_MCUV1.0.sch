@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -374,10 +374,10 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="3.75" y1="-4.955" x2="3.75" y2="-5.15" width="0.127" layer="21"/>
 <wire x1="3.75" y1="-5.15" x2="-3.75" y2="-5.15" width="0.127" layer="21"/>
 <wire x1="-3.75" y1="-5.15" x2="-3.75" y2="-4.955" width="0.127" layer="21"/>
-<circle x="-2.7" y="4.455" radius="0.15" width="0.3" layer="21"/>
+<circle x="-6.7" y="5.455" radius="0.15" width="0.3" layer="21"/>
 <text x="-3.81451875" y="5.85753125" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-3.81335" y="-5.85558125" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<circle x="-2.71" y="4.455" radius="0.15" width="0.3" layer="51"/>
+<circle x="-6.71" y="5.455" radius="0.15" width="0.3" layer="51"/>
 <smd name="1" x="-4.655" y="4.445" dx="2.05" dy="0.6" layer="1" roundness="15"/>
 <smd name="2" x="-4.655" y="3.175" dx="2.05" dy="0.6" layer="1" roundness="15"/>
 <smd name="3" x="-4.655" y="1.905" dx="2.05" dy="0.6" layer="1" roundness="15"/>
@@ -479,13 +479,10 @@ DIN A3, landscape with location and doc. field</description>
 <smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.2" layer="1" rot="R180"/>
 <text x="1.5" y="3" size="0.762" layer="25" font="vector" ratio="12" rot="R180">&gt;NAME</text>
 <text x="-1.5" y="-3" size="0.762" layer="27" font="vector" ratio="12">&gt;VALUE</text>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
-<wire x1="-2" y1="2" x2="-3" y2="2" width="0.127" layer="21"/>
-<wire x1="-3" y1="2" x2="-3" y2="-2" width="0.127" layer="21"/>
-<wire x1="-3" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0.127" layer="21"/>
 <circle x="-2" y="-2.5" radius="0.2" width="0" layer="21"/>
 </package>
 <package name="7.5X5-4-PAD" urn="urn:adsk.eagle:footprint:3323/1">
@@ -533,23 +530,6 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-2.7" y="-2.3" radius="0.2" width="0" layer="21"/>
-</package>
-<package name="2.5X2-4-PAD" urn="urn:adsk.eagle:footprint:3333/1">
-<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
-<smd name="1" x="-0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
-<smd name="3" x="0.85" y="0.65" dx="1.2" dy="1" layer="1" rot="R180"/>
-<smd name="4" x="-0.85" y="0.65" dx="1.2" dy="1" layer="1" rot="R180"/>
-<text x="-3.27" y="2.07" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.47" y="-3.54" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-2.1" y1="-1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
-<wire x1="2" y1="1.5" x2="-2.1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-2.1" y1="1.5" x2="-2.1" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-2.1" y1="1.5" x2="-2.6" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.5" x2="-2.6" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-1.5" x2="-2.1" y2="-1.5" width="0.127" layer="21"/>
-<circle x="-2.3" y="-1.8" radius="0.2" width="0" layer="21"/>
 </package>
 <package name="2.6X2.1-4-PAD" urn="urn:adsk.eagle:footprint:3327/1">
 <description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
@@ -711,6 +691,20 @@ DIN A3, landscape with location and doc. field</description>
 <rectangle x1="-14.224" y1="-0.254" x2="-13.716" y2="0.254" layer="51"/>
 <rectangle x1="13.716" y1="-0.254" x2="14.224" y2="0.254" layer="51"/>
 </package>
+<package name="2.5X2-4-PAD" urn="urn:adsk.eagle:footprint:3333/1" locally_modified="yes">
+<description>&lt;b&gt;IQD Frequency Products SMD Package&lt;/b&gt;</description>
+<smd name="1" x="-0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="3" x="0.85" y="0.65" dx="1.2" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="-0.85" y="0.65" dx="1.2" dy="1" layer="1" rot="R180"/>
+<text x="-3.27" y="2.07" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.47" y="-3.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.1" y1="-1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="-2.1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.5" x2="-2.1" y2="-1.5" width="0.127" layer="21"/>
+<circle x="-2.3" y="-1.8" radius="0.2" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="2.0X1.6-4-PAD" urn="urn:adsk.eagle:package:3370/1" locally_modified="yes" type="box">
@@ -737,16 +731,16 @@ DIN A3, landscape with location and doc. field</description>
 <packageinstance name="3.4X2.7-4-PAD"/>
 </packageinstances>
 </package3d>
-<package3d name="2.5X2-4-PAD" urn="urn:adsk.eagle:package:3371/1" type="box">
-<description>IQD Frequency Products SMD Package</description>
-<packageinstances>
-<packageinstance name="2.5X2-4-PAD"/>
-</packageinstances>
-</package3d>
 <package3d name="2.6X2.1-4-PAD" urn="urn:adsk.eagle:package:3366/1" type="box">
 <description>IQD Frequency Products SMD Package</description>
 <packageinstances>
 <packageinstance name="2.6X2.1-4-PAD"/>
+</packageinstances>
+</package3d>
+<package3d name="2.5X2-4-PAD" urn="urn:adsk.eagle:package:3371/1" locally_modified="yes" type="box">
+<description>IQD Frequency Products SMD Package</description>
+<packageinstances>
+<packageinstance name="2.5X2-4-PAD"/>
 </packageinstances>
 </package3d>
 </packages3d>
