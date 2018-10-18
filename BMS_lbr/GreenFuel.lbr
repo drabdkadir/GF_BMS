@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1745,6 +1745,43 @@ Source: Kingbright L-59 Series</description>
 <rectangle x1="-1.5" y1="-3.5" x2="-1" y2="-2.5" layer="52"/>
 <rectangle x1="1" y1="-3.5" x2="1.5" y2="-2.5" layer="52"/>
 </package>
+<package name="SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.635" x2="-1.27" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="0" width="0.254" layer="21"/>
+<wire x1="0.762" y1="0.635" x2="1.27" y2="0.635" width="0.254" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="0" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.254" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.6" layer="1" roundness="20"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.6" layer="1" roundness="20"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.6" layer="1" roundness="20"/>
+<text x="-1.27" y="2.54" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="0" size="0.127" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SOT323">
+<wire x1="1.175" y1="0.6604" x2="1.175" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.175" y1="-0.6604" x2="-1.175" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.175" y1="-0.6604" x2="-1.175" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.175" y1="0.6604" x2="1.175" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.635" x2="-1.17" y2="0.635" width="0.254" layer="21"/>
+<wire x1="-1.17" y1="0.635" x2="-1.17" y2="0.2" width="0.254" layer="21"/>
+<wire x1="0.762" y1="0.635" x2="1.17" y2="0.635" width="0.254" layer="21"/>
+<wire x1="1.17" y1="0.635" x2="1.17" y2="0.2" width="0.254" layer="21"/>
+<wire x1="-0.035" y1="-0.66" x2="0.035" y2="-0.66" width="0.254" layer="21"/>
+<smd name="3" x="0" y="0.925" dx="0.6" dy="0.65" layer="1" roundness="20"/>
+<smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.65" layer="1" roundness="20"/>
+<smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.65" layer="1" roundness="20"/>
+<text x="-1.37" y="1.84" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="0" size="0.127" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-1.1" x2="-0.5" y2="-0.7" layer="51"/>
+<rectangle x1="0.5" y1="-1.1" x2="0.8" y2="-0.7" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SFH482" urn="urn:adsk.eagle:package:15795/1" locally_modified="yes" type="box">
@@ -2432,6 +2469,54 @@ Source: Kingbright L-59 Series</description>
 <wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
 <text x="-5.08" y="10.16" size="1.27" layer="95" font="vector" ratio="12" rot="R180">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+</symbol>
+<symbol name="RT9198-3PIN">
+<pin name="VIN" x="-15.24" y="0" length="middle" direction="pas"/>
+<pin name="VOUT" x="15.24" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pas" rot="R90"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<text x="-10.16" y="5.08" size="1.778" layer="95" ratio="15" rot="MR180">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96" ratio="15">&gt;VALUE</text>
+</symbol>
+<symbol name="BSS138">
+<wire x1="-1.778" y1="0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="3.175" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-1.905" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="0.762" x2="1.778" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="0.508" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="0.762" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="0.508" x2="0.508" y2="0.254" width="0.1524" layer="94"/>
+<circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="-13.97" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-13.97" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.27" y="0.508"/>
+<vertex x="0.762" y="-0.254"/>
+<vertex x="1.778" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.524" y="0"/>
+<vertex x="-0.508" y="0.762"/>
+<vertex x="-0.508" y="-0.762"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -3305,6 +3390,50 @@ Source: http://www.kingbright.com/manager/upload/pdf/L-59EGW-CA%28Ver1292805989.
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="6"/>
 <connect gate="G$1" pin="VO" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RT9198-33G-3PIN" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RT9198-3PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-V" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS138" prefix="Q">
+<gates>
+<gate name="G$1" symbol="BSS138" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PW" package="SOT323">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
