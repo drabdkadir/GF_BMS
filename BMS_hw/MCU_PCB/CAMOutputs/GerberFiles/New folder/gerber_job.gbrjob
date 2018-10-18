@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-10-16T04:53:58Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.555163,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "BMS_MCUV1.0"
+        },
+        "Owner": "Pankaj Kumar <pankaj.kumar@greenfuelenergy.in>",
+        "Size": {
+            "X": 60,
+            "Y": 30
+        }
+    }
+}

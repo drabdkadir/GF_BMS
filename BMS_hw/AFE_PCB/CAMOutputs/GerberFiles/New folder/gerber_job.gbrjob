@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-10-16T05:27:48Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "BMSV1.1"
+        },
+        "Owner": "Pankaj Kumar <pankaj.kumar@greenfuelenergy.in>",
+        "Size": {
+            "X": 272,
+            "Y": 60
+        }
+    }
+}
