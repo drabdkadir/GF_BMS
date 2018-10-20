@@ -920,10 +920,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.115" y="19.685" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="31.369" y="23.241" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C13" library="ipc-7351-capacitor" package="CAPC1005X60N" value="10uF" x="28.575" y="9.525" smashed="yes" rot="R45">
+<element name="C13" library="ipc-7351-capacitor" package="CAPC1005X60N" value="10uF/10V" x="28.575" y="9.525" smashed="yes" rot="R45">
 <attribute name="NAME" x="29.845" y="8.89" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="29.149521875" y="6.8645125" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
+<<<<<<< HEAD
 <element name="C14" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF" x="6.260196875" y="28.0298" smashed="yes" rot="R225">
 <attribute name="NAME" x="5.08" y="27.305" size="0.762" layer="25" font="vector" ratio="10" rot="R225"/>
 <attribute name="VALUE" x="5.70335" y="30.354415625" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
@@ -931,12 +932,21 @@ design rules under a new name.</description>
 <element name="C17" library="ipc-7351-capacitor" package="CAPC1005X60N" value=".1uF" x="8.7040125" y="9.974015625" smashed="yes" rot="R45">
 <attribute name="NAME" x="10.16" y="9.525" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="9.26085625" y="7.6494" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
+=======
+<element name="C14" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF/16V" x="6.260196875" y="28.0298" smashed="yes" rot="R225">
+<attribute name="NAME" x="4.445" y="28.575" size="0.762" layer="25" font="vector" ratio="10" rot="R225"/>
+<attribute name="VALUE" x="5.70335" y="30.354415625" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C18" library="ipc-7351-capacitor" package="CAPC1005X60N" value=".1uF" x="22.987" y="12.065" smashed="yes" rot="R45">
+<element name="C17" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF/16V" x="26.4840125" y="11.244015625" smashed="yes" rot="R45">
+<attribute name="NAME" x="27.94" y="10.795" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
+<attribute name="VALUE" x="27.04085625" y="8.9194" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
+>>>>>>> 76d63ce4f4d879607fe57fc8c4af817811733428
+</element>
+<element name="C18" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF/16V" x="22.987" y="12.065" smashed="yes" rot="R45">
 <attribute name="NAME" x="23.885025" y="11.058028125" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="23.54384375" y="9.7403875" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
-<element name="C19" library="ipc-7351-capacitor" package="CAPC1005X60N" value=".1uF" x="23.749" y="10.16" smashed="yes" rot="R45">
+<element name="C19" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF/16V" x="23.749" y="10.16" smashed="yes" rot="R45">
 <attribute name="NAME" x="25.282025" y="10.423028125" size="0.762" layer="25" font="vector" ratio="12" rot="R45"/>
 <attribute name="VALUE" x="24.30584375" y="7.8353875" size="1.27" layer="27" font="vector" ratio="10" rot="R45"/>
 </element>
@@ -944,15 +954,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.225" y="21.59" size="0.762" layer="25" font="vector" ratio="12" rot="R135"/>
 <attribute name="VALUE" x="25.184615625" y="22.781846875" size="1.27" layer="27" font="vector" ratio="10" rot="R135"/>
 </element>
-<element name="C20" library="ipc-7351-capacitor" package="CAPC1005X60N" value=".1uF" x="22.225" y="6.35" smashed="yes" rot="R315">
+<element name="C20" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF" x="22.225" y="6.35" smashed="yes" rot="R315">
 <attribute name="NAME" x="22.86" y="5.08" size="0.762" layer="25" font="vector" ratio="12" rot="R315"/>
 <attribute name="VALUE" x="19.900384375" y="5.79315625" size="1.27" layer="27" font="vector" ratio="10" rot="R315"/>
 </element>
-<element name="C21" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF" x="6.985" y="8.255" smashed="yes" rot="R225">
+<element name="C21" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.1uF/16V" x="6.985" y="8.255" smashed="yes" rot="R225">
 <attribute name="NAME" x="5.715" y="7.62" size="0.762" layer="25" font="vector" ratio="12" rot="R225"/>
 <attribute name="VALUE" x="6.42815625" y="10.5796125" size="1.27" layer="27" font="vector" ratio="10" rot="R225"/>
 </element>
-<element name="C22" library="ipc-7351-capacitor" package="CAPC1005X60N" value=".01uF" x="24.13" y="6.985" smashed="yes" rot="R135">
+<element name="C22" library="ipc-7351-capacitor" package="CAPC1005X60N" value="0.01uF/25V" x="24.13" y="6.985" smashed="yes" rot="R135">
 <attribute name="NAME" x="24.471178125" y="5.5584125" size="0.762" layer="25" font="vector" ratio="12" rot="R135"/>
 <attribute name="VALUE" x="26.4546125" y="7.541846875" size="1.27" layer="27" font="vector" ratio="10" rot="R135"/>
 </element>
@@ -1028,7 +1038,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.21" y="16.51" size="0.762" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="29.005" y="13.5875" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R7" library="ipc-7351-resistor" package="RESC1005X40AN" value="120" x="45.974" y="15.875" smashed="yes">
+<element name="R7" library="ipc-7351-resistor" package="RESC1005X40AN" value="120E" x="45.974" y="15.875" smashed="yes">
 <attribute name="NAME" x="46.99" y="16.637" size="0.762" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="44.499" y="13.5875" size="1.27" layer="27" font="vector" ratio="10"/>
 </element>
