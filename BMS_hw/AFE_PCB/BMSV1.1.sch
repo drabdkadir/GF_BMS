@@ -4768,7 +4768,6 @@ http://www.weartronics.com/</description>
 <part name="+3.3V" library="simpa" deviceset="TP" device="-SMD60"/>
 <part name="+12V" library="simpa" deviceset="TP" device="-SMD60"/>
 <part name="GND@1" library="simpa" deviceset="TP" device="-SMD60"/>
-<part name="R120" library="ipc-7351-resistor" deviceset="RESISTOR_" device="2010" value="1K"/>
 </parts>
 <sheets>
 <sheet>
@@ -8868,10 +8867,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <instance part="+3.3V" gate="G$1" x="38.1" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="94.615" size="1.016" layer="95" font="vector" ratio="12" rot="R180"/>
 </instance>
-<instance part="R120" gate="G$1" x="226.06" y="231.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="228.6" y="229.616" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="228.6" y="234.442" size="1.778" layer="96" rot="R180"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -9631,8 +9626,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <segment>
 <pinref part="R98" gate="G$1" pin="1"/>
 <label x="233.68" y="223.52" size="1.778" layer="95"/>
-<pinref part="R120" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="231.14" x2="233.68" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="231.14" x2="233.68" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9743,10 +9736,6 @@ Hot Plug Protection : VPWR1, 2 components to withstand hot plug
 <wire x1="215.9" y1="223.52" x2="218.44" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="223.52" x2="218.44" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="218.44" x2="223.52" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="223.52" x2="218.44" y2="231.14" width="0.1524" layer="91"/>
-<junction x="218.44" y="223.52"/>
-<pinref part="R120" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="231.14" x2="220.98" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
