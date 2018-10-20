@@ -3479,13 +3479,13 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C12" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="10uF"/>
-<part name="C13" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="10uF/10V"/>
+<part name="C13" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="10uF"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R7" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="120E"/>
+<part name="R7" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="120"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC2" library="GreenFuel" deviceset="SST25VF020B804ISA" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="C14" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF/16V"/>
+<part name="C14" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R11" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="100R"/>
@@ -3493,19 +3493,19 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="R13" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="4.7k"/>
 <part name="R14" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="4.7k"/>
 <part name="MCU2" library="GreenFuel" deviceset="PIC32MK0512GPE064-I/PT" device=""/>
-<part name="C17" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF/16V"/>
-<part name="C18" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF/16V"/>
-<part name="C19" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF/16V"/>
+<part name="C17" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value=".1uF"/>
+<part name="C18" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value=".1uF"/>
+<part name="C19" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value=".1uF"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L2" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="MMZ2012R301ATD25"/>
-<part name="C20" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF"/>
+<part name="C20" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value=".1uF"/>
 <part name="R15" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="1k"/>
 <part name="R16" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0402" value="10k"/>
-<part name="C21" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF/16V"/>
+<part name="C21" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.1uF"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L3" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="MMZ2012R301ATD25"/>
 <part name="L4" library="ipc-7351-resistor" deviceset="RESISTOR_" device="0805" value="MMZ2012R301ATD25"/>
-<part name="C22" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value="0.01uF/25V"/>
+<part name="C22" library="ipc-7351-capacitor" deviceset="CAPACITOR_" device="0402" value=".01uF"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP5" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
 <part name="JP1" library="GreenFuel" deviceset="PINHD-1X15" device=""/>
@@ -3533,7 +3533,7 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <text x="264.16" y="71.12" size="1.778" layer="94" font="vector" ratio="12">CAN Transciver Block</text>
 <text x="233.68" y="142.24" size="1.778" layer="94" font="vector" ratio="12">Memory Block</text>
 <text x="322.58" y="157.48" size="1.778" layer="94" font="vector" ratio="12">I2C Inerface, TTL Interface</text>
-<text x="180.34" y="157.48" size="1.778" layer="94" font="vector" ratio="12">Ferrite Chip SMD
+<text x="170.18" y="157.48" size="1.778" layer="94" font="vector" ratio="12">Ferrite Chip SMD
 DCR = 0.15ȍ ohm(max)
 600 ma ISAT
 300 ohm @ 100 MHz</text>
@@ -3541,6 +3541,7 @@ DCR = 0.15ȍ ohm(max)
 <text x="228.6" y="182.88" size="1.778" layer="94" font="vector" ratio="12">&gt;Aux connectors</text>
 <text x="276.86" y="233.68" size="1.778" layer="94" font="vector" ratio="12">&gt;Programming/Debugging/UART communication ribbon</text>
 <text x="139.7" y="86.36" size="1.778" layer="94" font="vector" ratio="12">&gt;Status LED</text>
+<text x="104.14" y="66.04" size="1.778" layer="94" font="vector" ratio="12">fiducials</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="25.4" y="119.38" smashed="yes" rot="R270">
@@ -3571,7 +3572,7 @@ DCR = 0.15ȍ ohm(max)
 </instance>
 <instance part="C9" gate="G$1" x="311.15" y="85.09" smashed="yes" rot="R270">
 <attribute name="NAME" x="313.69" y="87.63" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="314.452" y="82.55" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="306.832" y="87.63" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C10" gate="G$1" x="303.53" y="85.09" smashed="yes" rot="R270">
 <attribute name="NAME" x="306.07" y="87.63" size="1.778" layer="95" rot="R270"/>
@@ -3615,8 +3616,8 @@ DCR = 0.15ȍ ohm(max)
 <instance part="SUPPLY1" gate="GND" x="220.472" y="88.392" smashed="yes">
 <attribute name="VALUE" x="218.567" y="85.217" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY3" gate="GND" x="187.96" y="181.61" smashed="yes">
-<attribute name="VALUE" x="186.055" y="178.435" size="1.778" layer="96"/>
+<instance part="SUPPLY3" gate="GND" x="185.42" y="184.15" smashed="yes">
+<attribute name="VALUE" x="183.515" y="180.975" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="254" y="85.09" smashed="yes">
 <attribute name="VALUE" x="252.095" y="81.915" size="1.778" layer="96"/>
@@ -3625,9 +3626,9 @@ DCR = 0.15ȍ ohm(max)
 <attribute name="NAME" x="221.361" y="96.774" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="217.297" y="97.536" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C13" gate="G$1" x="187.96" y="190.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="190.5" y="193.04" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="183.642" y="195.58" size="1.778" layer="96" rot="R270"/>
+<instance part="C13" gate="G$1" x="185.42" y="193.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="187.96" y="195.58" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="181.102" y="195.58" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="241.3" y="88.9" smashed="yes">
 <attribute name="VALUE" x="243.459" y="89.027" size="1.778" layer="96"/>
@@ -3680,15 +3681,15 @@ DCR = 0.15ȍ ohm(max)
 </instance>
 <instance part="C17" gate="G$1" x="157.48" y="167.64" smashed="yes">
 <attribute name="NAME" x="159.004" y="168.148" size="1.778" layer="95"/>
-<attribute name="VALUE" x="166.37" y="168.148" size="1.778" layer="96"/>
+<attribute name="VALUE" x="151.13" y="165.608" size="1.778" layer="96"/>
 </instance>
 <instance part="C18" gate="G$1" x="157.48" y="162.56" smashed="yes">
 <attribute name="NAME" x="159.258" y="162.814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="166.116" y="163.068" size="1.778" layer="96"/>
+<attribute name="VALUE" x="150.876" y="160.528" size="1.778" layer="96"/>
 </instance>
 <instance part="C19" gate="G$1" x="157.48" y="157.48" smashed="yes">
 <attribute name="NAME" x="159.512" y="157.988" size="1.778" layer="95"/>
-<attribute name="VALUE" x="151.13" y="152.908" size="1.778" layer="96"/>
+<attribute name="VALUE" x="151.13" y="155.448" size="1.778" layer="96"/>
 </instance>
 <instance part="GND21" gate="1" x="165.1" y="149.86" smashed="yes">
 <attribute name="VALUE" x="162.56" y="147.32" size="1.778" layer="96"/>
@@ -3698,8 +3699,8 @@ DCR = 0.15ȍ ohm(max)
 <attribute name="VALUE" x="148.59" y="175.514" size="1.016" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="C20" gate="G$1" x="154.94" y="185.42" smashed="yes">
-<attribute name="NAME" x="159.004" y="185.928" size="1.778" layer="95"/>
-<attribute name="VALUE" x="146.05" y="185.928" size="1.778" layer="96"/>
+<attribute name="NAME" x="156.464" y="185.928" size="1.778" layer="95"/>
+<attribute name="VALUE" x="148.59" y="185.928" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="25.4" y="241.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.924" y="243.84" size="1.778" layer="95" rot="R270"/>
@@ -3710,8 +3711,8 @@ DCR = 0.15ȍ ohm(max)
 <attribute name="VALUE" x="31.75" y="252.222" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C21" gate="G$1" x="15.24" y="243.84" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.32" y="246.38" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="11.938" y="248.92" size="1.778" layer="96" rot="MR270"/>
+<attribute name="NAME" x="12.7" y="246.38" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="19.558" y="246.38" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="GND22" gate="1" x="15.24" y="236.22" smashed="yes">
 <attribute name="VALUE" x="12.7" y="233.68" size="1.778" layer="96"/>
@@ -3957,7 +3958,7 @@ DCR = 0.15ȍ ohm(max)
 <segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="184.15" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="186.69" x2="185.42" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="9"/>
@@ -4020,8 +4021,8 @@ DCR = 0.15ȍ ohm(max)
 <net name="3.3V" class="0">
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="195.58" x2="187.96" y2="198.12" width="0.1524" layer="91"/>
-<label x="187.96" y="198.12" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="185.42" y1="198.12" x2="185.42" y2="200.66" width="0.1524" layer="91"/>
+<label x="185.42" y="200.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="L4" gate="G$1" pin="1"/>
