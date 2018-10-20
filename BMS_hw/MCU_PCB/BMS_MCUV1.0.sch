@@ -2826,6 +2826,21 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -2852,6 +2867,9 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3201,6 +3219,20 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="ipc-7351-transistor">
@@ -3490,6 +3522,9 @@ Packages need to have Tdocu layer details for Assembly documentation.</descripti
 <part name="TP3" library="simpa" deviceset="TP" device="-SMD60"/>
 <part name="TP4" library="simpa" deviceset="TP" device="-SMD60"/>
 <part name="TP5" library="simpa" deviceset="TP" device="-SMD60"/>
+<part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$3" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="U$4" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3748,6 +3783,9 @@ DCR = 0.15ȍ ohm(max)
 <instance part="TP5" gate="G$1" x="33.02" y="238.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.655" y="240.03" size="1.016" layer="95" font="vector" ratio="12" rot="R90"/>
 </instance>
+<instance part="U$2" gate="G$1" x="99.06" y="58.42" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="111.76" y="58.42" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="124.46" y="58.42" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4027,6 +4065,16 @@ DCR = 0.15ȍ ohm(max)
 <wire x1="287.02" y1="177.8" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
 <label x="276.86" y="177.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="170.18" x2="347.98" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="170.18" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="337.82" y1="172.72" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
+<junction x="337.82" y="170.18"/>
+<wire x1="337.82" y1="170.18" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
+<label x="337.82" y="167.64" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -4126,41 +4174,11 @@ DCR = 0.15ȍ ohm(max)
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="170.18" x2="347.98" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="170.18" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="337.82" y1="172.72" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
-<junction x="337.82" y="170.18"/>
-<wire x1="337.82" y1="170.18" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
-<label x="337.82" y="167.64" size="1.778" layer="95" font="vector" ratio="12" rot="R180"/>
-</segment>
-<segment>
-<pinref part="MCU2" gate="G$1" pin="VDD"/>
-<pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="157.48" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="162.56" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="167.64" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
-<junction x="147.32" y="157.48"/>
-<pinref part="MCU2" gate="G$1" pin="VDD@1"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
-<junction x="147.32" y="162.56"/>
-<wire x1="147.32" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="MCU2" gate="G$1" pin="VDD@2"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="167.64" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
-<junction x="147.32" y="167.64"/>
-<wire x1="147.32" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="177.8" x2="170.18" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="177.8" x2="170.18" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="172.72" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="MCU2" gate="G$1" pin="VDD@3"/>
-<wire x1="142.24" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
-<junction x="147.32" y="172.72"/>
 <wire x1="170.18" y1="177.8" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
 <junction x="170.18" y="177.8"/>
 <pinref part="L3" gate="G$1" pin="1"/>
@@ -4683,6 +4701,27 @@ DCR = 0.15ȍ ohm(max)
 <pinref part="MCU2" gate="G$1" pin="AN19/RPG6/PMA5/RG6"/>
 <wire x1="142.24" y1="205.74" x2="144.78" y2="205.74" width="0.1524" layer="91"/>
 <label x="144.78" y="205.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="MCU2" gate="G$1" pin="VDD"/>
+<wire x1="142.24" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="MCU2" gate="G$1" pin="VDD@1"/>
+<wire x1="142.24" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VDD38" class="0">
+<segment>
+<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="MCU2" gate="G$1" pin="VDD@2"/>
+<wire x1="142.24" y1="167.64" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
