@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1807,6 +1807,14 @@ Source: Kingbright L-59 Series</description>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
 </package>
+<package name="CELL_PAD_POWER">
+<smd name="P$1" x="0" y="0" dx="12" dy="14" layer="1"/>
+<text x="-5.08" y="8.89" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="CELL_PAD_NEW">
+<smd name="P$1" x="0" y="0" dx="10" dy="11" layer="1"/>
+<text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SFH482" urn="urn:adsk.eagle:package:15795/1" locally_modified="yes" type="box">
@@ -3553,6 +3561,36 @@ Source: http://www.kingbright.com/manager/upload/pdf/L-59EGW-CA%28Ver1292805989.
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CELL_PAD_POWER" prefix="TP">
+<gates>
+<gate name="G$1" symbol="PAD_S" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="P_PAD" package="CELL_PAD_POWER">
+<connects>
+<connect gate="G$1" pin="S" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CELL_PAD_NEW" prefix="TP">
+<gates>
+<gate name="G$1" symbol="PAD_S" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="P_PAD" package="CELL_PAD_NEW">
+<connects>
+<connect gate="G$1" pin="S" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
