@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3549,15 +3549,15 @@ DCR = 0.15ȍ ohm(max)
 <attribute name="NAME" x="13.97" y="100.076" size="1.778" layer="95" font="vector" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="22.098" y="101.6" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="C2" gate="G$1" x="30.48" y="99.06" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.782" y="100.33" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="26.162" y="101.6" size="1.778" layer="96" rot="R270"/>
+<instance part="C2" gate="G$1" x="30.48" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.782" y="95.25" size="1.778" layer="95" font="vector" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="26.162" y="96.52" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND1" gate="1" x="17.78" y="88.9" smashed="yes">
 <attribute name="VALUE" x="15.24" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="30.48" y="88.9" smashed="yes">
-<attribute name="VALUE" x="27.94" y="86.36" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="30.48" y="83.82" smashed="yes">
+<attribute name="VALUE" x="27.94" y="81.28" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="276.86" y="99.06" smashed="yes">
 <attribute name="NAME" x="264.16" y="111.76" size="1.778" layer="95"/>
@@ -3788,7 +3788,7 @@ DCR = 0.15ȍ ohm(max)
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="30.48" y1="91.44" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="86.36" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND1@2"/>
@@ -3989,7 +3989,7 @@ DCR = 0.15ȍ ohm(max)
 <wire x1="35.56" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="134.62" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="124.46" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="124.46" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <junction x="30.48" y="124.46"/>
